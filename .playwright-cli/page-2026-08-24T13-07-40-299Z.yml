@@ -1,0 +1,1698 @@
+- generic [ref=f7e87]:
+  - banner [ref=f7e62]:
+    - generic [ref=f7e64]:
+      - generic [ref=f7e65]:
+        - button "가이드" [ref=f7e67] [cursor=pointer]
+        - link "YouTube 홈" [ref=f7e90] [cursor=pointer]:
+          - /url: /
+        - button "탐색 건너뛰기" [ref=f7e99] [cursor=pointer]
+      - generic [ref=f7e70]:
+        - search [ref=f7e71]:
+          - generic [ref=f7e73]:
+            - generic [ref=f7e74]:
+              - combobox "검색" [expanded] [ref=f7e103]
+              - button [ref=f7e79] [cursor=pointer]
+            - button "Search" [ref=f7e80] [cursor=pointer]
+        - generic [ref=f7e107]:
+          - button "음성으로 검색" [ref=f7e109] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=f7e113]:
+        - button "설정" [ref=f7e118] [cursor=pointer]
+        - link "로그인" [ref=f7e124] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_qDxAyfnDCQ&hl=ko&ec=65620
+  - main [ref=f7e129]:
+    - generic [ref=f7e130]:
+      - generic [ref=f7e132]:
+        - generic [ref=f7e135]:
+          - generic [ref=f7e138] [cursor=pointer]
+          - complementary [ref=f7e139]:
+            - generic "YouTube 동영상 플레이어" [ref=f7e5]:
+              - button "제품 보기" [ref=f7e143] [cursor=pointer]
+              - generic [ref=f7e10]:
+                - generic [ref=f7e11] [cursor=pointer]:
+                  - slider "탐색 슬라이더" [ref=f7e12]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "세밀한 탐색을 하려면 패널을 클릭하거나 스크롤하세요."
+                - generic [ref=f7e21]:
+                  - generic [ref=f7e22]:
+                    - button "일시중지(k)" [ref=f7e23] [cursor=pointer]
+                    - generic [ref=f7e24]:
+                      - button "음소거(m)" [ref=f7e26] [cursor=pointer]
+                      - slider "볼륨":
+                        - generic [ref=f7e27] [cursor=pointer]
+                    - button "0 분 18 초/26 분 33 초" [ref=f7e1350] [cursor=pointer]: 0:18 / 26:33
+                  - generic [ref=f7e31]:
+                    - generic [ref=f7e32]:
+                      - button "자동재생 사용 설정" [ref=f7e151] [cursor=pointer]
+                      - button "자막(c)" [pressed] [ref=f7e33] [cursor=pointer]
+                      - button "설정" [ref=f7e35] [cursor=pointer]
+                    - generic [ref=f7e36]:
+                      - button "영화관 모드(t)" [ref=f7e37] [cursor=pointer]
+                      - button "전체 화면(f)" [ref=f7e38] [cursor=pointer]
+        - generic [ref=f7e154]:
+          - generic [ref=f7e155]:
+            - generic [ref=f7e157]:
+              - heading "[한영자막] 이 AI 활용법들로 대부분의 사람들보다 압도적으로 앞서게 됩니다 (Q&A)" [level=1] [ref=f7e160]
+              - generic [ref=f7e161]:
+                - generic [ref=f7e162]:
+                  - generic [ref=f7e163]:
+                    - link [ref=f7e164] [cursor=pointer]:
+                      - /url: /@TechBridge-KR
+                      - img "Tech Bridge" [ref=f7e166]
+                    - generic [ref=f7e167]:
+                      - generic "Tech Bridge" [ref=f7e171]:
+                        - link "Tech Bridge" [ref=f7e172] [cursor=pointer]:
+                          - /url: /@TechBridge-KR
+                      - generic "구독자 1.54만명" [ref=f7e173]
+                  - button "Tech Bridge을(를) 구독합니다." [ref=f7e179] [cursor=pointer]:
+                    - generic: 구독
+                - generic [ref=f7e186]:
+                  - generic [ref=f7e187]:
+                    - generic [ref=f7e191]:
+                      - button "다른 사용자 18명과 함께 이 동영상에 좋아요 표시" [ref=f7e195] [cursor=pointer]:
+                        - generic: "18"
+                      - button "동영상에 싫어요 표시" [ref=f7e202] [cursor=pointer]
+                    - button "공유" [ref=f7e208] [cursor=pointer]
+                  - button "재생목록에 저장" [ref=f7e215] [cursor=pointer]:
+                    - generic: 저장
+                  - button "추가 작업" [ref=f7e220] [cursor=pointer]
+              - generic [ref=f7e226]:
+                - generic [ref=f7e228]:
+                  - generic "조회수 481회" [ref=f7e229]:
+                    - generic [ref=f7e230]: 조회수
+                    - generic [ref=f7e231]:
+                      - generic [ref=f7e232]:
+                        - generic [ref=f7e234]: "1"
+                        - generic [ref=f7e235]: "2"
+                        - generic [ref=f7e236]: "3"
+                        - generic [ref=f7e237]: "4"
+                        - generic [ref=f7e238]: "5"
+                        - generic [ref=f7e239]: "6"
+                        - generic [ref=f7e240]: "7"
+                        - generic [ref=f7e241]: "8"
+                        - generic [ref=f7e242]: "9"
+                        - generic [ref=f7e243]: "0"
+                        - generic [ref=f7e244]: "1"
+                        - generic [ref=f7e245]: "2"
+                        - generic [ref=f7e246]: "3"
+                        - generic [ref=f7e247]: "4"
+                        - generic [ref=f7e248]: "5"
+                        - generic [ref=f7e249]: "6"
+                        - generic [ref=f7e250]: "7"
+                        - generic [ref=f7e251]: "8"
+                        - generic [ref=f7e252]: "9"
+                        - generic [ref=f7e253]: "0"
+                        - generic [ref=f7e254]: "1"
+                        - generic [ref=f7e255]: "2"
+                        - generic [ref=f7e256]: "3"
+                        - generic [ref=f7e257]: "4"
+                        - generic [ref=f7e258]: "5"
+                        - generic [ref=f7e259]: "6"
+                        - generic [ref=f7e260]: "7"
+                        - generic [ref=f7e261]: "8"
+                        - generic [ref=f7e262]: "9"
+                      - generic [ref=f7e264]:
+                        - generic [ref=f7e266]: "1"
+                        - generic [ref=f7e267]: "2"
+                        - generic [ref=f7e268]: "3"
+                        - generic [ref=f7e269]: "4"
+                        - generic [ref=f7e270]: "5"
+                        - generic [ref=f7e271]: "6"
+                        - generic [ref=f7e272]: "7"
+                        - generic [ref=f7e273]: "8"
+                        - generic [ref=f7e274]: "9"
+                        - generic [ref=f7e275]: "0"
+                        - generic [ref=f7e276]: "1"
+                        - generic [ref=f7e277]: "2"
+                        - generic [ref=f7e278]: "3"
+                        - generic [ref=f7e279]: "4"
+                        - generic [ref=f7e280]: "5"
+                        - generic [ref=f7e281]: "6"
+                        - generic [ref=f7e282]: "7"
+                        - generic [ref=f7e283]: "8"
+                        - generic [ref=f7e284]: "9"
+                        - generic [ref=f7e285]: "0"
+                        - generic [ref=f7e286]: "1"
+                        - generic [ref=f7e287]: "2"
+                        - generic [ref=f7e288]: "3"
+                        - generic [ref=f7e289]: "4"
+                        - generic [ref=f7e290]: "5"
+                        - generic [ref=f7e291]: "6"
+                        - generic [ref=f7e292]: "7"
+                        - generic [ref=f7e293]: "8"
+                        - generic [ref=f7e294]: "9"
+                      - generic [ref=f7e296]:
+                        - generic [ref=f7e298]: "1"
+                        - generic [ref=f7e299]: "2"
+                        - generic [ref=f7e300]: "3"
+                        - generic [ref=f7e301]: "4"
+                        - generic [ref=f7e302]: "5"
+                        - generic [ref=f7e303]: "6"
+                        - generic [ref=f7e304]: "7"
+                        - generic [ref=f7e305]: "8"
+                        - generic [ref=f7e306]: "9"
+                        - generic [ref=f7e307]: "0"
+                        - generic [ref=f7e308]: "1"
+                        - generic [ref=f7e309]: "2"
+                        - generic [ref=f7e310]: "3"
+                        - generic [ref=f7e311]: "4"
+                        - generic [ref=f7e312]: "5"
+                        - generic [ref=f7e313]: "6"
+                        - generic [ref=f7e314]: "7"
+                        - generic [ref=f7e315]: "8"
+                        - generic [ref=f7e316]: "9"
+                        - generic [ref=f7e317]: "0"
+                        - generic [ref=f7e318]: "1"
+                        - generic [ref=f7e319]: "2"
+                        - generic [ref=f7e320]: "3"
+                        - generic [ref=f7e321]: "4"
+                        - generic [ref=f7e322]: "5"
+                        - generic [ref=f7e323]: "6"
+                        - generic [ref=f7e324]: "7"
+                        - generic [ref=f7e325]: "8"
+                        - generic [ref=f7e326]: "9"
+                    - generic [ref=f7e328]: 회
+                  - generic [ref=f7e396]: 2026. 8. 24. 1개 제품
+                - generic [ref=f7e1241]:
+                  - heading "Tech Bridge이(가) 태그된 제품에 대해 수수료를 받습니다. 자세히 알아보기" [ref=f7e1243]:
+                    - text: Tech Bridge이(가) 태그된 제품에 대해 수수료를 받습니다.
+                    - generic [ref=f7e1244] [cursor=pointer]: 자세히 알아보기
+                  - 'generic "Apple 15 inch MacBook Air with M4 chip, 10-core CPU / 10-core Gpu, 16gb Memory, 512gb SSD - Starlight, Black, , 판매처: Walmart - Reebelo" [ref=f7e1249] [cursor=pointer]':
+                    - generic [ref=f7e1253]:
+                      - generic [ref=f7e1254]: Apple 15 inch MacBook Air with M4 chip, 10-core CPU / 10-core Gpu, 16gb Memory, 512gb SSD - Starlight, Black
+                      - generic [ref=f7e1256]: walmart.com/ip/Restored-Apple-2025-MacBook-Air-15-inch-Laptop-M4-chip-Built-Intelligence-15-3-inch-Liquid-Retina-Display-16GB-Unified-Memory-512GB-SSD-Storage-Starl/19261215909?wmlspartner=wlpa&selectedSellerId=101410689&veh=seo_fpl&cn=google
+                - generic [ref=f7e397]:
+                  - generic [ref=f7e1260]:
+                    - text: AI를 단순 검색창이 아니라, 내 맥락을 이해하고 일을 함께 처리하는 파트너로 쓰는 방법을 정리합니다. 말로 맥락을 전달하는 법부터 더 구체적인 답을 얻는 프롬프트, AI로 업무와 소프트웨어를 만드는 흐름까지 살펴봅니다. 주요 포인트
+                    - list [ref=f7e1261]:
+                      - listitem [ref=f7e1262]: 음성 입력으로 AI에 빠르고 풍부하게 맥락을 전달하는 방법
+                      - listitem [ref=f7e1263]: AI의 평범한 답변을 바꾸는 MAPS 프롬프트 프레임워크
+                      - listitem [ref=f7e1264]: Claude, Perplexity, NotebookLM 등 도구를 역할에 맞게 조합하는 기준
+                      - listitem [ref=f7e1265]: 반복 업무를 자동화하고 개인용 앱을 만드는 실전 접근법
+                      - listitem [ref=f7e1266]: AI 시대에 더 빠르게 배우고 실행하는 사고방식
+                    - link "#AI" [ref=f7e1268] [cursor=pointer]:
+                      - /url: /hashtag/ai
+                    - link "#생산성" [ref=f7e1270] [cursor=pointer]:
+                      - /url: /hashtag/%EC%83%9D%EC%82%B0%EC%84%B1
+                    - link "#프롬프트" [ref=f7e1272] [cursor=pointer]:
+                      - /url: /hashtag/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8
+                    - link "#Claude" [ref=f7e1274] [cursor=pointer]:
+                      - /url: /hashtag/claude
+                    - link "#ChatGPT" [ref=f7e1276] [cursor=pointer]:
+                      - /url: /hashtag/chatgpt
+                    - link "#코덱스" [ref=f7e1278] [cursor=pointer]:
+                      - /url: /hashtag/%EC%BD%94%EB%8D%B1%EC%8A%A4
+                    - link "#자동화" [ref=f7e1280] [cursor=pointer]:
+                      - /url: /hashtag/%EC%9E%90%EB%8F%99%ED%99%94
+                    - link "#개발" [ref=f7e1282] [cursor=pointer]:
+                      - /url: /hashtag/%EA%B0%9C%EB%B0%9C
+                    - text: "📎 관련 링크:"
+                    - link "https://go.danmartell.com/4g57yyR" [ref=f7e1284] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUVBSWC1GUnh0cUR4Q1BFVFpUbUs3U3xBR3JiS2FtUEFKMTNMVlVCUkhyb0wzS1RiRWNMSEw5ZFlKUGRka0p1RDdsM3JHczF2V3o2ckVNdldINV9JY0NEWDBZUHh0TS1VMTc5akFVbDhaR2VZbnJvWENieHlYTk1zTXBF&q=https%3A%2F%2Fgo.danmartell.com%2F4g57yyR&v=_qDxAyfnDCQ
+                    - link "https://go.danmartell.com/4zpQqLB" [ref=f7e1286] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rVFFoZUJ2bUgxNDlkRnQ5NEJENTJ2V3xBR3JiS2FubTZKdWhPSEZ0VWdqRi02RmQ1SEZrMEt3aGpTeTNjeTdDZUlKU05WWnJRckNKcnpKYy1JdkNERldFRGtBdFB4UldtQ05XUXAzQk42dnZBelBwajQwRTVMemhMeXBB&q=https%3A%2F%2Fgo.danmartell.com%2F4zpQqLB&v=_qDxAyfnDCQ
+                    - link "https://go.danmartell.com/4gEIqiv" [ref=f7e1288] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUWc1U1hFbThwNU9HWmc4SUJfLTlLRXxBR3JiS2FsN0xTVmF0dUtFS2N3U29oMUxsSXRZT2V0UjY0TUlyX0ZQOEotNjZOWkhfQzVPSGp1THRWaDdkU1VmaTByLTlud3VyLXljYTVCT3lRLXhVRGt6Y2lEOHUyRTRXQ3NI&q=https%3A%2F%2Fgo.danmartell.com%2F4gEIqiv&v=_qDxAyfnDCQ
+                    - link "https://wisprflow.ai" [ref=f7e1290] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUllpM1NuT2R4SWhJT1daR2hTNXpTN3xBR3JiS2Frak1Sc0pQZkpSa0ZzelRKSVRmN0x3YVpzc3RZRjh3RkZPbTlBOTRuTVNZaEhFTVAyWEZIQndpNXB0LXhmbE5VdGF6RHJQZ1BNb3plSVN5VmlGUjFSUkhfZXMyNFVp&q=https%3A%2F%2Fwisprflow.ai%2F&v=_qDxAyfnDCQ
+                    - link "https://claude.ai" [ref=f7e1292] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU3NNQjh3RE9lMmlKQmpCdVhJQldlNXxBR3JiS2FuYllmLV83Y2hxTjRRcVdzWFNzMXphVXRvVGtXbVpDTXR1ZFJaaEpDVzlqdXpLV3lRSU81YVFEc1ZVZU1OVlZWWlFucGQtaUNrODZKY1VsSXQzQWljSkF0ODU2YnVa&q=https%3A%2F%2Fclaude.ai%2F&v=_qDxAyfnDCQ
+                    - link "https://perplexity.ai" [ref=f7e1294] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU0w0SThCTEljODhCa2xSTkJJcjJVTXxBR3JiS2FtVXZmVmg4VVloV2tpeEg5bHFyTmRRVVdtR003RTc3QklnRGhTUkM0QVp3LUN5d2dQVzV0VS1Kd0dkd3FSTy05TmdPcjNNLVJETlI2Q0ZTeGJaQzBGRkRKWndXSS1k&q=https%3A%2F%2Fperplexity.ai%2F&v=_qDxAyfnDCQ
+                    - link "https://notebooklm.google.com" [ref=f7e1296] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU0luVjIwOGdBZ3RqOTFRZGR1RExYR3xBR3JiS2FsV1FVUjk3a0J5ckJSVVJ4WHluVXRSaHVBVVFIcC1kbHJteV9rQWNrckl0RzBCUWMwSERWVUNWV3VtUG1IMkt0dHlOdXhRTTNqVkxZUmFVM05EVmxqcDIwQVZwa0Iy&q=https%3A%2F%2Fnotebooklm.google.com%2F&v=_qDxAyfnDCQ
+                    - link "https://chat.openai.com" [ref=f7e1298] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUmVzMzZxVS1LTFY4RmpFbTVkXzBOYnxBR3JiS2FrS1E4MVBIWndOY3dROGRTanNzQi1JYXFCQkoycjZscjcwd1dxUkNQS3pPWnRXT3Q0cXdqWUozUW9nN3hVS0V6OFJMUXRLOWNqaUc1MS02VTFDcnJKV2ljYWdrdTJ1&q=https%3A%2F%2Fchat.openai.com%2F&v=_qDxAyfnDCQ
+                    - link "https://chatgpt.com/codex" [ref=f7e1300] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU0VDdlFmbFBrcVZ1d1FKaHlYZmR4SnxBR3JiS2FrV0JmLTNKQUpzc2szYVNXUDFUWTd4QVdDV2dHOEJrYWdKQi1WRzRTbUZ3UVVmcWVDaC1XRjRDdG9KZ2wzTFhQdHEtTlZJcXJpb05sZ2ttbjJVQWJRS2hwRmRucF9u&q=https%3A%2F%2Fchatgpt.com%2Fcodex&v=_qDxAyfnDCQ
+                    - link "https://obsidian.md" [ref=f7e1302] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU3JENUhKUTdWUjF1d3Fjano2RUZra3xBR3JiS2FuampDZDlMU0tHQVZRc0ZpZGRaVlEtT0RmdFh0NER5MjBxdFlsMzdrcGFjTDlFWXhtSDB1VXJqUmliN2preDhRVDBudzRDeXQ3RjVpUEotNUpycXUtcUliVEliNk90&q=https%3A%2F%2Fobsidian.md%2F&v=_qDxAyfnDCQ
+                    - link "https://hellofrank.ai/start" [ref=f7e1304] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUXdNRlE4M28wRDJqWTFvb3I0ZHFnRnxBR3JiS2FsZkdfbmJUbE1oaUhrUHRLSEJqMnk0VEtRcDI0WEtQLXZUd2VMbnVBeTVFUzY1c3RGMjBmT2pwOHV2VVdjQ1p3U2tEZHdIZ1lqeXJMcU1vOEtRYm50RWhzZFNGdHF2&q=https%3A%2F%2Fhellofrank.ai%2Fstart&v=_qDxAyfnDCQ
+                    - link "https://www.precision.co/" [ref=f7e1306] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUzdSTk1ZWXF2RUFmRFNIOGpUZGlKLXxBR3JiS2FuM3dyOWRTSWZ1eXVPcFVELXJPXy1fSEZ3MjVidFJsOURYRFI1OGJTNUV2MlQ1UThMWlNKYmVWYUhqOW5KSDJWZk54NWZwcHdyUjB1bW8zcjJIVkNUaTItbFBRei1I&q=https%3A%2F%2Fwww.precision.co%2F&v=_qDxAyfnDCQ
+                    - link "https://bit.ly/3XEBXez" [ref=f7e1308] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU3lpTnh4UWZxTG1qSm5XUm5ISHFpcXxBR3JiS2FtVzE3ZTM3bXlvQ1hrQW4zLThjeDBTV1BBODZiNk1OaW9reWNVOV9LX1h5cnhfejF6NE81RVkyVU1KRDFteWdrbXN3bU00cWNrSm1xSUF1aHZJa2JzUVhVU1JzdFRq&q=https%3A%2F%2Fbit.ly%2F3XEBXez&v=_qDxAyfnDCQ
+                    - link "https://bit.ly/3pCTG78" [ref=f7e1310] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rVEVvTEtiX2VNMlBRdVJDYWNCYmhudXxBR3JiS2FsMHNIYTZsbVB5T2JjUnBjWGdMY2pXM2NDSlVPLWpFcVRkZXA0SFM5NTlzZHJUNm11RnFQUTZUOWtqWlV5TGQxdjNfcGlnS1JWNnd3emMyRHFPS1ZhUm1yZGpjWFFE&q=https%3A%2F%2Fbit.ly%2F3pCTG78&v=_qDxAyfnDCQ
+                  - generic [ref=f7e1313]:
+                    - generic [ref=f7e1314]:
+                      - generic [ref=f7e1315]: 스크립트
+                      - paragraph [ref=f7e1318]: 스크립트를 보면서 시청하세요.
+                      - button "스크립트 표시" [ref=f7e1323] [cursor=pointer]
+                    - generic [ref=f7e1327]:
+                      - link "Tech Bridge 구독자 1.54만명" [ref=f7e1328] [cursor=pointer]:
+                        - /url: /@TechBridge-KR
+                        - generic [ref=f7e1329]:
+                          - heading "Tech Bridge" [level=3] [ref=f7e1330]
+                          - generic [ref=f7e1331]: 구독자 1.54만명
+                      - generic [ref=f7e1334]:
+                        - link "동영상" [ref=f7e1337] [cursor=pointer]:
+                          - /url: /channel/UC895rbZX2iXLTDfji7W4PfA/videos
+                        - link "정보" [ref=f7e1343] [cursor=pointer]:
+                          - /url: /channel/UC895rbZX2iXLTDfji7W4PfA/about
+                  - button "간략히" [ref=f7e1347] [cursor=pointer]
+            - text: •
+          - generic [ref=f7e405]:
+            - generic [ref=f7e406]:
+              - generic [ref=f7e407]:
+                - heading "댓글 1개" [level=2] [ref=f7e1353]
+                - generic [ref=f7e1356]:
+                  - tooltip "tooltip"
+                  - group [ref=f7e1358]:
+                    - button "댓글 정렬" [ref=f7e1360] [cursor=pointer]:
+                      - generic [ref=f7e1364]: 정렬 기준
+              - textbox [ref=f7e1369]
+            - generic [ref=f7e411]:
+              - generic [ref=f7e1374]:
+                - button "@다같이AI" [ref=f7e1376] [cursor=pointer]
+                - generic [ref=f7e1378]:
+                  - generic [ref=f7e1380]:
+                    - heading [level=3] [ref=f7e1381]:
+                      - link "@다같이AI" [ref=f7e1382] [cursor=pointer]:
+                        - /url: /@%EB%8B%A4%EA%B0%99%EC%9D%B4AI
+                    - link "5분 전" [ref=f7e1384] [cursor=pointer]:
+                      - /url: /watch?v=_qDxAyfnDCQ&lc=UgwhXClkEd3imF-pH7F4AaABAg
+                  - generic [ref=f7e1385]: 아주 수준 높은 주제에 대한 영상이네요. 정말 좋은 교훈입니다. 그래서 저도 40대중반에 학생과 직장인, 어르신과 자녀들을 위한 온가족 토론형 AI 유튜브채널을 개설했습니다. 열심히 살고있지만, 더 열심히 살아보려합니다.
+                  - generic [ref=f7e1389]:
+                    - generic [ref=f7e1390]:
+                      - button "나와 사용자 0명이 이 댓글을 좋아함" [ref=f7e1392] [cursor=pointer]
+                      - tooltip "tooltip"
+                    - generic [ref=f7e1396]:
+                      - button "댓글 싫어요 표시" [ref=f7e1398] [cursor=pointer]
+                      - tooltip "tooltip"
+                    - button "답글" [ref=f7e1404] [cursor=pointer]
+              - generic [ref=f7e1408]: 인기 댓글순(선택됨)으로 추천 댓글이 표시됩니다.
+      - generic [ref=f7e483]:
+        - generic [ref=f7e1410]:
+          - generic [ref=f7e1413]:
+            - heading "스크립트" [active] [level=2] [ref=f7e1415]
+            - button "닫기" [ref=f7e1420] [cursor=pointer]
+          - generic [ref=f7e1425]:
+            - generic [ref=f7e1430]:
+              - generic [ref=f7e1431]: 스크립트 검색
+              - textbox "스크립트 검색" [ref=f7e1432]
+            - generic [ref=f7e1435]:
+              - button "0초 Most people use AI like a fancy Google search. That's like hiring a private chef and the only thing you ask them to make you is a peanut butter sandwich. I" [ref=f7e1437] [cursor=pointer]:
+                - generic [ref=f7e1440]:
+                  - generic [ref=f7e1441]: 0:00
+                  - generic [ref=f7e1442]: 0초
+                  - text: Most people use AI like a fancy Google search. That's like hiring a private chef and the only thing you ask them to make you is a peanut butter sandwich. I
+              - button "7초 build AI products every single day through my company, Martell Ventures." [ref=f7e1444] [cursor=pointer]:
+                - generic [ref=f7e1447]:
+                  - generic [ref=f7e1448]: 0:07
+                  - generic [ref=f7e1449]: 7초
+                  - text: build AI products every single day through my company, Martell Ventures.
+              - button "10초 And I use AI in everything I do. So today, I'm going to be answering the most common questions that people have about AI. Everything from productivity" [ref=f7e1451] [cursor=pointer]:
+                - generic [ref=f7e1454]:
+                  - generic [ref=f7e1455]: 0:10
+                  - generic [ref=f7e1456]: 10초
+                  - text: And I use AI in everything I do. So today, I'm going to be answering the most common questions that people have about AI. Everything from productivity
+              - button "17초 to growing your business to building your own software. For every single one, I'll walk you through the exact thing I would do to solve it step by step. And" [ref=f7e1458] [cursor=pointer]:
+                - generic [ref=f7e1461]:
+                  - generic [ref=f7e1462]: 0:17
+                  - generic [ref=f7e1463]: 17초
+                  - text: to growing your business to building your own software. For every single one, I'll walk you through the exact thing I would do to solve it step by step. And
+              - button "25초 I'll tell you the exact tool I use and why. By the end, you'll be moving so much faster. It's going to feel like you turn the cheat codes on. Let's start" [ref=f7e1465] [cursor=pointer]:
+                - generic [ref=f7e1468]:
+                  - generic [ref=f7e1469]: 0:25
+                  - generic [ref=f7e1470]: 25초
+                  - text: I'll tell you the exact tool I use and why. By the end, you'll be moving so much faster. It's going to feel like you turn the cheat codes on. Let's start
+              - button "32초 with the first one. All right, what do we got here? How do I give AI all the context I need without having to type so" [ref=f7e1472] [cursor=pointer]:
+                - generic [ref=f7e1475]:
+                  - generic [ref=f7e1476]: 0:32
+                  - generic [ref=f7e1477]: 32초
+                  - text: with the first one. All right, what do we got here? How do I give AI all the context I need without having to type so
+              - button "40초 freaking much? I love this one. Here's the principle. I talk three times faster than I type. That's why when I'm using" [ref=f7e1479] [cursor=pointer]:
+                - generic [ref=f7e1482]:
+                  - generic [ref=f7e1483]: 0:40
+                  - generic [ref=f7e1484]: 40초
+                  - text: freaking much? I love this one. Here's the principle. I talk three times faster than I type. That's why when I'm using
+              - button "48초 any AI from a chat tool to a coding platform to an AI agent, I am talking" [ref=f7e1486] [cursor=pointer]:
+                - generic [ref=f7e1489]:
+                  - generic [ref=f7e1490]: 0:48
+                  - generic [ref=f7e1491]: 48초
+                  - text: any AI from a chat tool to a coding platform to an AI agent, I am talking
+              - button "55초 and using some kind of tool to transcribe what I'm saying into text that the AI can understand. The tool I like to use is called Whisper Flow" [ref=f7e1493] [cursor=pointer]:
+                - generic [ref=f7e1496]:
+                  - generic [ref=f7e1497]: 0:55
+                  - generic [ref=f7e1498]: 55초
+                  - text: and using some kind of tool to transcribe what I'm saying into text that the AI can understand. The tool I like to use is called Whisper Flow
+              - button "1분 3초 because it integrates in my phone on the keyboard and it also integrates onto my laptop and it collects all this context that I even feed to my AI brain so it" [ref=f7e1500] [cursor=pointer]:
+                - generic [ref=f7e1503]:
+                  - generic [ref=f7e1504]: 1:03
+                  - generic [ref=f7e1505]: 1분 3초
+                  - text: because it integrates in my phone on the keyboard and it also integrates onto my laptop and it collects all this context that I even feed to my AI brain so it
+              - button "1분 11초 gets smarter. The other thing I do is I flip the script where I ask the AI to ask me questions so the AI will pull" [ref=f7e1507] [cursor=pointer]:
+                - generic [ref=f7e1510]:
+                  - generic [ref=f7e1511]: 1:11
+                  - generic [ref=f7e1512]: 1분 11초
+                  - text: gets smarter. The other thing I do is I flip the script where I ask the AI to ask me questions so the AI will pull
+              - button "1분 18초 from me so that I don't have to guess what it needs to do its job. It's as easy as telling it ask me questions if you need more context at the end of" [ref=f7e1514] [cursor=pointer]:
+                - generic [ref=f7e1517]:
+                  - generic [ref=f7e1518]: 1:18
+                  - generic [ref=f7e1519]: 1분 18초
+                  - text: from me so that I don't have to guess what it needs to do its job. It's as easy as telling it ask me questions if you need more context at the end of
+              - button "1분 26초 every prompt. For the AI tool, I use Claude because it has a built-in feature called the ask user tool. It'll like break down your question or its context it needs into like two or three steps." [ref=f7e1521] [cursor=pointer]:
+                - generic [ref=f7e1524]:
+                  - generic [ref=f7e1525]: 1:26
+                  - generic [ref=f7e1526]: 1분 26초
+                  - text: every prompt. For the AI tool, I use Claude because it has a built-in feature called the ask user tool. It'll like break down your question or its context it needs into like two or three steps.
+              - button "1분 36초 It'll just say are you asking for this or this? It does multiple choice, checklist, priority list, even other where you can type a better answer that" [ref=f7e1528] [cursor=pointer]:
+                - generic [ref=f7e1531]:
+                  - generic [ref=f7e1532]: 1:36
+                  - generic [ref=f7e1533]: 1분 36초
+                  - text: It'll just say are you asking for this or this? It does multiple choice, checklist, priority list, even other where you can type a better answer that
+              - button "1분 44초 it didn't even give you as an option. On to the next one." [ref=f7e1535] [cursor=pointer]:
+                - generic [ref=f7e1538]:
+                  - generic [ref=f7e1539]: 1:44
+                  - generic [ref=f7e1540]: 1분 44초
+                  - text: it didn't even give you as an option. On to the next one.
+              - button "1분 49초 Why does AI keep giving me such generic answers?" [ref=f7e1542] [cursor=pointer]:
+                - generic [ref=f7e1545]:
+                  - generic [ref=f7e1546]: 1:49
+                  - generic [ref=f7e1547]: 1분 49초
+                  - text: Why does AI keep giving me such generic answers?
+              - button "1분 54초 I got to explain how AI works. It's essentially trained on everything that's ever been created or ever said or ever" [ref=f7e1549] [cursor=pointer]:
+                - generic [ref=f7e1552]:
+                  - generic [ref=f7e1553]: 1:54
+                  - generic [ref=f7e1554]: 1분 54초
+                  - text: I got to explain how AI works. It's essentially trained on everything that's ever been created or ever said or ever
+              - button "2분 1초 captured in the history of mankind. So by default when it gives you an answer it's essentially condensing and" [ref=f7e1556] [cursor=pointer]:
+                - generic [ref=f7e1559]:
+                  - generic [ref=f7e1560]: 2:01
+                  - generic [ref=f7e1561]: 2분 1초
+                  - text: captured in the history of mankind. So by default when it gives you an answer it's essentially condensing and
+              - button "2분 8초 averaging out the best answer based on everything. That's why most answers from AI is very generic. It just doesn't feel" [ref=f7e1563] [cursor=pointer]:
+                - generic [ref=f7e1566]:
+                  - generic [ref=f7e1567]: 2:08
+                  - generic [ref=f7e1568]: 2분 8초
+                  - text: averaging out the best answer based on everything. That's why most answers from AI is very generic. It just doesn't feel
+              - button "2분 15초 nuanced. So what we want to do is when we ask it a question we want to get very specific in our prompt. So I've broken this down into a framework called maps." [ref=f7e1570] [cursor=pointer]:
+                - generic [ref=f7e1573]:
+                  - generic [ref=f7e1574]: 2:15
+                  - generic [ref=f7e1575]: 2분 15초
+                  - text: nuanced. So what we want to do is when we ask it a question we want to get very specific in our prompt. So I've broken this down into a framework called maps.
+              - button "2분 24초 We start with M which is the mission." [ref=f7e1577] [cursor=pointer]:
+                - generic [ref=f7e1580]:
+                  - generic [ref=f7e1581]: 2:24
+                  - generic [ref=f7e1582]: 2분 24초
+                  - text: We start with M which is the mission.
+              - button "2분 26초 What is the goal of this prompt? What do you wanted to accomplish? It's the thing behind the task like I need you to help me get more customers. Then you have the" [ref=f7e1584] [cursor=pointer]:
+                - generic [ref=f7e1587]:
+                  - generic [ref=f7e1588]: 2:26
+                  - generic [ref=f7e1589]: 2분 26초
+                  - text: What is the goal of this prompt? What do you wanted to accomplish? It's the thing behind the task like I need you to help me get more customers. Then you have the
+              - button "2분 34초 A, which is ask. You want to then ask it for specifically what you need. So I need you to generate me a list of leads that I can call on to get more" [ref=f7e1591] [cursor=pointer]:
+                - generic [ref=f7e1594]:
+                  - generic [ref=f7e1595]: 2:34
+                  - generic [ref=f7e1596]: 2분 34초
+                  - text: A, which is ask. You want to then ask it for specifically what you need. So I need you to generate me a list of leads that I can call on to get more
+              - button "2분 43초 customers. I need you to build a landing page so I can capture emails. That's usually the only thing people give the prompt and they're missing the other" [ref=f7e1598] [cursor=pointer]:
+                - generic [ref=f7e1601]:
+                  - generic [ref=f7e1602]: 2:43
+                  - generic [ref=f7e1603]: 2분 43초
+                  - text: customers. I need you to build a landing page so I can capture emails. That's usually the only thing people give the prompt and they're missing the other
+              - button "2분 51초 parts of it. And that's why the answers look very generic. Then we go to P, which is the parameters. This is everything you have in information about" [ref=f7e1605] [cursor=pointer]:
+                - generic [ref=f7e1608]:
+                  - generic [ref=f7e1609]: 2:51
+                  - generic [ref=f7e1610]: 2분 51초
+                  - text: parts of it. And that's why the answers look very generic. Then we go to P, which is the parameters. This is everything you have in information about
+              - button "2분 59초 your situation that you can give it. If you have past clients, give it the information on those past clients. If you have existing scripts that you've used and these things have worked, give" [ref=f7e1612] [cursor=pointer]:
+                - generic [ref=f7e1615]:
+                  - generic [ref=f7e1616]: 2:59
+                  - generic [ref=f7e1617]: 2분 59초
+                  - text: your situation that you can give it. If you have past clients, give it the information on those past clients. If you have existing scripts that you've used and these things have worked, give
+              - button "3분 8초 it to it. Did you know you can give it like two to three full books of information for it to use to give you a" [ref=f7e1619] [cursor=pointer]:
+                - generic [ref=f7e1622]:
+                  - generic [ref=f7e1623]: 3:08
+                  - generic [ref=f7e1624]: 3분 8초
+                  - text: it to it. Did you know you can give it like two to three full books of information for it to use to give you a
+              - button "3분 15초 very specific answer. And most people are giving it a paragraph or two at most. And if you don't have a bunch of documents preset or the data, this is" [ref=f7e1626] [cursor=pointer]:
+                - generic [ref=f7e1629]:
+                  - generic [ref=f7e1630]: 3:15
+                  - generic [ref=f7e1631]: 3분 15초
+                  - text: very specific answer. And most people are giving it a paragraph or two at most. And if you don't have a bunch of documents preset or the data, this is
+              - button "3분 24초 where you can use your voice tool to actually just talk to it like crazy to give it as much context as you have." [ref=f7e1633] [cursor=pointer]:
+                - generic [ref=f7e1636]:
+                  - generic [ref=f7e1637]: 3:24
+                  - generic [ref=f7e1638]: 3분 24초
+                  - text: where you can use your voice tool to actually just talk to it like crazy to give it as much context as you have.
+              - button "3분 29초 Then it's the S, which is stands for shape, but essentially it's the format, the shape of the output. So, do you want it as a spreadsheet? You want it as a" [ref=f7e1640] [cursor=pointer]:
+                - generic [ref=f7e1643]:
+                  - generic [ref=f7e1644]: 3:29
+                  - generic [ref=f7e1645]: 3분 29초
+                  - text: Then it's the S, which is stands for shape, but essentially it's the format, the shape of the output. So, do you want it as a spreadsheet? You want it as a
+              - button "3분 37초 bulleted list? Do you want it short and concise? Now, for tools, there's no specific tool here because this applies to literally every AI. But one of the" [ref=f7e1647] [cursor=pointer]:
+                - generic [ref=f7e1650]:
+                  - generic [ref=f7e1651]: 3:37
+                  - generic [ref=f7e1652]: 3분 37초
+                  - text: bulleted list? Do you want it short and concise? Now, for tools, there's no specific tool here because this applies to literally every AI. But one of the
+              - button "3분 44초 tips I'll give you because I use this quite often is using a tool called Perplexity where you can actually ask it to answer your questions using different" [ref=f7e1654] [cursor=pointer]:
+                - generic [ref=f7e1657]:
+                  - generic [ref=f7e1658]: 3:44
+                  - generic [ref=f7e1659]: 3분 44초
+                  - text: tips I'll give you because I use this quite often is using a tool called Perplexity where you can actually ask it to answer your questions using different
+              - button "3분 54초 models so you can compare them side by side. It's kind of like having a council of AI models where you ask it the same question to see how they all reply to" [ref=f7e1661] [cursor=pointer]:
+                - generic [ref=f7e1664]:
+                  - generic [ref=f7e1665]: 3:54
+                  - generic [ref=f7e1666]: 3분 54초
+                  - text: models so you can compare them side by side. It's kind of like having a council of AI models where you ask it the same question to see how they all reply to
+              - button "4분 3초 get you the best answer. So once you give it the maps, those four key components to the prompt, then the output's going to be very specific. Next" [ref=f7e1668] [cursor=pointer]:
+                - generic [ref=f7e1671]:
+                  - generic [ref=f7e1672]: 4:03
+                  - generic [ref=f7e1673]: 4분 3초
+                  - text: get you the best answer. So once you give it the maps, those four key components to the prompt, then the output's going to be very specific. Next
+              - button "4분 11초 up, boom, boom. How do I stop having to explain who I am in every new chat? Oh my gosh. Have you ever noticed this?" [ref=f7e1675] [cursor=pointer]:
+                - generic [ref=f7e1678]:
+                  - generic [ref=f7e1679]: 4:11
+                  - generic [ref=f7e1680]: 4분 11초
+                  - text: up, boom, boom. How do I stop having to explain who I am in every new chat? Oh my gosh. Have you ever noticed this?
+              - button "4분 20초 When you're talking to AI, it feels like you talk to a stranger every time. How do we stop that? Every new chat technically starts with zero" [ref=f7e1682] [cursor=pointer]:
+                - generic [ref=f7e1685]:
+                  - generic [ref=f7e1686]: 4:20
+                  - generic [ref=f7e1687]: 4분 20초
+                  - text: When you're talking to AI, it feels like you talk to a stranger every time. How do we stop that? Every new chat technically starts with zero
+              - button "4분 28초 information. Like, it doesn't really have a lot of information on your business or your goals or the projects you're working on. What I want to share with you is my philosophy, which is I" [ref=f7e1689] [cursor=pointer]:
+                - generic [ref=f7e1692]:
+                  - generic [ref=f7e1693]: 4:28
+                  - generic [ref=f7e1694]: 4분 28초
+                  - text: information. Like, it doesn't really have a lot of information on your business or your goals or the projects you're working on. What I want to share with you is my philosophy, which is I
+              - button "4분 36초 take five minutes to set this up. what I'm about to teach you. And this changes my responses to perfect answers, like" [ref=f7e1696] [cursor=pointer]:
+                - generic [ref=f7e1699]:
+                  - generic [ref=f7e1700]: 4:36
+                  - generic [ref=f7e1701]: 4분 36초
+                  - text: take five minutes to set this up. what I'm about to teach you. And this changes my responses to perfect answers, like
+              - button "4분 44초 I'm talking to a professional consultant that knows everything about me. I used to teach this thing called the master prompt, which you'd sit there and you'd have to answer all these questions. Now, we don't even have to do that anymore." [ref=f7e1703] [cursor=pointer]:
+                - generic [ref=f7e1706]:
+                  - generic [ref=f7e1707]: 4:44
+                  - generic [ref=f7e1708]: 4분 44초
+                  - text: I'm talking to a professional consultant that knows everything about me. I used to teach this thing called the master prompt, which you'd sit there and you'd have to answer all these questions. Now, we don't even have to do that anymore.
+              - button "4분 54초 All we do is we give it access to existing tools where the information about you exists. Your email probably has a lot of stuff. Your Google Drive" [ref=f7e1710] [cursor=pointer]:
+                - generic [ref=f7e1713]:
+                  - generic [ref=f7e1714]: 4:54
+                  - generic [ref=f7e1715]: 4분 54초
+                  - text: All we do is we give it access to existing tools where the information about you exists. Your email probably has a lot of stuff. Your Google Drive
+              - button "5분 2초 has a whole lot of information. Maybe use Notion, maybe Slack. All of these tools have rich amount of information" [ref=f7e1717] [cursor=pointer]:
+                - generic [ref=f7e1720]:
+                  - generic [ref=f7e1721]: 5:02
+                  - generic [ref=f7e1722]: 5분 2초
+                  - text: has a whole lot of information. Maybe use Notion, maybe Slack. All of these tools have rich amount of information
+              - button "5분 10초 about who you are, what projects you're working on, who's in your life. Once you have them connected, then you tell it build the most detailed master prompt of" [ref=f7e1724] [cursor=pointer]:
+                - generic [ref=f7e1727]:
+                  - generic [ref=f7e1728]: 5:10
+                  - generic [ref=f7e1729]: 5분 10초
+                  - text: about who you are, what projects you're working on, who's in your life. Once you have them connected, then you tell it build the most detailed master prompt of
+              - button "5분 19초 who I am from all this information. And if you have any questions, ask me. Then the next step is it'll build 90% of" [ref=f7e1731] [cursor=pointer]:
+                - generic [ref=f7e1734]:
+                  - generic [ref=f7e1735]: 5:19
+                  - generic [ref=f7e1736]: 5분 19초
+                  - text: who I am from all this information. And if you have any questions, ask me. Then the next step is it'll build 90% of
+              - button "5분 28초 everything. It may get some information a little wrong cuz sometimes the AI likes to hallucinate. We just make some edits and we hit save. Now that we've" [ref=f7e1738] [cursor=pointer]:
+                - generic [ref=f7e1741]:
+                  - generic [ref=f7e1742]: 5:28
+                  - generic [ref=f7e1743]: 5분 28초
+                  - text: everything. It may get some information a little wrong cuz sometimes the AI likes to hallucinate. We just make some edits and we hit save. Now that we've
+              - button "5분 35초 got this document, right, and it could just be in the chat or you can save it as a PDF or a Google Drive. Now, we want to take it and we want to save it to" [ref=f7e1745] [cursor=pointer]:
+                - generic [ref=f7e1748]:
+                  - generic [ref=f7e1749]: 5:35
+                  - generic [ref=f7e1750]: 5분 35초
+                  - text: got this document, right, and it could just be in the chat or you can save it as a PDF or a Google Drive. Now, we want to take it and we want to save it to
+              - button "5분 42초 your settings so that the AI now has all that information on you every time you start a new chat. And every other AI" [ref=f7e1752] [cursor=pointer]:
+                - generic [ref=f7e1755]:
+                  - generic [ref=f7e1756]: 5:42
+                  - generic [ref=f7e1757]: 5분 42초
+                  - text: your settings so that the AI now has all that information on you every time you start a new chat. And every other AI
+              - button "5분 50초 tool you use, you can copy and paste the same master prompt into that tool so it has that same context. So, the tool I like to use to connect everything is" [ref=f7e1759] [cursor=pointer]:
+                - generic [ref=f7e1762]:
+                  - generic [ref=f7e1763]: 5:50
+                  - generic [ref=f7e1764]: 5분 50초
+                  - text: tool you use, you can copy and paste the same master prompt into that tool so it has that same context. So, the tool I like to use to connect everything is
+              - button "5분 59초 Claude. Two reasons I use Claude versus all these other AIs is one, it has [music] as of today the best memory" [ref=f7e1766] [cursor=pointer]:
+                - generic [ref=f7e1769]:
+                  - generic [ref=f7e1770]: 5:59
+                  - generic [ref=f7e1771]: 5분 59초
+                  - text: Claude. Two reasons I use Claude versus all these other AIs is one, it has [music] as of today the best memory
+              - button "6분 6초 system, meaning the more I give it, the more it remembers and the better it can use that in its replies. Second reason is it's built by a company called" [ref=f7e1773] [cursor=pointer]:
+                - generic [ref=f7e1776]:
+                  - generic [ref=f7e1777]: 6:06
+                  - generic [ref=f7e1778]: 6분 6초
+                  - text: system, meaning the more I give it, the more it remembers and the better it can use that in its replies. Second reason is it's built by a company called
+              - button "6분 13초 Enthropic. And when I looked at all the different other AIs and I'm asking myself, who do I trust the most? I trust Enthropic over some of the other ones" [ref=f7e1780] [cursor=pointer]:
+                - generic [ref=f7e1783]:
+                  - generic [ref=f7e1784]: 6:13
+                  - generic [ref=f7e1785]: 6분 13초
+                  - text: Enthropic. And when I looked at all the different other AIs and I'm asking myself, who do I trust the most? I trust Enthropic over some of the other ones
+              - button "6분 22초 because some of them are free. But it's not free because you're paying with your data. Especially if I'm giving it financial information and internal documents, I need to trust that company." [ref=f7e1787] [cursor=pointer]:
+                - generic [ref=f7e1790]:
+                  - generic [ref=f7e1791]: 6:22
+                  - generic [ref=f7e1792]: 6분 22초
+                  - text: because some of them are free. But it's not free because you're paying with your data. Especially if I'm giving it financial information and internal documents, I need to trust that company.
+              - button "6분 31초 Next question." [ref=f7e1794] [cursor=pointer]:
+                - generic [ref=f7e1797]:
+                  - generic [ref=f7e1798]: 6:31
+                  - generic [ref=f7e1799]: 6분 31초
+                  - text: Next question.
+              - button "6분 35초 You can't pull it away from me too quick. All right. How can I use AI to learn things faster? Ooh, that's a good question. This is one of my favorite questions because I would say that's" [ref=f7e1801] [cursor=pointer]:
+                - generic [ref=f7e1804]:
+                  - generic [ref=f7e1805]: 6:35
+                  - generic [ref=f7e1806]: 6분 35초
+                  - text: You can't pull it away from me too quick. All right. How can I use AI to learn things faster? Ooh, that's a good question. This is one of my favorite questions because I would say that's
+              - button "6분 43초 probably the number one use case I use AI for every day. If I buy a course and I got to follow it in order, it might" [ref=f7e1808] [cursor=pointer]:
+                - generic [ref=f7e1811]:
+                  - generic [ref=f7e1812]: 6:43
+                  - generic [ref=f7e1813]: 6분 43초
+                  - text: probably the number one use case I use AI for every day. If I buy a course and I got to follow it in order, it might
+              - button "6분 50초 take me weeks. A book could take me days. For me, it takes me weeks. Even then, I'm not really learning the topics to the problems I have. With AI, I can" [ref=f7e1815] [cursor=pointer]:
+                - generic [ref=f7e1818]:
+                  - generic [ref=f7e1819]: 6:50
+                  - generic [ref=f7e1820]: 6분 50초
+                  - text: take me weeks. A book could take me days. For me, it takes me weeks. Even then, I'm not really learning the topics to the problems I have. With AI, I can
+              - button "6분 59초 learn any topic at the fastest speed, like 20 times faster, usually in under 30 minutes. These are the specific prompts that I use to learn faster." [ref=f7e1822] [cursor=pointer]:
+                - generic [ref=f7e1825]:
+                  - generic [ref=f7e1826]: 6:59
+                  - generic [ref=f7e1827]: 6분 59초
+                  - text: learn any topic at the fastest speed, like 20 times faster, usually in under 30 minutes. These are the specific prompts that I use to learn faster.
+              - button "7분 8초 First off, I tell AI to go find the best resources on this topic. And I'll use AI to search YouTube videos, find the books, find the courses, find the" [ref=f7e1829] [cursor=pointer]:
+                - generic [ref=f7e1832]:
+                  - generic [ref=f7e1833]: 7:08
+                  - generic [ref=f7e1834]: 7분 8초
+                  - text: First off, I tell AI to go find the best resources on this topic. And I'll use AI to search YouTube videos, find the books, find the courses, find the
+              - button "7분 17초 resources, find the events. Now the key is you tell it only recent stuff because there's no point in me going to learn about AI from somebody 5 years ago that" [ref=f7e1836] [cursor=pointer]:
+                - generic [ref=f7e1839]:
+                  - generic [ref=f7e1840]: 7:17
+                  - generic [ref=f7e1841]: 7분 17초
+                  - text: resources, find the events. Now the key is you tell it only recent stuff because there's no point in me going to learn about AI from somebody 5 years ago that
+              - button "7분 24초 is not relevant today. Second thing is I'll tell it now build me a learning plan from these and teach them to me." [ref=f7e1843] [cursor=pointer]:
+                - generic [ref=f7e1846]:
+                  - generic [ref=f7e1847]: 7:24
+                  - generic [ref=f7e1848]: 7분 24초
+                  - text: is not relevant today. Second thing is I'll tell it now build me a learning plan from these and teach them to me.
+              - button "7분 30초 Sometimes I don't need to read the whole book or go through a whole course to learn one specific thing. So AI lets me skip to the most relevant parts. I" [ref=f7e1850] [cursor=pointer]:
+                - generic [ref=f7e1853]:
+                  - generic [ref=f7e1854]: 7:30
+                  - generic [ref=f7e1855]: 7분 30초
+                  - text: Sometimes I don't need to read the whole book or go through a whole course to learn one specific thing. So AI lets me skip to the most relevant parts. I
+              - button "7분 39초 actually made a whole video about this around self-educating with AI and I'll link it up at the end so that you can just dive in there if you really want to" [ref=f7e1857] [cursor=pointer]:
+                - generic [ref=f7e1860]:
+                  - generic [ref=f7e1861]: 7:39
+                  - generic [ref=f7e1862]: 7분 39초
+                  - text: actually made a whole video about this around self-educating with AI and I'll link it up at the end so that you can just dive in there if you really want to
+              - button "7분 46초 take this on turbo drive. Now, here are the tools that I love, and this is as of today. They may change in the future, but on a daily basis, I'm using a tool called Notebook LM. It's made by Google." [ref=f7e1864] [cursor=pointer]:
+                - generic [ref=f7e1867]:
+                  - generic [ref=f7e1868]: 7:46
+                  - generic [ref=f7e1869]: 7분 46초
+                  - text: take this on turbo drive. Now, here are the tools that I love, and this is as of today. They may change in the future, but on a daily basis, I'm using a tool called Notebook LM. It's made by Google.
+              - button "7분 56초 It's absolutely free. What is special about it is that you can actually search a topic you want to learn. It'll find the best resources cuz Google has three" [ref=f7e1871] [cursor=pointer]:
+                - generic [ref=f7e1874]:
+                  - generic [ref=f7e1875]: 7:56
+                  - generic [ref=f7e1876]: 7분 56초
+                  - text: It's absolutely free. What is special about it is that you can actually search a topic you want to learn. It'll find the best resources cuz Google has three
+              - button "8분 5초 times as much access to information, to PDFs, to websites, to YouTube, the number one teacher in the world. And then it'll create a special AI where I" [ref=f7e1878] [cursor=pointer]:
+                - generic [ref=f7e1881]:
+                  - generic [ref=f7e1882]: 8:05
+                  - generic [ref=f7e1883]: 8분 5초
+                  - text: times as much access to information, to PDFs, to websites, to YouTube, the number one teacher in the world. And then it'll create a special AI where I
+              - button "8분 14초 can chat with it about the topic. and then even special formats and outputs, things like a podcast where I can listen to it. I can even call in and ask" [ref=f7e1885] [cursor=pointer]:
+                - generic [ref=f7e1888]:
+                  - generic [ref=f7e1889]: 8:14
+                  - generic [ref=f7e1890]: 8분 14초
+                  - text: can chat with it about the topic. and then even special formats and outputs, things like a podcast where I can listen to it. I can even call in and ask
+              - button "8분 22초 questions to this AI voice. It'll create presentations. It'll even create a video overview of the topic that I just searched for. And even if you want to" [ref=f7e1892] [cursor=pointer]:
+                - generic [ref=f7e1895]:
+                  - generic [ref=f7e1896]: 8:22
+                  - generic [ref=f7e1897]: 8분 22초
+                  - text: questions to this AI voice. It'll create presentations. It'll even create a video overview of the topic that I just searched for. And even if you want to
+              - button "8분 31초 test yourself on a topic like AI, it'll make a quiz like flashcards and stuff so you can see how well you actually know a topic. I'm not making this stuff up. Try" [ref=f7e1899] [cursor=pointer]:
+                - generic [ref=f7e1902]:
+                  - generic [ref=f7e1903]: 8:31
+                  - generic [ref=f7e1904]: 8분 31초
+                  - text: test yourself on a topic like AI, it'll make a quiz like flashcards and stuff so you can see how well you actually know a topic. I'm not making this stuff up. Try
+              - button "8분 39초 it out for yourself. Notebook Alam, it's crazy. And that's how I use AI to learn." [ref=f7e1906] [cursor=pointer]:
+                - generic [ref=f7e1909]:
+                  - generic [ref=f7e1910]: 8:39
+                  - generic [ref=f7e1911]: 8분 39초
+                  - text: it out for yourself. Notebook Alam, it's crazy. And that's how I use AI to learn.
+              - button "8분 44초 Let's go to the next one question. I want to use AI to help me create five-year goals, but I don't know where to start. H, this is a good one." [ref=f7e1913] [cursor=pointer]:
+                - generic [ref=f7e1916]:
+                  - generic [ref=f7e1917]: 8:44
+                  - generic [ref=f7e1918]: 8분 44초
+                  - text: Let's go to the next one question. I want to use AI to help me create five-year goals, but I don't know where to start. H, this is a good one.
+              - button "8분 55초 We can't hit a target we can't see. Most people have goals that are very vague. I want to make more money. I want to get" [ref=f7e1920] [cursor=pointer]:
+                - generic [ref=f7e1923]:
+                  - generic [ref=f7e1924]: 8:55
+                  - generic [ref=f7e1925]: 8분 55초
+                  - text: We can't hit a target we can't see. Most people have goals that are very vague. I want to make more money. I want to get
+              - button "9분 2초 healthier. I want to grow a family. All these things lack specificity. AI is really good at taking things that are very vague and turning them to very" [ref=f7e1927] [cursor=pointer]:
+                - generic [ref=f7e1930]:
+                  - generic [ref=f7e1931]: 9:02
+                  - generic [ref=f7e1932]: 9분 2초
+                  - text: healthier. I want to grow a family. All these things lack specificity. AI is really good at taking things that are very vague and turning them to very
+              - button "9분 11초 tactical outputs that you can actually learn from. Here's how I do it. First off, I ask it to help me define five-year goals and to be very specific." [ref=f7e1934] [cursor=pointer]:
+                - generic [ref=f7e1937]:
+                  - generic [ref=f7e1938]: 9:11
+                  - generic [ref=f7e1939]: 9분 11초
+                  - text: tactical outputs that you can actually learn from. Here's how I do it. First off, I ask it to help me define five-year goals and to be very specific.
+              - button "9분 20초 What are called smart goals, specific, measurable, attainable, realistic, and timely. So, you can even use that acronym when you're asking it, and it'll give you the output that maps to that." [ref=f7e1941] [cursor=pointer]:
+                - generic [ref=f7e1944]:
+                  - generic [ref=f7e1945]: 9:20
+                  - generic [ref=f7e1946]: 9분 20초
+                  - text: What are called smart goals, specific, measurable, attainable, realistic, and timely. So, you can even use that acronym when you're asking it, and it'll give you the output that maps to that.
+              - button "9분 28초 Second, answer its questions out loud using any tool that can record your voice because it's a lot faster than typing. So, I use Whisper Flow. Then," [ref=f7e1948] [cursor=pointer]:
+                - generic [ref=f7e1951]:
+                  - generic [ref=f7e1952]: 9:28
+                  - generic [ref=f7e1953]: 9분 28초
+                  - text: Second, answer its questions out loud using any tool that can record your voice because it's a lot faster than typing. So, I use Whisper Flow. Then,
+              - button "9분 36초 next, we need to make it visual because our brains think in pictures, not words." [ref=f7e1955] [cursor=pointer]:
+                - generic [ref=f7e1958]:
+                  - generic [ref=f7e1959]: 9:36
+                  - generic [ref=f7e1960]: 9분 36초
+                  - text: next, we need to make it visual because our brains think in pictures, not words.
+              - button "9분 42초 So, here's the prompt to do that. Ask it to describe your life in the way it looks. When you hit that goal, tell it, \"Tell me about the sights, the sounds," [ref=f7e1962] [cursor=pointer]:
+                - generic [ref=f7e1965]:
+                  - generic [ref=f7e1966]: 9:42
+                  - generic [ref=f7e1967]: 9분 42초
+                  - text: So, here's the prompt to do that. Ask it to describe your life in the way it looks. When you hit that goal, tell it, "Tell me about the sights, the sounds,
+              - button "9분 50초 the details, the feelings, and then turn that into a hyperrealistic image, also known as a vision board.\" Here's a pro" [ref=f7e1969] [cursor=pointer]:
+                - generic [ref=f7e1972]:
+                  - generic [ref=f7e1973]: 9:50
+                  - generic [ref=f7e1974]: 9분 50초
+                  - text: the details, the feelings, and then turn that into a hyperrealistic image, also known as a vision board." Here's a pro
+              - button "9분 58초 tip. Ask it to take that image and redo it into a 9x6 aspect ratio, essentially a vertical image, cuz that's the size of" [ref=f7e1976] [cursor=pointer]:
+                - generic [ref=f7e1979]:
+                  - generic [ref=f7e1980]: 9:58
+                  - generic [ref=f7e1981]: 9분 58초
+                  - text: tip. Ask it to take that image and redo it into a 9x6 aspect ratio, essentially a vertical image, cuz that's the size of
+              - button "10분 5초 the wallpaper on your phone. And then you're looking at your goals five years from now, a hundred times a day. I personally have always had a vision" [ref=f7e1983] [cursor=pointer]:
+                - generic [ref=f7e1986]:
+                  - generic [ref=f7e1987]: 10:05
+                  - generic [ref=f7e1988]: 10분 5초
+                  - text: the wallpaper on your phone. And then you're looking at your goals five years from now, a hundred times a day. I personally have always had a vision
+              - button "10분 13초 board for my goals and I always update it and I'm using AI more and more to help me make it crystal clear what it looks like. Now, the best tools for this, I've been using Chad GBT image 2." [ref=f7e1990] [cursor=pointer]:
+                - generic [ref=f7e1993]:
+                  - generic [ref=f7e1994]: 10:13
+                  - generic [ref=f7e1995]: 10분 13초
+                  - text: board for my goals and I always update it and I'm using AI more and more to help me make it crystal clear what it looks like. Now, the best tools for this, I've been using Chad GBT image 2.
+              - button "10분 23초 That's new as of right now. That's my favorite one because it's also free if you use Chad GBT. You can also use Nano Banana from Google. That's used inside" [ref=f7e1997] [cursor=pointer]:
+                - generic [ref=f7e2000]:
+                  - generic [ref=f7e2001]: 10:23
+                  - generic [ref=f7e2002]: 10분 23초
+                  - text: That's new as of right now. That's my favorite one because it's also free if you use Chad GBT. You can also use Nano Banana from Google. That's used inside
+              - button "10분 31초 the Gemini AI platform. So, you can use that. But those two as of today are the best for creating images based on the prompts I just gave you. All right, next one." [ref=f7e2004] [cursor=pointer]:
+                - generic [ref=f7e2007]:
+                  - generic [ref=f7e2008]: 10:31
+                  - generic [ref=f7e2009]: 10분 31초
+                  - text: the Gemini AI platform. So, you can use that. But those two as of today are the best for creating images based on the prompts I just gave you. All right, next one.
+              - button "10분 45초 How can I use AI to help me stick to my goals? I believe that willpower breaks." [ref=f7e2011] [cursor=pointer]:
+                - generic [ref=f7e2014]:
+                  - generic [ref=f7e2015]: 10:45
+                  - generic [ref=f7e2016]: 10분 45초
+                  - text: How can I use AI to help me stick to my goals? I believe that willpower breaks.
+              - button "10분 50초 Systems don't. What we need to do is ask ourselves what are the systems we can put in our place to make our goals inevitable. And one of the big ideas is" [ref=f7e2018] [cursor=pointer]:
+                - generic [ref=f7e2021]:
+                  - generic [ref=f7e2022]: 10:50
+                  - generic [ref=f7e2023]: 10분 50초
+                  - text: Systems don't. What we need to do is ask ourselves what are the systems we can put in our place to make our goals inevitable. And one of the big ideas is
+              - button "10분 59초 that we need to see the progress so that we can feel the momentum. So we can get excited about the potential of hitting" [ref=f7e2025] [cursor=pointer]:
+                - generic [ref=f7e2028]:
+                  - generic [ref=f7e2029]: 10:59
+                  - generic [ref=f7e2030]: 10분 59초
+                  - text: that we need to see the progress so that we can feel the momentum. So we can get excited about the potential of hitting
+              - button "11분 5초 our goals. This is where AI can really give you an advantage if you know how to use it. First thing we have to do is we have to give the AI our goals. Once it" [ref=f7e2032] [cursor=pointer]:
+                - generic [ref=f7e2035]:
+                  - generic [ref=f7e2036]: 11:05
+                  - generic [ref=f7e2037]: 11분 5초
+                  - text: our goals. This is where AI can really give you an advantage if you know how to use it. First thing we have to do is we have to give the AI our goals. Once it
+              - button "11분 14초 knows what we want to achieve, step two is to have it build a written plan. ask it to break it down into the specific" [ref=f7e2039] [cursor=pointer]:
+                - generic [ref=f7e2042]:
+                  - generic [ref=f7e2043]: 11:14
+                  - generic [ref=f7e2044]: 11분 14초
+                  - text: knows what we want to achieve, step two is to have it build a written plan. ask it to break it down into the specific
+              - button "11분 22초 timelines that you would need to follow and the things you'd have to do to achieve those goals. Then we're going to do something a little geeky where we're" [ref=f7e2046] [cursor=pointer]:
+                - generic [ref=f7e2049]:
+                  - generic [ref=f7e2050]: 11:22
+                  - generic [ref=f7e2051]: 11분 22초
+                  - text: timelines that you would need to follow and the things you'd have to do to achieve those goals. Then we're going to do something a little geeky where we're
+              - button "11분 29초 going to ask the AI to create us a daily dashboard of here's the goal. I want to weigh this or I want to make this much money. It'll give us the activities, the" [ref=f7e2053] [cursor=pointer]:
+                - generic [ref=f7e2056]:
+                  - generic [ref=f7e2057]: 11:29
+                  - generic [ref=f7e2058]: 11분 29초
+                  - text: going to ask the AI to create us a daily dashboard of here's the goal. I want to weigh this or I want to make this much money. It'll give us the activities, the
+              - button "11분 37초 tasks we have to do on a daily basis and we're going to enter in the number of the things we have to do on a daily basis that would high probability lead" [ref=f7e2060] [cursor=pointer]:
+                - generic [ref=f7e2063]:
+                  - generic [ref=f7e2064]: 11:37
+                  - generic [ref=f7e2065]: 11분 37초
+                  - text: tasks we have to do on a daily basis and we're going to enter in the number of the things we have to do on a daily basis that would high probability lead
+              - button "11분 45초 to that outcome. And if you want to make it visual, you could set whatever the goal is. It'll calculate where you're at based on how much time's left. And I like to do if I'm below 10%, I'm red." [ref=f7e2067] [cursor=pointer]:
+                - generic [ref=f7e2070]:
+                  - generic [ref=f7e2071]: 11:45
+                  - generic [ref=f7e2072]: 11분 45초
+                  - text: to that outcome. And if you want to make it visual, you could set whatever the goal is. It'll calculate where you're at based on how much time's left. And I like to do if I'm below 10%, I'm red.
+              - button "11분 56초 I'm not on track. If I'm within 10% of the activity it needs to see me do, I'm yellow. And if I'm on track, it's green." [ref=f7e2074] [cursor=pointer]:
+                - generic [ref=f7e2077]:
+                  - generic [ref=f7e2078]: 11:56
+                  - generic [ref=f7e2079]: 11분 56초
+                  - text: I'm not on track. If I'm within 10% of the activity it needs to see me do, I'm yellow. And if I'm on track, it's green.
+              - button "12분 2초 If you want a pro tip, we can ask it to turn it into a mobile app on your phone." [ref=f7e2081] [cursor=pointer]:
+                - generic [ref=f7e2084]:
+                  - generic [ref=f7e2085]: 12:02
+                  - generic [ref=f7e2086]: 12분 2초
+                  - text: If you want a pro tip, we can ask it to turn it into a mobile app on your phone.
+              - button "12분 7초 Now, this is advanced. You're going to have to learn how to build it, but you can tell it to do that. And you can either build a web page you save to your phone and you can ask it how to install" [ref=f7e2088] [cursor=pointer]:
+                - generic [ref=f7e2091]:
+                  - generic [ref=f7e2092]: 12:07
+                  - generic [ref=f7e2093]: 12분 7초
+                  - text: Now, this is advanced. You're going to have to learn how to build it, but you can tell it to do that. And you can either build a web page you save to your phone and you can ask it how to install
+              - button "12분 15초 that or you can actually build a real mobile app. So the specific AI tools that I use today I like to use codeex." [ref=f7e2095] [cursor=pointer]:
+                - generic [ref=f7e2098]:
+                  - generic [ref=f7e2099]: 12:15
+                  - generic [ref=f7e2100]: 12분 15초
+                  - text: that or you can actually build a real mobile app. So the specific AI tools that I use today I like to use codeex.
+              - button "12분 23초 Codeex is something I still have a login for. It's built by Chad GBT. It's really good at coding. It's really good at visuals. It's really good at like math." [ref=f7e2102] [cursor=pointer]:
+                - generic [ref=f7e2105]:
+                  - generic [ref=f7e2106]: 12:23
+                  - generic [ref=f7e2107]: 12분 23초
+                  - text: Codeex is something I still have a login for. It's built by Chad GBT. It's really good at coding. It's really good at visuals. It's really good at like math.
+              - button "12분 31초 And this kind of like break things down into activities is really good for it." [ref=f7e2109] [cursor=pointer]:
+                - generic [ref=f7e2112]:
+                  - generic [ref=f7e2113]: 12:31
+                  - generic [ref=f7e2114]: 12분 31초
+                  - text: And this kind of like break things down into activities is really good for it.
+              - button "12분 35초 If the information is ugly and confusing, nobody's going to do it every day. But if you make it pretty and gify it and make it really visually appealing, you'll be in there every day." [ref=f7e2116] [cursor=pointer]:
+                - generic [ref=f7e2119]:
+                  - generic [ref=f7e2120]: 12:35
+                  - generic [ref=f7e2121]: 12분 35초
+                  - text: If the information is ugly and confusing, nobody's going to do it every day. But if you make it pretty and gify it and make it really visually appealing, you'll be in there every day.
+              - button "12분 44초 Next up, can AI plan my calendar around my goals?" [ref=f7e2123] [cursor=pointer]:
+                - generic [ref=f7e2126]:
+                  - generic [ref=f7e2127]: 12:44
+                  - generic [ref=f7e2128]: 12분 44초
+                  - text: Next up, can AI plan my calendar around my goals?
+              - button "12분 50초 Oo wee. That's a good one. I don't believe our goals are things that we want. Our goals are the byproduct of where we spend our time. And a great way" [ref=f7e2130] [cursor=pointer]:
+                - generic [ref=f7e2133]:
+                  - generic [ref=f7e2134]: 12:50
+                  - generic [ref=f7e2135]: 12분 50초
+                  - text: Oo wee. That's a good one. I don't believe our goals are things that we want. Our goals are the byproduct of where we spend our time. And a great way
+              - button "12분 59초 to track what I honestly do with my time is to use my calendar. That's why for me, everything in my life is in my" [ref=f7e2137] [cursor=pointer]:
+                - generic [ref=f7e2140]:
+                  - generic [ref=f7e2141]: 12:59
+                  - generic [ref=f7e2142]: 12분 59초
+                  - text: to track what I honestly do with my time is to use my calendar. That's why for me, everything in my life is in my
+              - button "13분 6초 calendar because then I can use it to audit what I've been up to. So if my goals don't materialize, then I can ask myself what needs to change in my calendar to make sure the goals happen." [ref=f7e2144] [cursor=pointer]:
+                - generic [ref=f7e2147]:
+                  - generic [ref=f7e2148]: 13:06
+                  - generic [ref=f7e2149]: 13분 6초
+                  - text: calendar because then I can use it to audit what I've been up to. So if my goals don't materialize, then I can ask myself what needs to change in my calendar to make sure the goals happen.
+              - button "13분 16초 Most founders probably have about 10 hours a week in their calendar for things that they really don't need to be doing that they need to move around so that they can move their life forward." [ref=f7e2151] [cursor=pointer]:
+                - generic [ref=f7e2154]:
+                  - generic [ref=f7e2155]: 13:16
+                  - generic [ref=f7e2156]: 13분 16초
+                  - text: Most founders probably have about 10 hours a week in their calendar for things that they really don't need to be doing that they need to move around so that they can move their life forward.
+              - button "13분 25초 Here's my recommendation. First off, connect your calendar to your AI. It is so cool to watch it analyze everything" [ref=f7e2158] [cursor=pointer]:
+                - generic [ref=f7e2161]:
+                  - generic [ref=f7e2162]: 13:25
+                  - generic [ref=f7e2163]: 13분 25초
+                  - text: Here's my recommendation. First off, connect your calendar to your AI. It is so cool to watch it analyze everything
+              - button "13분 33초 you've been up to. Second, give it your goals for this quarter. Then we have to tell it using my goals. Look at my calendar like you're a ruthless mentor." [ref=f7e2165] [cursor=pointer]:
+                - generic [ref=f7e2168]:
+                  - generic [ref=f7e2169]: 13:33
+                  - generic [ref=f7e2170]: 13분 33초
+                  - text: you've been up to. Second, give it your goals for this quarter. Then we have to tell it using my goals. Look at my calendar like you're a ruthless mentor.
+              - button "13분 43초 Don't worry to hurt my feelings. And also argue with me where I need to restructure my time and tell me why, but what's best for my goals, not what I" [ref=f7e2172] [cursor=pointer]:
+                - generic [ref=f7e2175]:
+                  - generic [ref=f7e2176]: 13:43
+                  - generic [ref=f7e2177]: 13분 43초
+                  - text: Don't worry to hurt my feelings. And also argue with me where I need to restructure my time and tell me why, but what's best for my goals, not what I
+              - button "13분 52초 want right now. Now, the key is it does need the data in your calendar and it needs to know what your goals are. So, those are things you might have to get before you can run this prompt. And" [ref=f7e2179] [cursor=pointer]:
+                - generic [ref=f7e2182]:
+                  - generic [ref=f7e2183]: 13:52
+                  - generic [ref=f7e2184]: 13분 52초
+                  - text: want right now. Now, the key is it does need the data in your calendar and it needs to know what your goals are. So, those are things you might have to get before you can run this prompt. And
+              - button "14분 these are the AI tools that I use to make this happen. I'm a big fan of Claude because of the connector tool. So, I ask it to connect to my calendar." [ref=f7e2186] [cursor=pointer]:
+                - generic [ref=f7e2189]:
+                  - generic [ref=f7e2190]: 14:00
+                  - generic [ref=f7e2191]: 14분
+                  - text: these are the AI tools that I use to make this happen. I'm a big fan of Claude because of the connector tool. So, I ask it to connect to my calendar.
+              - button "14분 6초 It also has a really good memory system, so it knows my goals cuz I've already given it to it through my master prompt strategy. And it doesn't just look at my" [ref=f7e2193] [cursor=pointer]:
+                - generic [ref=f7e2196]:
+                  - generic [ref=f7e2197]: 14:06
+                  - generic [ref=f7e2198]: 14분 6초
+                  - text: It also has a really good memory system, so it knows my goals cuz I've already given it to it through my master prompt strategy. And it doesn't just look at my
+              - button "14분 14초 schedule, it tells me what's wrong with it. And that's what I love the most about it is it'll say like, \"Hey, you're spending a lot of time here, but you have this goal and you have this person" [ref=f7e2200] [cursor=pointer]:
+                - generic [ref=f7e2203]:
+                  - generic [ref=f7e2204]: 14:14
+                  - generic [ref=f7e2205]: 14분 14초
+                  - text: schedule, it tells me what's wrong with it. And that's what I love the most about it is it'll say like, "Hey, you're spending a lot of time here, but you have this goal and you have this person
+              - button "14분 21초 on your team. maybe you should ask them to take over this meeting so that you can go and add this to make sure that this is getting done. And look, if you're a business owner and you're like," [ref=f7e2207] [cursor=pointer]:
+                - generic [ref=f7e2210]:
+                  - generic [ref=f7e2211]: 14:21
+                  - generic [ref=f7e2212]: 14분 21초
+                  - text: on your team. maybe you should ask them to take over this meeting so that you can go and add this to make sure that this is getting done. And look, if you're a business owner and you're like,
+              - button "14분 30초 \"How do I get my team to learn this?\" I actually put together a full playbook on how I integrate AI into every department within my company. And if you go to" [ref=f7e2214] [cursor=pointer]:
+                - generic [ref=f7e2217]:
+                  - generic [ref=f7e2218]: 14:30
+                  - generic [ref=f7e2219]: 14분 30초
+                  - text: "\"How do I get my team to learn this?\" I actually put together a full playbook on how I integrate AI into every department within my company. And if you go to"
+              - button "14분 37초 Instagram and follow me and then DM me the word AI business, I'll send it over to you for free. On to the next one." [ref=f7e2221] [cursor=pointer]:
+                - generic [ref=f7e2224]:
+                  - generic [ref=f7e2225]: 14:37
+                  - generic [ref=f7e2226]: 14분 37초
+                  - text: Instagram and follow me and then DM me the word AI business, I'll send it over to you for free. On to the next one.
+              - button "14분 44초 [snorts] Pow. [gasps] How do I get AI to write emails that actually sound like me? Hm. When you're using AI for your" [ref=f7e2228] [cursor=pointer]:
+                - generic [ref=f7e2231]:
+                  - generic [ref=f7e2232]: 14:44
+                  - generic [ref=f7e2233]: 14분 44초
+                  - text: "[snorts] Pow. [gasps] How do I get AI to write emails that actually sound like me? Hm. When you're using AI for your"
+              - button "14분 52초 emails, they know, you know, and it's these m dashes and all this stuff. Look, we're going to fix that right now. First thing you have to do is connect your" [ref=f7e2235] [cursor=pointer]:
+                - generic [ref=f7e2238]:
+                  - generic [ref=f7e2239]: 14:52
+                  - generic [ref=f7e2240]: 14분 52초
+                  - text: emails, they know, you know, and it's these m dashes and all this stuff. Look, we're going to fix that right now. First thing you have to do is connect your
+              - button "14분 59초 email, maybe Gmail or Outlook to your AI tool. Second, ask it to go through your emails, analyze it, and write a document" [ref=f7e2242] [cursor=pointer]:
+                - generic [ref=f7e2245]:
+                  - generic [ref=f7e2246]: 14:59
+                  - generic [ref=f7e2247]: 14분 59초
+                  - text: email, maybe Gmail or Outlook to your AI tool. Second, ask it to go through your emails, analyze it, and write a document
+              - button "15분 9초 to teach other AIs to write emails just like you. You might write completely different to your boss than you do to your friends. it can actually understand" [ref=f7e2249] [cursor=pointer]:
+                - generic [ref=f7e2252]:
+                  - generic [ref=f7e2253]: 15:09
+                  - generic [ref=f7e2254]: 15분 9초
+                  - text: to teach other AIs to write emails just like you. You might write completely different to your boss than you do to your friends. it can actually understand
+              - button "15분 17초 the difference, then have it create this document, right? Essentially a tone document or a skill. It'll know how to create this guide and write it for you." [ref=f7e2256] [cursor=pointer]:
+                - generic [ref=f7e2259]:
+                  - generic [ref=f7e2260]: 15:17
+                  - generic [ref=f7e2261]: 15분 17초
+                  - text: the difference, then have it create this document, right? Essentially a tone document or a skill. It'll know how to create this guide and write it for you.
+              - button "15분 26초 Now, here's how we do it. I use Claude AI because the latest model is really good. And then because I use it for connecting my Gmail, I just have it go" [ref=f7e2263] [cursor=pointer]:
+                - generic [ref=f7e2266]:
+                  - generic [ref=f7e2267]: 15:26
+                  - generic [ref=f7e2268]: 15분 26초
+                  - text: Now, here's how we do it. I use Claude AI because the latest model is really good. And then because I use it for connecting my Gmail, I just have it go
+              - button "15분 34초 through my Gmail and update that document every time I need it. And like I said before, my email has a lot of sensitive data. So, I'd rather use Enthropic, who built Claude, than other" [ref=f7e2270] [cursor=pointer]:
+                - generic [ref=f7e2273]:
+                  - generic [ref=f7e2274]: 15:34
+                  - generic [ref=f7e2275]: 15분 34초
+                  - text: through my Gmail and update that document every time I need it. And like I said before, my email has a lot of sensitive data. So, I'd rather use Enthropic, who built Claude, than other
+              - button "15분 42초 AI tools. And also Claude for the longest time has been the best copywriter out there. All right, next one. What do we got? How do I get AI to" [ref=f7e2277] [cursor=pointer]:
+                - generic [ref=f7e2280]:
+                  - generic [ref=f7e2281]: 15:42
+                  - generic [ref=f7e2282]: 15분 42초
+                  - text: AI tools. And also Claude for the longest time has been the best copywriter out there. All right, next one. What do we got? How do I get AI to
+              - button "15분 51초 do my repetitive task automatically without me having to ask me every day and tell me how sexy I am? Hm, what an interesting question. I got you. The" [ref=f7e2284] [cursor=pointer]:
+                - generic [ref=f7e2287]:
+                  - generic [ref=f7e2288]: 15:51
+                  - generic [ref=f7e2289]: 15분 51초
+                  - text: do my repetitive task automatically without me having to ask me every day and tell me how sexy I am? Hm, what an interesting question. I got you. The
+              - button "15분 58초 repetitive task is actually where AI shines. So, here's my rule. The moment you catch yourself doing something" [ref=f7e2291] [cursor=pointer]:
+                - generic [ref=f7e2294]:
+                  - generic [ref=f7e2295]: 15:58
+                  - generic [ref=f7e2296]: 15분 58초
+                  - text: repetitive task is actually where AI shines. So, here's my rule. The moment you catch yourself doing something
+              - button "16분 5초 twice, stop. It's called dry. Don't repeat yourself. It's a programming thing. My background is software. It's what I do. If you've done it twice, you" [ref=f7e2298] [cursor=pointer]:
+                - generic [ref=f7e2301]:
+                  - generic [ref=f7e2302]: 16:05
+                  - generic [ref=f7e2303]: 16분 5초
+                  - text: twice, stop. It's called dry. Don't repeat yourself. It's a programming thing. My background is software. It's what I do. If you've done it twice, you
+              - button "16분 14초 can set up with automation and then you'll never have to do it ever again." [ref=f7e2305] [cursor=pointer]:
+                - generic [ref=f7e2308]:
+                  - generic [ref=f7e2309]: 16:14
+                  - generic [ref=f7e2310]: 16분 14초
+                  - text: can set up with automation and then you'll never have to do it ever again.
+              - button "16분 17초 Here's what we need to do. We got to take the thing that we do repeatedly." [ref=f7e2312] [cursor=pointer]:
+                - generic [ref=f7e2315]:
+                  - generic [ref=f7e2316]: 16:17
+                  - generic [ref=f7e2317]: 16분 17초
+                  - text: Here's what we need to do. We got to take the thing that we do repeatedly.
+              - button "16분 20초 Like if it's a oneoff and you got to do it like once, who cares? But if you're doing it every week, every day, huge opportunity for using AI. Second, I like" [ref=f7e2319] [cursor=pointer]:
+                - generic [ref=f7e2322]:
+                  - generic [ref=f7e2323]: 16:20
+                  - generic [ref=f7e2324]: 16분 20초
+                  - text: Like if it's a oneoff and you got to do it like once, who cares? But if you're doing it every week, every day, huge opportunity for using AI. Second, I like
+              - button "16분 29초 to record myself doing the thing and talking out loud while I'm doing it. Third, do it once, narrate it as you." [ref=f7e2326] [cursor=pointer]:
+                - generic [ref=f7e2329]:
+                  - generic [ref=f7e2330]: 16:29
+                  - generic [ref=f7e2331]: 16분 29초
+                  - text: to record myself doing the thing and talking out loud while I'm doing it. Third, do it once, narrate it as you.
+              - button "16분 37초 Fourth, then ask the AI to turn that recording into a skill. This is an AI specific thing. It's called an AI skill." [ref=f7e2333] [cursor=pointer]:
+                - generic [ref=f7e2336]:
+                  - generic [ref=f7e2337]: 16:37
+                  - generic [ref=f7e2338]: 16분 37초
+                  - text: Fourth, then ask the AI to turn that recording into a skill. This is an AI specific thing. It's called an AI skill.
+              - button "16분 44초 And now you set it up to do it on a schedule. Now tools within Chad GBT work. It's got this new feature called" [ref=f7e2340] [cursor=pointer]:
+                - generic [ref=f7e2343]:
+                  - generic [ref=f7e2344]: 16:44
+                  - generic [ref=f7e2345]: 16분 44초
+                  - text: And now you set it up to do it on a schedule. Now tools within Chad GBT work. It's got this new feature called
+              - button "16분 51초 record and replay. Just click the plus icon and just tell it I'm going to record this thing and my goal is to automate this. And then it'll take your" [ref=f7e2347] [cursor=pointer]:
+                - generic [ref=f7e2350]:
+                  - generic [ref=f7e2351]: 16:51
+                  - generic [ref=f7e2352]: 16분 51초
+                  - text: record and replay. Just click the plus icon and just tell it I'm going to record this thing and my goal is to automate this. And then it'll take your
+              - button "16분 58초 screen over. It'll start recording everything you do. And then it'll create a skill. See, other tools are cool. I use Claude and many of the other ones," [ref=f7e2354] [cursor=pointer]:
+                - generic [ref=f7e2357]:
+                  - generic [ref=f7e2358]: 16:58
+                  - generic [ref=f7e2359]: 16분 58초
+                  - text: screen over. It'll start recording everything you do. And then it'll create a skill. See, other tools are cool. I use Claude and many of the other ones,
+              - button "17분 6초 but they take over your whole screen while it's doing the task. You got to sit there and wait for your computer to finish and you're stuck watching all the work. With Chad GBT, they built this to" [ref=f7e2361] [cursor=pointer]:
+                - generic [ref=f7e2364]:
+                  - generic [ref=f7e2365]: 17:06
+                  - generic [ref=f7e2366]: 17분 6초
+                  - text: but they take over your whole screen while it's doing the task. You got to sit there and wait for your computer to finish and you're stuck watching all the work. With Chad GBT, they built this to
+              - button "17분 14초 capture and then do it behind the scenes and save it as a skill so you can set it and forget it. All right, next one. Boom." [ref=f7e2368] [cursor=pointer]:
+                - generic [ref=f7e2371]:
+                  - generic [ref=f7e2372]: 17:14
+                  - generic [ref=f7e2373]: 17분 14초
+                  - text: capture and then do it behind the scenes and save it as a skill so you can set it and forget it. All right, next one. Boom.
+              - button "17분 22초 How do I organize all my notes and ideas when they're all over the place? Ooh, that's a good one. In the past, if I had this mess, I would have to start sitting" [ref=f7e2375] [cursor=pointer]:
+                - generic [ref=f7e2378]:
+                  - generic [ref=f7e2379]: 17:22
+                  - generic [ref=f7e2380]: 17분 22초
+                  - text: How do I organize all my notes and ideas when they're all over the place? Ooh, that's a good one. In the past, if I had this mess, I would have to start sitting
+              - button "17분 30초 there and try to figure out like how to grab stuff from my Google Drive. I'm migrating over to Notion. or maybe I have things in Vimeo like videos that I've created, but I want to move them" [ref=f7e2382] [cursor=pointer]:
+                - generic [ref=f7e2385]:
+                  - generic [ref=f7e2386]: 17:30
+                  - generic [ref=f7e2387]: 17분 30초
+                  - text: there and try to figure out like how to grab stuff from my Google Drive. I'm migrating over to Notion. or maybe I have things in Vimeo like videos that I've created, but I want to move them
+              - button "17분 38초 over to Dropbox. And that would have taken a lot of time. Now, with AI, we can get it to do it automatically. So, here's the tools and the steps that I" [ref=f7e2389] [cursor=pointer]:
+                - generic [ref=f7e2392]:
+                  - generic [ref=f7e2393]: 17:38
+                  - generic [ref=f7e2394]: 17분 38초
+                  - text: over to Dropbox. And that would have taken a lot of time. Now, with AI, we can get it to do it automatically. So, here's the tools and the steps that I
+              - button "17분 46초 use to make it really easy. First off, we got to pick one place where we want to put all this disorganized stuff into." [ref=f7e2396] [cursor=pointer]:
+                - generic [ref=f7e2399]:
+                  - generic [ref=f7e2400]: 17:46
+                  - generic [ref=f7e2401]: 17분 46초
+                  - text: use to make it really easy. First off, we got to pick one place where we want to put all this disorganized stuff into.
+              - button "17분 53초 For a lot of people, they'll call this like a home database or home structure." [ref=f7e2403] [cursor=pointer]:
+                - generic [ref=f7e2406]:
+                  - generic [ref=f7e2407]: 17:53
+                  - generic [ref=f7e2408]: 17분 53초
+                  - text: For a lot of people, they'll call this like a home database or home structure.
+              - button "17분 57초 That becomes the brain behind all these other systems where the AI can now learn from. Second thing is is now when I use" [ref=f7e2410] [cursor=pointer]:
+                - generic [ref=f7e2413]:
+                  - generic [ref=f7e2414]: 17:57
+                  - generic [ref=f7e2415]: 17분 57초
+                  - text: That becomes the brain behind all these other systems where the AI can now learn from. Second thing is is now when I use
+              - button "18분 5초 the other AI tools, I point to that one place. [music] And the third and this is a pro move. If you have an AI agent and" [ref=f7e2417] [cursor=pointer]:
+                - generic [ref=f7e2420]:
+                  - generic [ref=f7e2421]: 18:05
+                  - generic [ref=f7e2422]: 18분 5초
+                  - text: the other AI tools, I point to that one place. [music] And the third and this is a pro move. If you have an AI agent and
+              - button "18분 12초 I use Apex.host or you can use Hermes or OpenClaw, all these different agent platforms, you can ask it not only to add stuff to it, but to organize it and" [ref=f7e2424] [cursor=pointer]:
+                - generic [ref=f7e2427]:
+                  - generic [ref=f7e2428]: 18:12
+                  - generic [ref=f7e2429]: 18분 12초
+                  - text: I use Apex.host or you can use Hermes or OpenClaw, all these different agent platforms, you can ask it not only to add stuff to it, but to organize it and
+              - button "18분 21초 clean it up. Every night I have processes that run, my agent runs to delete files that don't need to happen, to connect things that should be connected, to save things in places so that they're available to other agents." [ref=f7e2431] [cursor=pointer]:
+                - generic [ref=f7e2434]:
+                  - generic [ref=f7e2435]: 18:21
+                  - generic [ref=f7e2436]: 18분 21초
+                  - text: clean it up. Every night I have processes that run, my agent runs to delete files that don't need to happen, to connect things that should be connected, to save things in places so that they're available to other agents.
+              - button "18분 32초 For the tools for saving all this information in different places, the one I use for my personal is Obsidian. The other one to use is Notion. So, my team" [ref=f7e2438] [cursor=pointer]:
+                - generic [ref=f7e2441]:
+                  - generic [ref=f7e2442]: 18:32
+                  - generic [ref=f7e2443]: 18분 32초
+                  - text: For the tools for saving all this information in different places, the one I use for my personal is Obsidian. The other one to use is Notion. So, my team
+              - button "18분 40초 uses Notion for all of our corporate stuff, but then I take that plus everything else and I save it into" [ref=f7e2445] [cursor=pointer]:
+                - generic [ref=f7e2448]:
+                  - generic [ref=f7e2449]: 18:40
+                  - generic [ref=f7e2450]: 18분 40초
+                  - text: uses Notion for all of our corporate stuff, but then I take that plus everything else and I save it into
+              - button "18분 47초 Obsidian. Obsidian sits on my agent machine where he has access to my decisions, to my knowledge, to my relationships, podcast interviews, my" [ref=f7e2452] [cursor=pointer]:
+                - generic [ref=f7e2455]:
+                  - generic [ref=f7e2456]: 18:47
+                  - generic [ref=f7e2457]: 18분 47초
+                  - text: Obsidian. Obsidian sits on my agent machine where he has access to my decisions, to my knowledge, to my relationships, podcast interviews, my
+              - button "18분 55초 conversations with my team, my strategic documents, everything is there. That way, when I talk to it, my AI, it can give me very specific answers. If you're" [ref=f7e2459] [cursor=pointer]:
+                - generic [ref=f7e2462]:
+                  - generic [ref=f7e2463]: 18:55
+                  - generic [ref=f7e2464]: 18분 55초
+                  - text: conversations with my team, my strategic documents, everything is there. That way, when I talk to it, my AI, it can give me very specific answers. If you're
+              - button "19분 4초 a little bit more nerdy, I'd recommend Obsidian. But if you're just starting off, you can go use Notion. It's really easy to get going." [ref=f7e2466] [cursor=pointer]:
+                - generic [ref=f7e2469]:
+                  - generic [ref=f7e2470]: 19:04
+                  - generic [ref=f7e2471]: 19분 4초
+                  - text: a little bit more nerdy, I'd recommend Obsidian. But if you're just starting off, you can go use Notion. It's really easy to get going.
+              - button "19분 12초 Bam." [ref=f7e2473] [cursor=pointer]:
+                - generic [ref=f7e2476]:
+                  - generic [ref=f7e2477]: 19:12
+                  - generic [ref=f7e2478]: 19분 12초
+                  - text: Bam.
+              - button "19분 14초 How do I use AI to keep track of my business finances? Financials is tricky." [ref=f7e2480] [cursor=pointer]:
+                - generic [ref=f7e2483]:
+                  - generic [ref=f7e2484]: 19:14
+                  - generic [ref=f7e2485]: 19분 14초
+                  - text: How do I use AI to keep track of my business finances? Financials is tricky.
+              - button "19분 18초 Why? Information isn't structured properly. Most accounting software doesn't really have a strong AI tool." [ref=f7e2487] [cursor=pointer]:
+                - generic [ref=f7e2490]:
+                  - generic [ref=f7e2491]: 19:18
+                  - generic [ref=f7e2492]: 19분 18초
+                  - text: Why? Information isn't structured properly. Most accounting software doesn't really have a strong AI tool.
+              - button "19분 25초 Most entrepreneurs don't like to track everything and give it to the AI or give it to the tool in general. So, garbage in, garbage out. But, I found some" [ref=f7e2494] [cursor=pointer]:
+                - generic [ref=f7e2497]:
+                  - generic [ref=f7e2498]: 19:25
+                  - generic [ref=f7e2499]: 19분 25초
+                  - text: Most entrepreneurs don't like to track everything and give it to the AI or give it to the tool in general. So, garbage in, garbage out. But, I found some
+              - button "19분 34초 really simple tools and a very simple structure to help you use AI with your financials. And the truth is, if you do this right, you should be able to ask it" [ref=f7e2501] [cursor=pointer]:
+                - generic [ref=f7e2504]:
+                  - generic [ref=f7e2505]: 19:34
+                  - generic [ref=f7e2506]: 19분 34초
+                  - text: really simple tools and a very simple structure to help you use AI with your financials. And the truth is, if you do this right, you should be able to ask it
+              - button "19분 41초 anything about your money, personal and professional, and get an answer on the spot. The first thing is you need to have an AI tool where you can connect all your financials. I'm talking your" [ref=f7e2508] [cursor=pointer]:
+                - generic [ref=f7e2511]:
+                  - generic [ref=f7e2512]: 19:41
+                  - generic [ref=f7e2513]: 19분 41초
+                  - text: anything about your money, personal and professional, and get an answer on the spot. The first thing is you need to have an AI tool where you can connect all your financials. I'm talking your
+              - button "19분 50초 bank statements, payment systems, all of the stuff that you use for your financials should connect to the AI tool. Then once I have it all connected," [ref=f7e2515] [cursor=pointer]:
+                - generic [ref=f7e2518]:
+                  - generic [ref=f7e2519]: 19:50
+                  - generic [ref=f7e2520]: 19분 50초
+                  - text: bank statements, payment systems, all of the stuff that you use for your financials should connect to the AI tool. Then once I have it all connected,
+              - button "19분 58초 then I can ask it question. Do I have enough cash to make this higher? Or what is my current burn rate? Or how many months of inventory do I have? Because it should have access to all that." [ref=f7e2522] [cursor=pointer]:
+                - generic [ref=f7e2525]:
+                  - generic [ref=f7e2526]: 19:58
+                  - generic [ref=f7e2527]: 19분 58초
+                  - text: then I can ask it question. Do I have enough cash to make this higher? Or what is my current burn rate? Or how many months of inventory do I have? Because it should have access to all that.
+              - button "20분 8초 Third, I want to see things in a graph format, spreadsheets, visuals of how things are going in my business. AI has" [ref=f7e2529] [cursor=pointer]:
+                - generic [ref=f7e2532]:
+                  - generic [ref=f7e2533]: 20:08
+                  - generic [ref=f7e2534]: 20분 8초
+                  - text: Third, I want to see things in a graph format, spreadsheets, visuals of how things are going in my business. AI has
+              - button "20분 15초 the power to do that. So now the tools I use and you can build this on your own and it might take you months. It's a lot easier to use something somebody else" [ref=f7e2536] [cursor=pointer]:
+                - generic [ref=f7e2539]:
+                  - generic [ref=f7e2540]: 20:15
+                  - generic [ref=f7e2541]: 20분 15초
+                  - text: the power to do that. So now the tools I use and you can build this on your own and it might take you months. It's a lot easier to use something somebody else
+              - button "20분 23초 built. I like to use a tool called Helloellofrank.ai. Full transparency, this is one of my venture companies, but we built it internally and then brought" [ref=f7e2543] [cursor=pointer]:
+                - generic [ref=f7e2546]:
+                  - generic [ref=f7e2547]: 20:23
+                  - generic [ref=f7e2548]: 20분 23초
+                  - text: built. I like to use a tool called Helloellofrank.ai. Full transparency, this is one of my venture companies, but we built it internally and then brought
+              - button "20분 30초 it publicly because all my friends that saw how we use the AI wanted access to it. It'll essentially act like a full-time CFO that I don't have to spend" [ref=f7e2550] [cursor=pointer]:
+                - generic [ref=f7e2553]:
+                  - generic [ref=f7e2554]: 20:30
+                  - generic [ref=f7e2555]: 20분 30초
+                  - text: it publicly because all my friends that saw how we use the AI wanted access to it. It'll essentially act like a full-time CFO that I don't have to spend
+              - button "20분 38초 10 15 grand a month on. Completely secure, completely safe. It's certified and it connects straight to your bank accounts. My favorite feature is the" [ref=f7e2557] [cursor=pointer]:
+                - generic [ref=f7e2560]:
+                  - generic [ref=f7e2561]: 20:38
+                  - generic [ref=f7e2562]: 20분 38초
+                  - text: 10 15 grand a month on. Completely secure, completely safe. It's certified and it connects straight to your bank accounts. My favorite feature is the
+              - button "20분 46초 daily cash email. Essentially, it takes all the businesses I'm involved in." [ref=f7e2564] [cursor=pointer]:
+                - generic [ref=f7e2567]:
+                  - generic [ref=f7e2568]: 20:46
+                  - generic [ref=f7e2569]: 20분 46초
+                  - text: daily cash email. Essentially, it takes all the businesses I'm involved in.
+              - button "20분 50초 Pulls the cash position of everyone and it tells me how the money is moving within those companies and what I should focus on. In business, speed is the" [ref=f7e2571] [cursor=pointer]:
+                - generic [ref=f7e2574]:
+                  - generic [ref=f7e2575]: 20:50
+                  - generic [ref=f7e2576]: 20분 50초
+                  - text: Pulls the cash position of everyone and it tells me how the money is moving within those companies and what I should focus on. In business, speed is the
+              - button "20분 59초 thing. I want to be able to ask it questions and have it answer in seconds." [ref=f7e2578] [cursor=pointer]:
+                - generic [ref=f7e2581]:
+                  - generic [ref=f7e2582]: 20:59
+                  - generic [ref=f7e2583]: 20분 59초
+                  - text: thing. I want to be able to ask it questions and have it answer in seconds.
+              - button "21분 3초 So, that's the tool I use. If you want to try it, the link is in the description. All right. Next one." [ref=f7e2585] [cursor=pointer]:
+                - generic [ref=f7e2588]:
+                  - generic [ref=f7e2589]: 21:03
+                  - generic [ref=f7e2590]: 21분 3초
+                  - text: So, that's the tool I use. If you want to try it, the link is in the description. All right. Next one.
+              - button "21분 11초 I save a ton of AI tutorials on Instagram but never implement them. What should I do? Oh, are you plagued with shelf where you just collect things?" [ref=f7e2592] [cursor=pointer]:
+                - generic [ref=f7e2595]:
+                  - generic [ref=f7e2596]: 21:11
+                  - generic [ref=f7e2597]: 21분 11초
+                  - text: I save a ton of AI tutorials on Instagram but never implement them. What should I do? Oh, are you plagued with shelf where you just collect things?
+              - button "21분 20초 Someday maybe you would learn them. I'm the same way. I like to save everything on Tik Tok, on Instagram. I have reals saved everywhere thinking someday I'll get a chance to review it and I don't." [ref=f7e2599] [cursor=pointer]:
+                - generic [ref=f7e2602]:
+                  - generic [ref=f7e2603]: 21:20
+                  - generic [ref=f7e2604]: 21분 20초
+                  - text: Someday maybe you would learn them. I'm the same way. I like to save everything on Tik Tok, on Instagram. I have reals saved everywhere thinking someday I'll get a chance to review it and I don't.
+              - button "21분 30초 But it feels really productive and honestly it's just organized procrastination. Here's how I use AI to solve this problem. First, next time you" [ref=f7e2606] [cursor=pointer]:
+                - generic [ref=f7e2609]:
+                  - generic [ref=f7e2610]: 21:30
+                  - generic [ref=f7e2611]: 21분 30초
+                  - text: But it feels really productive and honestly it's just organized procrastination. Here's how I use AI to solve this problem. First, next time you
+              - button "21분 37초 see one, just grab the link. Second, take that link, paste it into an AI and ask it, is this useful for me. It knows your goals. It knows what you're up to." [ref=f7e2613] [cursor=pointer]:
+                - generic [ref=f7e2616]:
+                  - generic [ref=f7e2617]: 21:37
+                  - generic [ref=f7e2618]: 21분 37초
+                  - text: see one, just grab the link. Second, take that link, paste it into an AI and ask it, is this useful for me. It knows your goals. It knows what you're up to.
+              - button "21분 47초 It knows your calendar. It knows what systems you've built so far. Just ask it. If so, apply it wherever you see necessary. And the third thing, and this" [ref=f7e2620] [cursor=pointer]:
+                - generic [ref=f7e2623]:
+                  - generic [ref=f7e2624]: 21:47
+                  - generic [ref=f7e2625]: 21분 47초
+                  - text: It knows your calendar. It knows what systems you've built so far. Just ask it. If so, apply it wherever you see necessary. And the third thing, and this
+              - button "21분 55초 is a pro move, is you can automate this whole process based on like asking it if it's useful and if it is to implement it and just call it like Instagram" [ref=f7e2627] [cursor=pointer]:
+                - generic [ref=f7e2630]:
+                  - generic [ref=f7e2631]: 21:55
+                  - generic [ref=f7e2632]: 21분 55초
+                  - text: is a pro move, is you can automate this whole process based on like asking it if it's useful and if it is to implement it and just call it like Instagram
+              - button "22분 2초 ingestion. And then that skill within your AI tool will run that every time it sees an Instagram link or a Tik Tok link. So you don't have to reexlain" [ref=f7e2634] [cursor=pointer]:
+                - generic [ref=f7e2637]:
+                  - generic [ref=f7e2638]: 22:02
+                  - generic [ref=f7e2639]: 22분 2초
+                  - text: ingestion. And then that skill within your AI tool will run that every time it sees an Instagram link or a Tik Tok link. So you don't have to reexlain
+              - button "22분 10초 yourself every time. Now my favorite tool for doing this is my own platform called Apex.host. It's my AI agent. And" [ref=f7e2641] [cursor=pointer]:
+                - generic [ref=f7e2644]:
+                  - generic [ref=f7e2645]: 22:10
+                  - generic [ref=f7e2646]: 22분 10초
+                  - text: yourself every time. Now my favorite tool for doing this is my own platform called Apex.host. It's my AI agent. And
+              - button "22분 18초 the reason why I use Apex because I want my Apex system called Kai to know everything going on in my life. So that's where I give it the links even" [ref=f7e2648] [cursor=pointer]:
+                - generic [ref=f7e2651]:
+                  - generic [ref=f7e2652]: 22:18
+                  - generic [ref=f7e2653]: 22분 18초
+                  - text: the reason why I use Apex because I want my Apex system called Kai to know everything going on in my life. So that's where I give it the links even
+              - button "22분 25초 though I might then go use a different system to implement. He's like my genius sidekick that knows everything about my life. Next one." [ref=f7e2655] [cursor=pointer]:
+                - generic [ref=f7e2658]:
+                  - generic [ref=f7e2659]: 22:25
+                  - generic [ref=f7e2660]: 22분 25초
+                  - text: though I might then go use a different system to implement. He's like my genius sidekick that knows everything about my life. Next one.
+              - button "22분 36초 What's the best AI assistant out there?" [ref=f7e2662] [cursor=pointer]:
+                - generic [ref=f7e2665]:
+                  - generic [ref=f7e2666]: 22:36
+                  - generic [ref=f7e2667]: 22분 36초
+                  - text: What's the best AI assistant out there?
+              - button "22분 38초 Oo, that's a good one. As the guy who wrote the book on training an assistant, buy back your time. The AI version is way funner. They don't sleep. They don't" [ref=f7e2669] [cursor=pointer]:
+                - generic [ref=f7e2672]:
+                  - generic [ref=f7e2673]: 22:38
+                  - generic [ref=f7e2674]: 22분 38초
+                  - text: Oo, that's a good one. As the guy who wrote the book on training an assistant, buy back your time. The AI version is way funner. They don't sleep. They don't
+              - button "22분 46초 take vacations. They don't complain. You don't have to swap them out. So, everybody wants to build this AI assistant these days. So, I'm going to teach you exactly how to do that. First off, you have to get all of the APIs." [ref=f7e2676] [cursor=pointer]:
+                - generic [ref=f7e2679]:
+                  - generic [ref=f7e2680]: 22:46
+                  - generic [ref=f7e2681]: 22분 46초
+                  - text: take vacations. They don't complain. You don't have to swap them out. So, everybody wants to build this AI assistant these days. So, I'm going to teach you exactly how to do that. First off, you have to get all of the APIs.
+              - button "22분 56초 So, all the different systems, and you got to connect them to your AI. Then we have to set up an AI harness, an agent" [ref=f7e2683] [cursor=pointer]:
+                - generic [ref=f7e2686]:
+                  - generic [ref=f7e2687]: 22:56
+                  - generic [ref=f7e2688]: 22분 56초
+                  - text: So, all the different systems, and you got to connect them to your AI. Then we have to set up an AI harness, an agent
+              - button "23분 3초 to keep them all running so that it can monitor my calendar, monitor my email, look at what people are sending me on Slack and truly be an assistant. Then we" [ref=f7e2690] [cursor=pointer]:
+                - generic [ref=f7e2693]:
+                  - generic [ref=f7e2694]: 23:03
+                  - generic [ref=f7e2695]: 23분 3초
+                  - text: to keep them all running so that it can monitor my calendar, monitor my email, look at what people are sending me on Slack and truly be an assistant. Then we
+              - button "23분 12초 have to create an identity. Essentially, our AI agent, our assistant needs an identity that tells it how it should behave, the rules it should use," [ref=f7e2697] [cursor=pointer]:
+                - generic [ref=f7e2700]:
+                  - generic [ref=f7e2701]: 23:12
+                  - generic [ref=f7e2702]: 23분 12초
+                  - text: have to create an identity. Essentially, our AI agent, our assistant needs an identity that tells it how it should behave, the rules it should use,
+              - button "23분 20초 security parameters so that we don't lose our information. Now, if this all sounds a little overwhelming for you, this is the exact reason why I built" [ref=f7e2704] [cursor=pointer]:
+                - generic [ref=f7e2707]:
+                  - generic [ref=f7e2708]: 23:20
+                  - generic [ref=f7e2709]: 23분 20초
+                  - text: security parameters so that we don't lose our information. Now, if this all sounds a little overwhelming for you, this is the exact reason why I built
+              - button "23분 28초 with my team two separate tools to get this out of the box for them without having to configure and manage all the security and the complexity of doing it" [ref=f7e2711] [cursor=pointer]:
+                - generic [ref=f7e2714]:
+                  - generic [ref=f7e2715]: 23:28
+                  - generic [ref=f7e2716]: 23분 28초
+                  - text: with my team two separate tools to get this out of the box for them without having to configure and manage all the security and the complexity of doing it
+              - button "23분 36초 themselves. The first one, if you're a CEO and you're leading a big team and your problem is clarity, you want visibility, you want information, you" [ref=f7e2718] [cursor=pointer]:
+                - generic [ref=f7e2721]:
+                  - generic [ref=f7e2722]: 23:36
+                  - generic [ref=f7e2723]: 23분 36초
+                  - text: themselves. The first one, if you're a CEO and you're leading a big team and your problem is clarity, you want visibility, you want information, you
+              - button "23분 43초 want to understand how everything works and you want it to help you, what I call singleplayer mode, that's apex.host." [ref=f7e2725] [cursor=pointer]:
+                - generic [ref=f7e2728]:
+                  - generic [ref=f7e2729]: 23:43
+                  - generic [ref=f7e2730]: 23분 43초
+                  - text: want to understand how everything works and you want it to help you, what I call singleplayer mode, that's apex.host.
+              - button "23분 50초 That is like my Kai and my Kai knows everything. I might ask it about my marketing campaigns. I might ask it about my calendar, personal tasks, my" [ref=f7e2732] [cursor=pointer]:
+                - generic [ref=f7e2735]:
+                  - generic [ref=f7e2736]: 23:50
+                  - generic [ref=f7e2737]: 23분 50초
+                  - text: That is like my Kai and my Kai knows everything. I might ask it about my marketing campaigns. I might ask it about my calendar, personal tasks, my
+              - button "23분 59초 goals, my projects. I might ask it to go investigate things. I even have it call team members to get updates on projects." [ref=f7e2739] [cursor=pointer]:
+                - generic [ref=f7e2742]:
+                  - generic [ref=f7e2743]: 23:59
+                  - generic [ref=f7e2744]: 23분 59초
+                  - text: goals, my projects. I might ask it to go investigate things. I even have it call team members to get updates on projects.
+              - button "24분 5초 It is an AI power chief of staff, an AI assistant, and it is wildly powerful." [ref=f7e2746] [cursor=pointer]:
+                - generic [ref=f7e2749]:
+                  - generic [ref=f7e2750]: 24:05
+                  - generic [ref=f7e2751]: 24분 5초
+                  - text: It is an AI power chief of staff, an AI assistant, and it is wildly powerful.
+              - button "24분 11초 Now, if you need a power up for your team, I call this multiplayer mode." [ref=f7e2753] [cursor=pointer]:
+                - generic [ref=f7e2756]:
+                  - generic [ref=f7e2757]: 24:11
+                  - generic [ref=f7e2758]: 24분 11초
+                  - text: Now, if you need a power up for your team, I call this multiplayer mode.
+              - button "24분 16초 That's where you want to look into a tool like precision. Precision is an AI powered tool for your team that has full access to all the company data. It" [ref=f7e2760] [cursor=pointer]:
+                - generic [ref=f7e2763]:
+                  - generic [ref=f7e2764]: 24:16
+                  - generic [ref=f7e2765]: 24분 16초
+                  - text: That's where you want to look into a tool like precision. Precision is an AI powered tool for your team that has full access to all the company data. It
+              - button "24분 24초 integrates it. It correlates it. It cleans it up. It creates what's called a source of truth on top of your data. It allows them to create dashboards," [ref=f7e2767] [cursor=pointer]:
+                - generic [ref=f7e2770]:
+                  - generic [ref=f7e2771]: 24:24
+                  - generic [ref=f7e2772]: 24분 24초
+                  - text: integrates it. It correlates it. It cleans it up. It creates what's called a source of truth on top of your data. It allows them to create dashboards,
+              - button "24분 32초 scoreboards, execute tasks, integrate it into Slack. It is powerful. Full transparency on both. These are my" [ref=f7e2774] [cursor=pointer]:
+                - generic [ref=f7e2777]:
+                  - generic [ref=f7e2778]: 24:32
+                  - generic [ref=f7e2779]: 24분 32초
+                  - text: scoreboards, execute tasks, integrate it into Slack. It is powerful. Full transparency on both. These are my
+              - button "24분 39초 companies, but I use both every single day. Precision to run my companies. Apex for me. All right. Next one. [sighs]" [ref=f7e2781] [cursor=pointer]:
+                - generic [ref=f7e2784]:
+                  - generic [ref=f7e2785]: 24:39
+                  - generic [ref=f7e2786]: 24분 39초
+                  - text: companies, but I use both every single day. Precision to run my companies. Apex for me. All right. Next one. [sighs]
+              - button "24분 49초 I get error messages all the time when writing code and I have no idea what they mean. How do I fix them? The big idea is we have to show the problem to" [ref=f7e2788] [cursor=pointer]:
+                - generic [ref=f7e2791]:
+                  - generic [ref=f7e2792]: 24:49
+                  - generic [ref=f7e2793]: 24분 49초
+                  - text: I get error messages all the time when writing code and I have no idea what they mean. How do I fix them? The big idea is we have to show the problem to
+              - button "24분 58초 the AI. If the AI knows what the problem is, it can actually solve it. Here's what we do. First, we have to show the AI what the problem is. Sometimes you're" [ref=f7e2795] [cursor=pointer]:
+                - generic [ref=f7e2798]:
+                  - generic [ref=f7e2799]: 24:58
+                  - generic [ref=f7e2800]: 24분 58초
+                  - text: the AI. If the AI knows what the problem is, it can actually solve it. Here's what we do. First, we have to show the AI what the problem is. Sometimes you're
+              - button "25분 6초 writing an app and there's an error, but you don't know what it is. So sometimes I'll ask the code to create an error log that's visible when I'm developing so I" [ref=f7e2802] [cursor=pointer]:
+                - generic [ref=f7e2805]:
+                  - generic [ref=f7e2806]: 25:06
+                  - generic [ref=f7e2807]: 25분 6초
+                  - text: writing an app and there's an error, but you don't know what it is. So sometimes I'll ask the code to create an error log that's visible when I'm developing so I
+              - button "25분 14초 can screenshot exactly what the error is. You can just say to your code create an error window that I can screenshot to tell you what I'm seeing when it's" [ref=f7e2809] [cursor=pointer]:
+                - generic [ref=f7e2812]:
+                  - generic [ref=f7e2813]: 25:14
+                  - generic [ref=f7e2814]: 25분 14초
+                  - text: can screenshot exactly what the error is. You can just say to your code create an error window that I can screenshot to tell you what I'm seeing when it's
+              - button "25분 22초 broken. Second thing is we have to give it to the AI. So all you do is you take a screenshot of the error message and you feed it back to the AI and say fix" [ref=f7e2816] [cursor=pointer]:
+                - generic [ref=f7e2819]:
+                  - generic [ref=f7e2820]: 25:22
+                  - generic [ref=f7e2821]: 25분 22초
+                  - text: broken. Second thing is we have to give it to the AI. So all you do is you take a screenshot of the error message and you feed it back to the AI and say fix
+              - button "25분 30초 it. The tools I like to use is on most computers you can hit the key combo to take a screenshot and then I just drag that image in. for code. Lately, I've" [ref=f7e2823] [cursor=pointer]:
+                - generic [ref=f7e2826]:
+                  - generic [ref=f7e2827]: 25:30
+                  - generic [ref=f7e2828]: 25분 30초
+                  - text: it. The tools I like to use is on most computers you can hit the key combo to take a screenshot and then I just drag that image in. for code. Lately, I've
+              - button "25분 38초 been using a lot of Cloud Code and that's one I probably use most of the time. And look, I'm a bit of a geek. So, sometimes if Claude isn't doing what I need it to do, I'll screenshot the whole" [ref=f7e2830] [cursor=pointer]:
+                - generic [ref=f7e2833]:
+                  - generic [ref=f7e2834]: 25:38
+                  - generic [ref=f7e2835]: 25분 38초
+                  - text: been using a lot of Cloud Code and that's one I probably use most of the time. And look, I'm a bit of a geek. So, sometimes if Claude isn't doing what I need it to do, I'll screenshot the whole
+              - button "25분 46초 project and then I'll go to Grock Build or Codeex, which is Chad GBTS, and ask it to see if it can come up with better answers to fix problems. That way, I've" [ref=f7e2837] [cursor=pointer]:
+                - generic [ref=f7e2840]:
+                  - generic [ref=f7e2841]: 25:46
+                  - generic [ref=f7e2842]: 25분 46초
+                  - text: project and then I'll go to Grock Build or Codeex, which is Chad GBTS, and ask it to see if it can come up with better answers to fix problems. That way, I've
+              - button "25분 55초 got two different AI models trying to fix each other to get the best outcome." [ref=f7e2844] [cursor=pointer]:
+                - generic [ref=f7e2847]:
+                  - generic [ref=f7e2848]: 25:55
+                  - generic [ref=f7e2849]: 25분 55초
+                  - text: got two different AI models trying to fix each other to get the best outcome.
+              - button "25분 59초 So, that was a lot, but if you're here, that means you're committed to learning." [ref=f7e2851] [cursor=pointer]:
+                - generic [ref=f7e2854]:
+                  - generic [ref=f7e2855]: 25:59
+                  - generic [ref=f7e2856]: 25분 59초
+                  - text: So, that was a lot, but if you're here, that means you're committed to learning.
+              - button "26분 3초 Tools will change. Trust me, you come back in 90 days, I might have a different list for you, but that is what I'm using today. But the truth is, the" [ref=f7e2858] [cursor=pointer]:
+                - generic [ref=f7e2861]:
+                  - generic [ref=f7e2862]: 26:03
+                  - generic [ref=f7e2863]: 26분 3초
+                  - text: Tools will change. Trust me, you come back in 90 days, I might have a different list for you, but that is what I'm using today. But the truth is, the
+              - button "26분 10초 principles will never change. Most people just watch and do nothing with it. I guarantee you're here because you actually want to get better at it. So," [ref=f7e2865] [cursor=pointer]:
+                - generic [ref=f7e2868]:
+                  - generic [ref=f7e2869]: 26:10
+                  - generic [ref=f7e2870]: 26분 10초
+                  - text: principles will never change. Most people just watch and do nothing with it. I guarantee you're here because you actually want to get better at it. So,
+              - button "26분 18초 all I'm going to ask you is to pick one of these tools that I mentioned, one of these paths to improve your life using AI, and implement it today. And to get a" [ref=f7e2872] [cursor=pointer]:
+                - generic [ref=f7e2875]:
+                  - generic [ref=f7e2876]: 26:18
+                  - generic [ref=f7e2877]: 26분 18초
+                  - text: all I'm going to ask you is to pick one of these tools that I mentioned, one of these paths to improve your life using AI, and implement it today. And to get a
+              - button "26분 27초 level of commitment from you, I need you to write a comment and let me know what are you going to use AI to solve for you" [ref=f7e2879] [cursor=pointer]:
+                - generic [ref=f7e2882]:
+                  - generic [ref=f7e2883]: 26:27
+                  - generic [ref=f7e2884]: 26분 27초
+                  - text: level of commitment from you, I need you to write a comment and let me know what are you going to use AI to solve for you
+        - generic [ref=f7e488]:
+          - generic [ref=f7e493]:
+            - generic [ref=f7e494] [cursor=pointer]
+            - generic [ref=f7e497]:
+              - generic [ref=f7e498] [cursor=pointer]:
+                - generic [ref=f7e499]:
+                  - link "How To Implement Agentic AI" [ref=f7e502]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWKq7BUKMavf9IJqwrPEP34fm8AvCwa3oiAGHlL-6gxWxkB8QASAAYMmOxo30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAZWJzYUDqAMEyAMKqgTeAk_Qoxuk9V8Jd-SxW3STWRv6F1eyPWG0PPrAohEFi7MAvPGF6M9qZWVoYDBx4q_vP0Y8NEapPLKkv4PcfEk9Ch5i0UTwyUoZcpeW8uLEMjGN8YiY7sJ0-l0uVtQtKSS1wTV4WNdpM7Qgm0ScJmUh48vfe5bOpLWHkuad6jHmv-dKa01hm-oemgaBWETWAafsySGeWD29KkInXCYAewm5Q_noBGm0jB1GACtJWnKoohHgh7Cil5ieeih8bNWXhLFiI-zlN-Nfn9l9ui4Nxf-XFvzXFHuhHW-ks1tRQTD-sjniTxFJLTfZ0-RDeQrljNOQQUT38uY0-hNEFg3rrF9LE99HlSDHue0JH4ANVhCNkX-ZHiVWdK4cX5nsmnt3BHTVh4FpRRoNQnoFQRNiqqtjsHpkcjRu3E6rXhZW7dqnjfGb09qHo9342q4iXZJK_45rAQ9kuTKmDaG5qAcuY8J3iAW0t6bFVpIFCQgTaAJ47PTANqAGboAHhKPfNZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB-fasQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiw4qPTqrmWA2AB8ggfY2EteXQtaG9zdC1wdWItNzMwMDQ0MTIzMzU5NDcxOZoJQmh0dHBzOi8vd3d3LnNub3dmbGFrZS5jb20vcmVzb3VyY2UvYS1wcmFjdGljYWwtZ3VpZGUtdG8tYWktYWdlbnRzL7EJ7Q2BnfjJ9LPICQDICYoCmAsBoQtEjgw5MmpkM7oLPQgBEAUYBCAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAZoNARKqDQJVU8gNAdINogJodHRwczovL3d3dy5zbm93Zmxha2UuY29tL3Jlc291cmNlL2EtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cy8_dXRtX3NvdXJjZT1nZGEmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj1uYS11cy1lbi1wcm9zLWRpc3BsYXktZ2RhLWV2Zy1hdWRpZW5jZS1sb29rLWRzY2kmdXRtX2NvbnRlbnQ9Z2RhLWRnaW1hZ2UtZXZnLWViLWEtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cyZ1dG1fdGVybT1jLS0tNzgyNTg3NTA3ODY0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzIzMDc4MjM4OLgT____________AbAUAcAVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRd9_84efS_Y6LoXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIt5Sk06q5lgMVGhgrCB3fgxm-EAEYASAAEgLnuvD_BwE&num=1&cid=CAASqwHkaDvYVHXWv1x2kGEiQrJDt9bsnTqZfWqD4zVk40eUndzx3KH_H2Vg149MZwBRnDo3QKCBoe1IUr03Na87dx_uRuCAbohxiCrm2rNKhYorDa29eJ8bfFAU3bBAoklgqEkcE9a1UXuXSQU0SsS37eBe5jhTv95gYsaMMOijxMu1FLLZYWnzHOZ0iDo_4u7s71j4lFEUDJ2rzSNyNyDYuce533duZo4xwMzj0Aw&sig=AOD64_1LjPvf5gT2dLF_CcKCA2ghn_0Lrg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "A Guide to Understanding Agentic AI and Defining an ROI Framework." [ref=f7e505]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWKq7BUKMavf9IJqwrPEP34fm8AvCwa3oiAGHlL-6gxWxkB8QASAAYMmOxo30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAZWJzYUDqAMEyAMKqgTeAk_Qoxuk9V8Jd-SxW3STWRv6F1eyPWG0PPrAohEFi7MAvPGF6M9qZWVoYDBx4q_vP0Y8NEapPLKkv4PcfEk9Ch5i0UTwyUoZcpeW8uLEMjGN8YiY7sJ0-l0uVtQtKSS1wTV4WNdpM7Qgm0ScJmUh48vfe5bOpLWHkuad6jHmv-dKa01hm-oemgaBWETWAafsySGeWD29KkInXCYAewm5Q_noBGm0jB1GACtJWnKoohHgh7Cil5ieeih8bNWXhLFiI-zlN-Nfn9l9ui4Nxf-XFvzXFHuhHW-ks1tRQTD-sjniTxFJLTfZ0-RDeQrljNOQQUT38uY0-hNEFg3rrF9LE99HlSDHue0JH4ANVhCNkX-ZHiVWdK4cX5nsmnt3BHTVh4FpRRoNQnoFQRNiqqtjsHpkcjRu3E6rXhZW7dqnjfGb09qHo9342q4iXZJK_45rAQ9kuTKmDaG5qAcuY8J3iAW0t6bFVpIFCQgTaAJ47PTANqAGboAHhKPfNZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB-fasQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiw4qPTqrmWA2AB8ggfY2EteXQtaG9zdC1wdWItNzMwMDQ0MTIzMzU5NDcxOZoJQmh0dHBzOi8vd3d3LnNub3dmbGFrZS5jb20vcmVzb3VyY2UvYS1wcmFjdGljYWwtZ3VpZGUtdG8tYWktYWdlbnRzL7EJ7Q2BnfjJ9LPICQDICYoCmAsBoQtEjgw5MmpkM7oLPQgBEAUYBCAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAZoNARKqDQJVU8gNAdINogJodHRwczovL3d3dy5zbm93Zmxha2UuY29tL3Jlc291cmNlL2EtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cy8_dXRtX3NvdXJjZT1nZGEmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj1uYS11cy1lbi1wcm9zLWRpc3BsYXktZ2RhLWV2Zy1hdWRpZW5jZS1sb29rLWRzY2kmdXRtX2NvbnRlbnQ9Z2RhLWRnaW1hZ2UtZXZnLWViLWEtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cyZ1dG1fdGVybT1jLS0tNzgyNTg3NTA3ODY0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzIzMDc4MjM4OLgT____________AbAUAcAVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRd9_84efS_Y6LoXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIt5Sk06q5lgMVGhgrCB3fgxm-EAEYASAAEgLnuvD_BwE&num=1&cid=CAASqwHkaDvYVHXWv1x2kGEiQrJDt9bsnTqZfWqD4zVk40eUndzx3KH_H2Vg149MZwBRnDo3QKCBoe1IUr03Na87dx_uRuCAbohxiCrm2rNKhYorDa29eJ8bfFAU3bBAoklgqEkcE9a1UXuXSQU0SsS37eBe5jhTv95gYsaMMOijxMu1FLLZYWnzHOZ0iDo_4u7s71j4lFEUDJ2rzSNyNyDYuce533duZo4xwMzj0Aw&sig=AOD64_1LjPvf5gT2dLF_CcKCA2ghn_0Lrg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=f7e506]:
+                    - generic [ref=f7e508]:
+                      - generic [ref=f7e509]: 스폰서
+                      - text: ·
+                    - generic [ref=f7e510]: Snowflake
+                - button "내 광고 센터" [ref=f7e514]
+              - link "Download" [ref=f7e519] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWKq7BUKMavf9IJqwrPEP34fm8AvCwa3oiAGHlL-6gxWxkB8QASAAYMmOxo30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAZWJzYUDqAMEyAMKqgTeAk_Qoxuk9V8Jd-SxW3STWRv6F1eyPWG0PPrAohEFi7MAvPGF6M9qZWVoYDBx4q_vP0Y8NEapPLKkv4PcfEk9Ch5i0UTwyUoZcpeW8uLEMjGN8YiY7sJ0-l0uVtQtKSS1wTV4WNdpM7Qgm0ScJmUh48vfe5bOpLWHkuad6jHmv-dKa01hm-oemgaBWETWAafsySGeWD29KkInXCYAewm5Q_noBGm0jB1GACtJWnKoohHgh7Cil5ieeih8bNWXhLFiI-zlN-Nfn9l9ui4Nxf-XFvzXFHuhHW-ks1tRQTD-sjniTxFJLTfZ0-RDeQrljNOQQUT38uY0-hNEFg3rrF9LE99HlSDHue0JH4ANVhCNkX-ZHiVWdK4cX5nsmnt3BHTVh4FpRRoNQnoFQRNiqqtjsHpkcjRu3E6rXhZW7dqnjfGb09qHo9342q4iXZJK_45rAQ9kuTKmDaG5qAcuY8J3iAW0t6bFVpIFCQgTaAJ47PTANqAGboAHhKPfNZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB-fasQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiw4qPTqrmWA2AB8ggfY2EteXQtaG9zdC1wdWItNzMwMDQ0MTIzMzU5NDcxOZoJQmh0dHBzOi8vd3d3LnNub3dmbGFrZS5jb20vcmVzb3VyY2UvYS1wcmFjdGljYWwtZ3VpZGUtdG8tYWktYWdlbnRzL7EJ7Q2BnfjJ9LPICQDICYoCmAsBoQtEjgw5MmpkM7oLPQgBEAUYBCAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAZoNARKqDQJVU8gNAdINogJodHRwczovL3d3dy5zbm93Zmxha2UuY29tL3Jlc291cmNlL2EtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cy8_dXRtX3NvdXJjZT1nZGEmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj1uYS11cy1lbi1wcm9zLWRpc3BsYXktZ2RhLWV2Zy1hdWRpZW5jZS1sb29rLWRzY2kmdXRtX2NvbnRlbnQ9Z2RhLWRnaW1hZ2UtZXZnLWViLWEtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cyZ1dG1fdGVybT1jLS0tNzgyNTg3NTA3ODY0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzIzMDc4MjM4OLgT____________AbAUAcAVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRd9_84efS_Y6LoXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIt5Sk06q5lgMVGhgrCB3fgxm-EAEYASAAEgLnuvD_BwE&num=1&cid=CAASqwHkaDvYVHXWv1x2kGEiQrJDt9bsnTqZfWqD4zVk40eUndzx3KH_H2Vg149MZwBRnDo3QKCBoe1IUr03Na87dx_uRuCAbohxiCrm2rNKhYorDa29eJ8bfFAU3bBAoklgqEkcE9a1UXuXSQU0SsS37eBe5jhTv95gYsaMMOijxMu1FLLZYWnzHOZ0iDo_4u7s71j4lFEUDJ2rzSNyNyDYuce533duZo4xwMzj0Aw&sig=AOD64_1LjPvf5gT2dLF_CcKCA2ghn_0Lrg&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+          - generic [ref=f7e524] [cursor=pointer]:
+            - link [ref=f7e525]:
+              - /url: /watch?v=UkoosAsEA8w&pp=ugUEEgJlbg%3D%3D
+              - generic [ref=f7e526]: 35:35
+            - generic [ref=f7e534]:
+              - generic [ref=f7e535]:
+                - 'heading "[한영자막] 보리스 체르니: Claude Code는 이렇게 만들어졌다" [level=3] [ref=f7e536]':
+                  - 'link "[한영자막] 보리스 체르니: Claude Code는 이렇게 만들어졌다 35분" [ref=f7e537]':
+                    - /url: /watch?v=UkoosAsEA8w&pp=ugUEEgJlbg%3D%3D
+                    - text: "[한영자막] 보리스 체르니: Claude Code는 이렇게 만들어졌다"
+                - generic [ref=f7e539]:
+                  - group [ref=f7e540]:
+                    - generic [ref=f7e541]: Tech Bridge
+                  - group [ref=f7e542]:
+                    - generic "조회수 1.6만회" [ref=f7e546]: 1.6만
+                    - generic "3주 전" [ref=f7e547]
+              - button "추가 작업" [ref=f7e550]
+          - generic [ref=f7e555] [cursor=pointer]:
+            - link [ref=f7e556]:
+              - /url: /watch?v=vbqR91k-mVg
+              - generic [ref=f7e557]: 19:09
+            - generic [ref=f7e565]:
+              - generic [ref=f7e566]:
+                - heading "클로드(Claude) 사용법 A to Z｜가입부터 업무 활용법까지 20분 총정리!" [level=3] [ref=f7e567]:
+                  - link "클로드(Claude) 사용법 A to Z｜가입부터 업무 활용법까지 20분 총정리! 19분" [ref=f7e568]:
+                    - /url: /watch?v=vbqR91k-mVg
+                    - text: 클로드(Claude) 사용법 A to Z｜가입부터 업무 활용법까지 20분 총정리!
+                - generic [ref=f7e570]:
+                  - group [ref=f7e571]:
+                    - generic [ref=f7e572]: 온선 [온라인 선생님]
+                  - group [ref=f7e578]:
+                    - generic "조회수 15만회" [ref=f7e582]: 15만
+                    - generic "4주 전" [ref=f7e583]
+              - button "추가 작업" [ref=f7e586]
+          - generic [ref=f7e591] [cursor=pointer]:
+            - link [ref=f7e592]:
+              - /url: /watch?v=IyJNc5vpN1Q
+              - generic [ref=f7e593]: 56:40
+            - generic [ref=f7e601]:
+              - generic [ref=f7e602]:
+                - heading "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다" [level=3] [ref=f7e603]:
+                  - link "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다 56분" [ref=f7e604]:
+                    - /url: /watch?v=IyJNc5vpN1Q
+                    - text: "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다"
+                - generic [ref=f7e606]:
+                  - group [ref=f7e607]:
+                    - generic [ref=f7e608]: Tech Bridge
+                  - group [ref=f7e609]:
+                    - generic "조회수 2.7천회" [ref=f7e613]: 2.7천
+                    - generic "3일 전" [ref=f7e614]
+                  - group [ref=f7e615]:
+                    - generic [ref=f7e616]: 새 동영상
+              - button "추가 작업" [ref=f7e622]
+          - generic [ref=f7e627] [cursor=pointer]:
+            - link [ref=f7e628]:
+              - /url: /watch?v=JOpF8yrE1t8
+              - generic [ref=f7e629]: 23:27
+            - generic [ref=f7e637]:
+              - generic [ref=f7e638]:
+                - heading "\"AI한테 질문하지 마세요.\" 앞으로 5년, 가장 빨리 사라질 직원ㅣ지식인초대석 EP.132 (김대식 X 김혜연)" [level=3] [ref=f7e639]:
+                  - link "\"AI한테 질문하지 마세요.\" 앞으로 5년, 가장 빨리 사라질 직원ㅣ지식인초대석 EP.132 (김대식 X 김혜연) 23분" [ref=f7e640]:
+                    - /url: /watch?v=JOpF8yrE1t8
+                    - text: "\"AI한테 질문하지 마세요.\" 앞으로 5년, 가장 빨리 사라질 직원ㅣ지식인초대석 EP.132 (김대식 X 김혜연)"
+                - generic [ref=f7e642]:
+                  - group [ref=f7e643]:
+                    - generic [ref=f7e644]: 지식인사이드
+                  - group [ref=f7e650]:
+                    - generic "조회수 80만회" [ref=f7e654]: 80만
+                    - generic "3개월 전" [ref=f7e655]
+              - button "추가 작업" [ref=f7e658]
+          - generic [ref=f7e663] [cursor=pointer]:
+            - link [ref=f7e664]:
+              - /url: /watch?v=zv0gHwKQT8M&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f7e665]: 50:58
+            - generic [ref=f7e673]:
+              - generic [ref=f7e674]:
+                - heading "AI 영상 제작, 이 두개면 다 됩니다 | 클로드 + 힉스필드 MCP 13가지 실전 활용법 (최신 가이드)" [level=3] [ref=f7e675]:
+                  - link "AI 영상 제작, 이 두개면 다 됩니다 | 클로드 + 힉스필드 MCP 13가지 실전 활용법 (최신 가이드) 50분" [ref=f7e676]:
+                    - /url: /watch?v=zv0gHwKQT8M&pp=ugUEEgJrbw%3D%3D
+                    - text: AI 영상 제작, 이 두개면 다 됩니다 | 클로드 + 힉스필드 MCP 13가지 실전 활용법 (최신 가이드)
+                - generic [ref=f7e678]:
+                  - group [ref=f7e679]:
+                    - generic [ref=f7e680]: 오빠두엑셀 l 엑셀 강의 대표채널
+                  - group [ref=f7e686]:
+                    - generic "조회수 7.8만회" [ref=f7e690]: 7.8만
+                    - generic "3주 전" [ref=f7e691]
+              - button "추가 작업" [ref=f7e694]
+          - generic [ref=f7e699] [cursor=pointer]:
+            - link [ref=f7e700]:
+              - /url: /watch?v=yMRr9QFsmgk
+              - generic [ref=f7e701]: 38:05
+            - generic [ref=f7e709]:
+              - generic [ref=f7e710]:
+                - heading "\"한국인만 몰라서 못해요\" 전세계 1위 부업으로 통장에 100억 모은 미친 92년생 재택 부업" [level=3] [ref=f7e711]:
+                  - link "\"한국인만 몰라서 못해요\" 전세계 1위 부업으로 통장에 100억 모은 미친 92년생 재택 부업 38분" [ref=f7e712]:
+                    - /url: /watch?v=yMRr9QFsmgk
+                    - text: "\"한국인만 몰라서 못해요\" 전세계 1위 부업으로 통장에 100억 모은 미친 92년생 재택 부업"
+                - generic [ref=f7e714]:
+                  - group [ref=f7e715]:
+                    - generic [ref=f7e716]: 배움에 끝은없다
+                  - group [ref=f7e717]:
+                    - generic "조회수 78만회" [ref=f7e721]: 78만
+                    - generic "11일 전" [ref=f7e722]
+              - button "추가 작업" [ref=f7e725]
+          - generic [ref=f7e730] [cursor=pointer]:
+            - link [ref=f7e731]:
+              - /url: /watch?v=c88oWQfeo3Q
+              - generic [ref=f7e732]: 42:22
+            - generic [ref=f7e740]:
+              - generic [ref=f7e741]:
+                - heading "한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역)" [level=3] [ref=f7e742]:
+                  - link "한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역) 42분" [ref=f7e743]:
+                    - /url: /watch?v=c88oWQfeo3Q
+                    - text: 한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역)
+                - generic [ref=f7e745]:
+                  - group [ref=f7e746]:
+                    - generic [ref=f7e747]: BZCF | 비즈까페
+                  - group [ref=f7e748]:
+                    - generic "조회수 35만회" [ref=f7e752]: 35만
+                    - generic "2개월 전" [ref=f7e753]
+              - button "추가 작업" [ref=f7e756]
+          - generic [ref=f7e761] [cursor=pointer]:
+            - link [ref=f7e762]:
+              - /url: /watch?v=5QqAnN6vKZk
+              - generic [ref=f7e763]: 17:41
+            - generic [ref=f7e771]:
+              - generic [ref=f7e772]:
+                - heading "\"공부하지 마세요\" 타일러가 말하는 AI 시대 생존법" [level=3] [ref=f7e773]:
+                  - link "\"공부하지 마세요\" 타일러가 말하는 AI 시대 생존법 17분" [ref=f7e774]:
+                    - /url: /watch?v=5QqAnN6vKZk
+                    - text: "\"공부하지 마세요\" 타일러가 말하는 AI 시대 생존법"
+                - generic [ref=f7e776]:
+                  - group [ref=f7e777]:
+                    - generic [ref=f7e778]: 원빅월드쇼 | One Big World Show | 1BWS
+                  - group [ref=f7e779]:
+                    - generic "조회수 18만회" [ref=f7e783]: 18만
+                    - generic "4개월 전" [ref=f7e784]
+              - button "추가 작업" [ref=f7e787]
+          - generic [ref=f7e792] [cursor=pointer]:
+            - link [ref=f7e793]:
+              - /url: /watch?v=QWYnZG7LfEs
+              - generic [ref=f7e794]: 37:27
+            - generic [ref=f7e802]:
+              - generic [ref=f7e803]:
+                - heading "99% 모르는 AI로 주식수익 극대화 하는 법ㅣ대외비 EP.29" [level=3] [ref=f7e804]:
+                  - link "99% 모르는 AI로 주식수익 극대화 하는 법ㅣ대외비 EP.29 37분" [ref=f7e805]:
+                    - /url: /watch?v=QWYnZG7LfEs
+                    - text: 99% 모르는 AI로 주식수익 극대화 하는 법ㅣ대외비 EP.29
+                - generic [ref=f7e807]:
+                  - group [ref=f7e808]:
+                    - generic [ref=f7e809]: 지식인사이드
+                  - group [ref=f7e815]:
+                    - generic "조회수 44만회" [ref=f7e819]: 44만
+                    - generic "4주 전" [ref=f7e820]
+              - button "추가 작업" [ref=f7e823]
+          - generic [ref=f7e828] [cursor=pointer]:
+            - link [ref=f7e829]:
+              - /url: /watch?v=63mY_cNhVIM
+              - generic [ref=f7e830]: 15:45
+            - generic [ref=f7e838]:
+              - generic [ref=f7e839]:
+                - heading "40대 60대도 당장 클로드를 배워야 하는 이유" [level=3] [ref=f7e840]:
+                  - link "40대 60대도 당장 클로드를 배워야 하는 이유 15분" [ref=f7e841]:
+                    - /url: /watch?v=63mY_cNhVIM
+                    - text: 40대 60대도 당장 클로드를 배워야 하는 이유
+                - generic [ref=f7e843]:
+                  - group [ref=f7e844]:
+                    - generic [ref=f7e845]: 누나IT
+                  - group [ref=f7e851]:
+                    - generic "조회수 19만회" [ref=f7e855]: 19만
+                    - generic "2주 전" [ref=f7e856]
+              - button "추가 작업" [ref=f7e859]
+          - generic [ref=f7e864] [cursor=pointer]:
+            - link [ref=f7e865]:
+              - /url: /watch?v=VVWxx9vHOG8&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f7e866]: 11:30
+            - generic [ref=f7e874]:
+              - generic [ref=f7e875]:
+                - heading "클로드로 업무 생산성 20배 올리는 제일 쉬운 방법 | 80%는 모르고 있는 클로드의 미친 기능" [level=3] [ref=f7e876]:
+                  - link "클로드로 업무 생산성 20배 올리는 제일 쉬운 방법 | 80%는 모르고 있는 클로드의 미친 기능 11분 30초" [ref=f7e877]:
+                    - /url: /watch?v=VVWxx9vHOG8&pp=ugUEEgJrbw%3D%3D
+                    - text: 클로드로 업무 생산성 20배 올리는 제일 쉬운 방법 | 80%는 모르고 있는 클로드의 미친 기능
+                - generic [ref=f7e879]:
+                  - group [ref=f7e880]:
+                    - generic [ref=f7e881]: 로사장
+                  - group [ref=f7e882]:
+                    - generic "조회수 40만회" [ref=f7e886]: 40만
+                    - generic "4개월 전" [ref=f7e887]
+                  - group [ref=f7e888]:
+                    - generic [ref=f7e889]: 자동 더빙
+              - button "추가 작업" [ref=f7e898]
+          - generic [ref=f7e903] [cursor=pointer]:
+            - link [ref=f7e904]:
+              - /url: /watch?v=jHbNYb6Eg_s&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f7e905]: 23:18
+            - generic [ref=f7e913]:
+              - generic [ref=f7e914]:
+                - heading "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC)" [level=3] [ref=f7e915]:
+                  - link "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC) 23분" [ref=f7e916]:
+                    - /url: /watch?v=jHbNYb6Eg_s&pp=ugUEEgJrbw%3D%3D
+                    - text: "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC)"
+                - generic [ref=f7e918]:
+                  - group [ref=f7e919]:
+                    - generic [ref=f7e920]: 서울대학교 Seoul National University
+                  - group [ref=f7e926]:
+                    - generic "조회수 25만회" [ref=f7e930]: 25만
+                    - generic "3주 전" [ref=f7e931]
+              - button "추가 작업" [ref=f7e934]
+          - generic [ref=f7e939] [cursor=pointer]:
+            - link [ref=f7e940]:
+              - /url: /watch?v=ugCzGuccJ2g
+              - generic [ref=f7e941]: 16:59
+            - generic [ref=f7e949]:
+              - generic [ref=f7e950]:
+                - heading "\"대부분 이걸 모릅니다\" 상위 0 1%만 알고있는 챗GPT 제미나이 활용법 | Ep. 책과사람 79 (김덕진 소장 2부)" [level=3] [ref=f7e951]:
+                  - link "\"대부분 이걸 모릅니다\" 상위 0 1%만 알고있는 챗GPT 제미나이 활용법 | Ep. 책과사람 79 (김덕진 소장 2부) 16분" [ref=f7e952]:
+                    - /url: /watch?v=ugCzGuccJ2g
+                    - text: "\"대부분 이걸 모릅니다\" 상위 0 1%만 알고있는 챗GPT 제미나이 활용법 | Ep. 책과사람 79 (김덕진 소장 2부)"
+                - generic [ref=f7e954]:
+                  - group [ref=f7e955]:
+                    - generic [ref=f7e956]: 책과삶
+                  - group [ref=f7e962]:
+                    - generic "조회수 71만회" [ref=f7e966]: 71만
+                    - generic "3개월 전" [ref=f7e967]
+              - button "추가 작업" [ref=f7e970]
+          - generic [ref=f7e975] [cursor=pointer]:
+            - link [ref=f7e976]:
+              - /url: /watch?v=qEF-eUaTq0Y
+              - generic [ref=f7e977]: 14:20
+            - generic [ref=f7e985]:
+              - generic [ref=f7e986]:
+                - heading "스탠포드에서 빅테크로 조용히 퍼지는 개발자 생존법, 대부분 모릅니다 | 미하일 에릭" [level=3] [ref=f7e987]:
+                  - link "스탠포드에서 빅테크로 조용히 퍼지는 개발자 생존법, 대부분 모릅니다 | 미하일 에릭 14분 20초" [ref=f7e988]:
+                    - /url: /watch?v=qEF-eUaTq0Y
+                    - text: 스탠포드에서 빅테크로 조용히 퍼지는 개발자 생존법, 대부분 모릅니다 | 미하일 에릭
+                - generic [ref=f7e990]:
+                  - group [ref=f7e991]:
+                    - generic [ref=f7e992]: EO Korea
+                  - group [ref=f7e993]:
+                    - generic "조회수 16만회" [ref=f7e997]: 16만
+                    - generic "5개월 전" [ref=f7e998]
+              - button "추가 작업" [ref=f7e1001]
+          - generic [ref=f7e1006] [cursor=pointer]:
+            - link [ref=f7e1007]:
+              - /url: /watch?v=thO8nqTECVA
+              - generic [ref=f7e1008]: 15:06
+            - generic [ref=f7e1016]:
+              - generic [ref=f7e1017]:
+                - heading "\"이 3가지는 필수\" AI시대 몸값 폭등시키는 상위 1% 프롬프트 공식 (김다솔 작가)" [level=3] [ref=f7e1018]:
+                  - link "\"이 3가지는 필수\" AI시대 몸값 폭등시키는 상위 1% 프롬프트 공식 (김다솔 작가) 15분" [ref=f7e1019]:
+                    - /url: /watch?v=thO8nqTECVA
+                    - text: "\"이 3가지는 필수\" AI시대 몸값 폭등시키는 상위 1% 프롬프트 공식 (김다솔 작가)"
+                - generic [ref=f7e1021]:
+                  - group [ref=f7e1022]:
+                    - generic [ref=f7e1023]: 뉴즈 | 스튜디오N
+                  - group [ref=f7e1024]:
+                    - generic "조회수 7.9만회" [ref=f7e1028]: 7.9만
+                    - generic "7개월 전" [ref=f7e1029]
+              - button "추가 작업" [ref=f7e1032]
+          - generic [ref=f7e1037] [cursor=pointer]:
+            - link [ref=f7e1038]:
+              - /url: /watch?v=zzBUz9e1YXk
+              - generic [ref=f7e1039]: 15:27
+            - generic [ref=f7e1047]:
+              - generic [ref=f7e1048]:
+                - heading "오픈AI 'GPT 해킹 사건'으로 '지옥문' 열렸다? \"인류 멸망 시나리오 최초 공개\" (ft. 김대식 교수) | 💡지식의발견" [level=3] [ref=f7e1049]:
+                  - link "오픈AI 'GPT 해킹 사건'으로 '지옥문' 열렸다? \"인류 멸망 시나리오 최초 공개\" (ft. 김대식 교수) | 💡지식의발견 15분" [ref=f7e1050]:
+                    - /url: /watch?v=zzBUz9e1YXk
+                    - text: 오픈AI 'GPT 해킹 사건'으로 '지옥문' 열렸다? "인류 멸망 시나리오 최초 공개" (ft. 김대식 교수) | 💡지식의발견
+                - generic [ref=f7e1052]:
+                  - group [ref=f7e1053]:
+                    - generic [ref=f7e1054]: SBS 뉴스
+                  - group [ref=f7e1060]:
+                    - generic "조회수 29만회" [ref=f7e1064]: 29만
+                    - generic "2주 전" [ref=f7e1065]
+              - button "추가 작업" [ref=f7e1068]
+          - generic [ref=f7e1073] [cursor=pointer]:
+            - link [ref=f7e1074]:
+              - /url: /watch?v=SLXNQqS8JF4&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f7e1075]: 34:12
+            - generic [ref=f7e1083]:
+              - generic [ref=f7e1084]:
+                - heading "영어학원 다 망했다, 미친 동시통역 AI (IT커뮤니케이션연구소 김덕진 소장)(1부)" [level=3] [ref=f7e1085]:
+                  - link "영어학원 다 망했다, 미친 동시통역 AI (IT커뮤니케이션연구소 김덕진 소장)(1부) 34분" [ref=f7e1086]:
+                    - /url: /watch?v=SLXNQqS8JF4&pp=ugUEEgJrbw%3D%3D
+                    - text: 영어학원 다 망했다, 미친 동시통역 AI (IT커뮤니케이션연구소 김덕진 소장)(1부)
+                - generic [ref=f7e1088]:
+                  - group [ref=f7e1089]:
+                    - generic [ref=f7e1090]: "언더스탠딩 : 세상의 모든 지식"
+                  - group [ref=f7e1091]:
+                    - generic "조회수 25만회" [ref=f7e1095]: 25만
+                    - generic "1개월 전" [ref=f7e1096]
+              - button "추가 작업" [ref=f7e1099]
+          - generic [ref=f7e1104] [cursor=pointer]:
+            - link [ref=f7e1105]:
+              - /url: /watch?v=205M3tA8L8U
+              - generic [ref=f7e1106]: 24:34
+            - generic [ref=f7e1114]:
+              - generic [ref=f7e1115]:
+                - heading "하루종일 일하고 욕 먹는 대한민국 밥 장사의 현실ㅣ지식인초대석 EP.163 (노희영 고문 2부)" [level=3] [ref=f7e1116]:
+                  - link "하루종일 일하고 욕 먹는 대한민국 밥 장사의 현실ㅣ지식인초대석 EP.163 (노희영 고문 2부) 24분" [ref=f7e1117]:
+                    - /url: /watch?v=205M3tA8L8U
+                    - text: 하루종일 일하고 욕 먹는 대한민국 밥 장사의 현실ㅣ지식인초대석 EP.163 (노희영 고문 2부)
+                - generic [ref=f7e1119]:
+                  - group [ref=f7e1120]:
+                    - generic [ref=f7e1121]: 지식인사이드
+                  - group [ref=f7e1127]:
+                    - generic "조회수 48만회" [ref=f7e1131]: 48만
+                    - generic "1일 전" [ref=f7e1132]
+                  - group [ref=f7e1133]:
+                    - generic [ref=f7e1134]: 새 동영상
+              - button "추가 작업" [ref=f7e1140]
+          - generic [ref=f7e1145] [cursor=pointer]:
+            - link [ref=f7e1146]:
+              - /url: /watch?v=QroLnrrIHMc
+              - generic [ref=f7e1147]: 13:49
+            - generic [ref=f7e1155]:
+              - generic [ref=f7e1156]:
+                - heading "구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그" [level=3] [ref=f7e1157]:
+                  - link "구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그 13분 49초" [ref=f7e1158]:
+                    - /url: /watch?v=QroLnrrIHMc
+                    - text: 구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그
+                - generic [ref=f7e1160]:
+                  - group [ref=f7e1161]:
+                    - generic [ref=f7e1162]: 비디오머그 - VIDEOMUG
+                  - group [ref=f7e1168]:
+                    - generic "조회수 30만회" [ref=f7e1172]: 30만
+                    - generic "5일 전" [ref=f7e1173]
+                  - group [ref=f7e1174]:
+                    - generic [ref=f7e1175]: 새 동영상
+              - button "추가 작업" [ref=f7e1181]
+          - generic [ref=f7e1186] [cursor=pointer]:
+            - link [ref=f7e1187]:
+              - /url: /watch?v=UKc3SlEPlKs
+              - generic [ref=f7e1188]: 20:12
+            - generic [ref=f7e1196]:
+              - generic [ref=f7e1197]:
+                - heading "[한영자막] AI로 독학하면 1년 뒤 완전히 달라집니다" [level=3] [ref=f7e1198]:
+                  - link "[한영자막] AI로 독학하면 1년 뒤 완전히 달라집니다 20분" [ref=f7e1199]:
+                    - /url: /watch?v=UKc3SlEPlKs
+                    - text: "[한영자막] AI로 독학하면 1년 뒤 완전히 달라집니다"
+                - generic [ref=f7e1201]:
+                  - group [ref=f7e1202]:
+                    - generic [ref=f7e1203]: Tech Bridge
+                  - group [ref=f7e1204]:
+                    - generic "조회수 2만회" [ref=f7e1208]: 2만
+                    - generic "11일 전" [ref=f7e1209]
+              - button "추가 작업" [ref=f7e1212]

@@ -1,0 +1,38 @@
+- generic [active] [ref=f7e1]:
+  - generic "YouTube 동영상 플레이어" [ref=f7e5]:
+    - button "재생" [ref=f7e9] [cursor=pointer]
+    - generic [ref=f7e10]:
+      - generic [ref=f7e11] [cursor=pointer]:
+        - slider "탐색 슬라이더" [ref=f7e12]
+        - generic:
+          - generic:
+            - generic:
+              - slider "세밀한 탐색을 하려면 패널을 클릭하거나 스크롤하세요."
+      - generic [ref=f7e21]:
+        - generic [ref=f7e22]:
+          - button "일시중지(k)" [ref=f7e23] [cursor=pointer]
+          - generic [ref=f7e24]:
+            - button "음소거(m)" [ref=f7e26] [cursor=pointer]
+            - slider "볼륨":
+              - generic [ref=f7e27] [cursor=pointer]
+          - button "0 분 0 초/26 분 33 초" [ref=f7e30] [cursor=pointer]: 0:00 / 26:33
+        - generic [ref=f7e31]:
+          - generic [ref=f7e32]:
+            - button "자막(c)" [ref=f7e33] [cursor=pointer]
+            - button "설정" [ref=f7e35] [cursor=pointer]
+          - generic [ref=f7e36]:
+            - button "영화관 모드(t)" [ref=f7e37] [cursor=pointer]
+            - button "전체 화면(f)" [ref=f7e38] [cursor=pointer]
+  - banner [ref=f7e62]:
+    - generic [ref=f7e64]:
+      - generic [ref=f7e65]:
+        - button "가이드" [ref=f7e67] [cursor=pointer]
+        - generic [ref=f7e69]:
+          - link:
+            - /url: /
+      - search [ref=f7e71]:
+        - generic [ref=f7e73]:
+          - generic [ref=f7e74]:
+            - combobox [expanded] [ref=f7e76]
+            - button [ref=f7e79] [cursor=pointer]
+          - button "Search" [ref=f7e80] [cursor=pointer]

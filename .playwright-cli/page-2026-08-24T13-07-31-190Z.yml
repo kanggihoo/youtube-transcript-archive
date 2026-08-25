@@ -1,0 +1,627 @@
+- generic [ref=f7e87]:
+  - banner [ref=f7e62]:
+    - generic [ref=f7e64]:
+      - generic [ref=f7e65]:
+        - button "가이드" [ref=f7e67] [cursor=pointer]
+        - link "YouTube 홈" [ref=f7e90] [cursor=pointer]:
+          - /url: /
+        - button "탐색 건너뛰기" [ref=f7e99] [cursor=pointer]
+      - generic [ref=f7e70]:
+        - search [ref=f7e71]:
+          - generic [ref=f7e73]:
+            - generic [ref=f7e74]:
+              - combobox "검색" [expanded] [ref=f7e103]
+              - button [ref=f7e79] [cursor=pointer]
+            - button "Search" [ref=f7e80] [cursor=pointer]
+        - generic [ref=f7e107]:
+          - button "음성으로 검색" [ref=f7e109] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=f7e113]:
+        - button "설정" [ref=f7e118] [cursor=pointer]
+        - link "로그인" [ref=f7e124] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D_qDxAyfnDCQ&hl=ko&ec=65620
+  - main [ref=f7e129]:
+    - generic [ref=f7e130]:
+      - generic [ref=f7e132]:
+        - generic [ref=f7e135]:
+          - generic [ref=f7e138] [cursor=pointer]
+          - complementary [ref=f7e139]:
+            - generic "YouTube 동영상 플레이어" [ref=f7e5]:
+              - button "제품 보기" [ref=f7e143] [cursor=pointer]:
+                - generic [ref=f7e146]:
+                  - generic [ref=f7e147]: 제품 보기
+                  - button "닫기" [ref=f7e148]
+              - generic [ref=f7e10]:
+                - generic [ref=f7e11] [cursor=pointer]:
+                  - slider "탐색 슬라이더" [ref=f7e12]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "세밀한 탐색을 하려면 패널을 클릭하거나 스크롤하세요."
+                - generic [ref=f7e21]:
+                  - generic [ref=f7e22]:
+                    - button "일시중지(k)" [ref=f7e23] [cursor=pointer]
+                    - generic [ref=f7e24]:
+                      - button "음소거(m)" [ref=f7e26] [cursor=pointer]
+                      - slider "볼륨":
+                        - generic [ref=f7e27] [cursor=pointer]
+                    - button "0 분 2 초/26 분 33 초" [ref=f7e1239] [cursor=pointer]: 0:02 / 26:33
+                  - generic [ref=f7e31]:
+                    - generic [ref=f7e32]:
+                      - button "자동재생 사용 설정" [ref=f7e151] [cursor=pointer]
+                      - button "자막(c)" [pressed] [ref=f7e33] [cursor=pointer]
+                      - button "설정" [ref=f7e35] [cursor=pointer]
+                    - generic [ref=f7e36]:
+                      - button "영화관 모드(t)" [ref=f7e37] [cursor=pointer]
+                      - button "전체 화면(f)" [ref=f7e38] [cursor=pointer]
+        - generic [ref=f7e154]:
+          - generic [ref=f7e155]:
+            - generic [ref=f7e157]:
+              - heading "[한영자막] 이 AI 활용법들로 대부분의 사람들보다 압도적으로 앞서게 됩니다 (Q&A)" [level=1] [ref=f7e160]
+              - generic [ref=f7e161]:
+                - generic [ref=f7e162]:
+                  - generic [ref=f7e163]:
+                    - link [ref=f7e164] [cursor=pointer]:
+                      - /url: /@TechBridge-KR
+                      - img "Tech Bridge" [ref=f7e166]
+                    - generic [ref=f7e167]:
+                      - generic "Tech Bridge" [ref=f7e171]:
+                        - link "Tech Bridge" [ref=f7e172] [cursor=pointer]:
+                          - /url: /@TechBridge-KR
+                      - generic "구독자 1.54만명" [ref=f7e173]
+                  - button "Tech Bridge을(를) 구독합니다." [ref=f7e179] [cursor=pointer]:
+                    - generic: 구독
+                - generic [ref=f7e186]:
+                  - generic [ref=f7e187]:
+                    - generic [ref=f7e191]:
+                      - button "다른 사용자 18명과 함께 이 동영상에 좋아요 표시" [ref=f7e195] [cursor=pointer]:
+                        - generic: "18"
+                      - button "동영상에 싫어요 표시" [ref=f7e202] [cursor=pointer]
+                    - button "공유" [ref=f7e208] [cursor=pointer]
+                  - button "재생목록에 저장" [ref=f7e215] [cursor=pointer]:
+                    - generic: 저장
+                  - button "추가 작업" [ref=f7e220] [cursor=pointer]
+              - generic [ref=f7e226]:
+                - generic [ref=f7e228]:
+                  - generic "조회수 481회" [ref=f7e229]:
+                    - generic [ref=f7e230]: 조회수
+                    - generic [ref=f7e231]:
+                      - generic [ref=f7e232]:
+                        - generic [ref=f7e234]: "1"
+                        - generic [ref=f7e235]: "2"
+                        - generic [ref=f7e236]: "3"
+                        - generic [ref=f7e237]: "4"
+                        - generic [ref=f7e238]: "5"
+                        - generic [ref=f7e239]: "6"
+                        - generic [ref=f7e240]: "7"
+                        - generic [ref=f7e241]: "8"
+                        - generic [ref=f7e242]: "9"
+                        - generic [ref=f7e243]: "0"
+                        - generic [ref=f7e244]: "1"
+                        - generic [ref=f7e245]: "2"
+                        - generic [ref=f7e246]: "3"
+                        - generic [ref=f7e247]: "4"
+                        - generic [ref=f7e248]: "5"
+                        - generic [ref=f7e249]: "6"
+                        - generic [ref=f7e250]: "7"
+                        - generic [ref=f7e251]: "8"
+                        - generic [ref=f7e252]: "9"
+                        - generic [ref=f7e253]: "0"
+                        - generic [ref=f7e254]: "1"
+                        - generic [ref=f7e255]: "2"
+                        - generic [ref=f7e256]: "3"
+                        - generic [ref=f7e257]: "4"
+                        - generic [ref=f7e258]: "5"
+                        - generic [ref=f7e259]: "6"
+                        - generic [ref=f7e260]: "7"
+                        - generic [ref=f7e261]: "8"
+                        - generic [ref=f7e262]: "9"
+                      - generic [ref=f7e264]:
+                        - generic [ref=f7e266]: "1"
+                        - generic [ref=f7e267]: "2"
+                        - generic [ref=f7e268]: "3"
+                        - generic [ref=f7e269]: "4"
+                        - generic [ref=f7e270]: "5"
+                        - generic [ref=f7e271]: "6"
+                        - generic [ref=f7e272]: "7"
+                        - generic [ref=f7e273]: "8"
+                        - generic [ref=f7e274]: "9"
+                        - generic [ref=f7e275]: "0"
+                        - generic [ref=f7e276]: "1"
+                        - generic [ref=f7e277]: "2"
+                        - generic [ref=f7e278]: "3"
+                        - generic [ref=f7e279]: "4"
+                        - generic [ref=f7e280]: "5"
+                        - generic [ref=f7e281]: "6"
+                        - generic [ref=f7e282]: "7"
+                        - generic [ref=f7e283]: "8"
+                        - generic [ref=f7e284]: "9"
+                        - generic [ref=f7e285]: "0"
+                        - generic [ref=f7e286]: "1"
+                        - generic [ref=f7e287]: "2"
+                        - generic [ref=f7e288]: "3"
+                        - generic [ref=f7e289]: "4"
+                        - generic [ref=f7e290]: "5"
+                        - generic [ref=f7e291]: "6"
+                        - generic [ref=f7e292]: "7"
+                        - generic [ref=f7e293]: "8"
+                        - generic [ref=f7e294]: "9"
+                      - generic [ref=f7e296]:
+                        - generic [ref=f7e298]: "1"
+                        - generic [ref=f7e299]: "2"
+                        - generic [ref=f7e300]: "3"
+                        - generic [ref=f7e301]: "4"
+                        - generic [ref=f7e302]: "5"
+                        - generic [ref=f7e303]: "6"
+                        - generic [ref=f7e304]: "7"
+                        - generic [ref=f7e305]: "8"
+                        - generic [ref=f7e306]: "9"
+                        - generic [ref=f7e307]: "0"
+                        - generic [ref=f7e308]: "1"
+                        - generic [ref=f7e309]: "2"
+                        - generic [ref=f7e310]: "3"
+                        - generic [ref=f7e311]: "4"
+                        - generic [ref=f7e312]: "5"
+                        - generic [ref=f7e313]: "6"
+                        - generic [ref=f7e314]: "7"
+                        - generic [ref=f7e315]: "8"
+                        - generic [ref=f7e316]: "9"
+                        - generic [ref=f7e317]: "0"
+                        - generic [ref=f7e318]: "1"
+                        - generic [ref=f7e319]: "2"
+                        - generic [ref=f7e320]: "3"
+                        - generic [ref=f7e321]: "4"
+                        - generic [ref=f7e322]: "5"
+                        - generic [ref=f7e323]: "6"
+                        - generic [ref=f7e324]: "7"
+                        - generic [ref=f7e325]: "8"
+                        - generic [ref=f7e326]: "9"
+                    - generic [ref=f7e328]: 회
+                  - generic [ref=f7e396]: 2026. 8. 24. 1개 제품
+                - generic [ref=f7e1241]:
+                  - heading "Tech Bridge이(가) 태그된 제품에 대해 수수료를 받습니다. 자세히 알아보기" [ref=f7e1243]:
+                    - text: Tech Bridge이(가) 태그된 제품에 대해 수수료를 받습니다.
+                    - generic [ref=f7e1244] [cursor=pointer]: 자세히 알아보기
+                  - 'generic "Apple 15 inch MacBook Air with M4 chip, 10-core CPU / 10-core Gpu, 16gb Memory, 512gb SSD - Starlight, Black, , 판매처: Walmart - Reebelo" [ref=f7e1249] [cursor=pointer]':
+                    - generic [ref=f7e1253]:
+                      - generic [ref=f7e1254]: Apple 15 inch MacBook Air with M4 chip, 10-core CPU / 10-core Gpu, 16gb Memory, 512gb SSD - Starlight, Black
+                      - generic [ref=f7e1256]: walmart.com/ip/Restored-Apple-2025-MacBook-Air-15-inch-Laptop-M4-chip-Built-Intelligence-15-3-inch-Liquid-Retina-Display-16GB-Unified-Memory-512GB-SSD-Storage-Starl/19261215909?wmlspartner=wlpa&selectedSellerId=101410689&veh=seo_fpl&cn=google
+                - generic [ref=f7e397]:
+                  - generic [ref=f7e1260]:
+                    - text: AI를 단순 검색창이 아니라, 내 맥락을 이해하고 일을 함께 처리하는 파트너로 쓰는 방법을 정리합니다. 말로 맥락을 전달하는 법부터 더 구체적인 답을 얻는 프롬프트, AI로 업무와 소프트웨어를 만드는 흐름까지 살펴봅니다. 주요 포인트
+                    - list [ref=f7e1261]:
+                      - listitem [ref=f7e1262]: 음성 입력으로 AI에 빠르고 풍부하게 맥락을 전달하는 방법
+                      - listitem [ref=f7e1263]: AI의 평범한 답변을 바꾸는 MAPS 프롬프트 프레임워크
+                      - listitem [ref=f7e1264]: Claude, Perplexity, NotebookLM 등 도구를 역할에 맞게 조합하는 기준
+                      - listitem [ref=f7e1265]: 반복 업무를 자동화하고 개인용 앱을 만드는 실전 접근법
+                      - listitem [ref=f7e1266]: AI 시대에 더 빠르게 배우고 실행하는 사고방식
+                    - link "#AI" [ref=f7e1268] [cursor=pointer]:
+                      - /url: /hashtag/ai
+                    - link "#생산성" [ref=f7e1270] [cursor=pointer]:
+                      - /url: /hashtag/%EC%83%9D%EC%82%B0%EC%84%B1
+                    - link "#프롬프트" [ref=f7e1272] [cursor=pointer]:
+                      - /url: /hashtag/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8
+                    - link "#Claude" [ref=f7e1274] [cursor=pointer]:
+                      - /url: /hashtag/claude
+                    - link "#ChatGPT" [ref=f7e1276] [cursor=pointer]:
+                      - /url: /hashtag/chatgpt
+                    - link "#코덱스" [ref=f7e1278] [cursor=pointer]:
+                      - /url: /hashtag/%EC%BD%94%EB%8D%B1%EC%8A%A4
+                    - link "#자동화" [ref=f7e1280] [cursor=pointer]:
+                      - /url: /hashtag/%EC%9E%90%EB%8F%99%ED%99%94
+                    - link "#개발" [ref=f7e1282] [cursor=pointer]:
+                      - /url: /hashtag/%EA%B0%9C%EB%B0%9C
+                    - text: "📎 관련 링크:"
+                    - link "https://go.danmartell.com/4g57yyR" [ref=f7e1284] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUVBSWC1GUnh0cUR4Q1BFVFpUbUs3U3xBR3JiS2FtUEFKMTNMVlVCUkhyb0wzS1RiRWNMSEw5ZFlKUGRka0p1RDdsM3JHczF2V3o2ckVNdldINV9JY0NEWDBZUHh0TS1VMTc5akFVbDhaR2VZbnJvWENieHlYTk1zTXBF&q=https%3A%2F%2Fgo.danmartell.com%2F4g57yyR&v=_qDxAyfnDCQ
+                    - link "https://go.danmartell.com/4zpQqLB" [ref=f7e1286] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rVFFoZUJ2bUgxNDlkRnQ5NEJENTJ2V3xBR3JiS2FubTZKdWhPSEZ0VWdqRi02RmQ1SEZrMEt3aGpTeTNjeTdDZUlKU05WWnJRckNKcnpKYy1JdkNERldFRGtBdFB4UldtQ05XUXAzQk42dnZBelBwajQwRTVMemhMeXBB&q=https%3A%2F%2Fgo.danmartell.com%2F4zpQqLB&v=_qDxAyfnDCQ
+                    - link "https://go.danmartell.com/4gEIqiv" [ref=f7e1288] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUWc1U1hFbThwNU9HWmc4SUJfLTlLRXxBR3JiS2FsN0xTVmF0dUtFS2N3U29oMUxsSXRZT2V0UjY0TUlyX0ZQOEotNjZOWkhfQzVPSGp1THRWaDdkU1VmaTByLTlud3VyLXljYTVCT3lRLXhVRGt6Y2lEOHUyRTRXQ3NI&q=https%3A%2F%2Fgo.danmartell.com%2F4gEIqiv&v=_qDxAyfnDCQ
+                    - link "https://wisprflow.ai" [ref=f7e1290] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUllpM1NuT2R4SWhJT1daR2hTNXpTN3xBR3JiS2Frak1Sc0pQZkpSa0ZzelRKSVRmN0x3YVpzc3RZRjh3RkZPbTlBOTRuTVNZaEhFTVAyWEZIQndpNXB0LXhmbE5VdGF6RHJQZ1BNb3plSVN5VmlGUjFSUkhfZXMyNFVp&q=https%3A%2F%2Fwisprflow.ai%2F&v=_qDxAyfnDCQ
+                    - link "https://claude.ai" [ref=f7e1292] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU3NNQjh3RE9lMmlKQmpCdVhJQldlNXxBR3JiS2FuYllmLV83Y2hxTjRRcVdzWFNzMXphVXRvVGtXbVpDTXR1ZFJaaEpDVzlqdXpLV3lRSU81YVFEc1ZVZU1OVlZWWlFucGQtaUNrODZKY1VsSXQzQWljSkF0ODU2YnVa&q=https%3A%2F%2Fclaude.ai%2F&v=_qDxAyfnDCQ
+                    - link "https://perplexity.ai" [ref=f7e1294] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU0w0SThCTEljODhCa2xSTkJJcjJVTXxBR3JiS2FtVXZmVmg4VVloV2tpeEg5bHFyTmRRVVdtR003RTc3QklnRGhTUkM0QVp3LUN5d2dQVzV0VS1Kd0dkd3FSTy05TmdPcjNNLVJETlI2Q0ZTeGJaQzBGRkRKWndXSS1k&q=https%3A%2F%2Fperplexity.ai%2F&v=_qDxAyfnDCQ
+                    - link "https://notebooklm.google.com" [ref=f7e1296] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU0luVjIwOGdBZ3RqOTFRZGR1RExYR3xBR3JiS2FsV1FVUjk3a0J5ckJSVVJ4WHluVXRSaHVBVVFIcC1kbHJteV9rQWNrckl0RzBCUWMwSERWVUNWV3VtUG1IMkt0dHlOdXhRTTNqVkxZUmFVM05EVmxqcDIwQVZwa0Iy&q=https%3A%2F%2Fnotebooklm.google.com%2F&v=_qDxAyfnDCQ
+                    - link "https://chat.openai.com" [ref=f7e1298] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUmVzMzZxVS1LTFY4RmpFbTVkXzBOYnxBR3JiS2FrS1E4MVBIWndOY3dROGRTanNzQi1JYXFCQkoycjZscjcwd1dxUkNQS3pPWnRXT3Q0cXdqWUozUW9nN3hVS0V6OFJMUXRLOWNqaUc1MS02VTFDcnJKV2ljYWdrdTJ1&q=https%3A%2F%2Fchat.openai.com%2F&v=_qDxAyfnDCQ
+                    - link "https://chatgpt.com/codex" [ref=f7e1300] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU0VDdlFmbFBrcVZ1d1FKaHlYZmR4SnxBR3JiS2FrV0JmLTNKQUpzc2szYVNXUDFUWTd4QVdDV2dHOEJrYWdKQi1WRzRTbUZ3UVVmcWVDaC1XRjRDdG9KZ2wzTFhQdHEtTlZJcXJpb05sZ2ttbjJVQWJRS2hwRmRucF9u&q=https%3A%2F%2Fchatgpt.com%2Fcodex&v=_qDxAyfnDCQ
+                    - link "https://obsidian.md" [ref=f7e1302] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU3JENUhKUTdWUjF1d3Fjano2RUZra3xBR3JiS2FuampDZDlMU0tHQVZRc0ZpZGRaVlEtT0RmdFh0NER5MjBxdFlsMzdrcGFjTDlFWXhtSDB1VXJqUmliN2preDhRVDBudzRDeXQ3RjVpUEotNUpycXUtcUliVEliNk90&q=https%3A%2F%2Fobsidian.md%2F&v=_qDxAyfnDCQ
+                    - link "https://hellofrank.ai/start" [ref=f7e1304] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUXdNRlE4M28wRDJqWTFvb3I0ZHFnRnxBR3JiS2FsZkdfbmJUbE1oaUhrUHRLSEJqMnk0VEtRcDI0WEtQLXZUd2VMbnVBeTVFUzY1c3RGMjBmT2pwOHV2VVdjQ1p3U2tEZHdIZ1lqeXJMcU1vOEtRYm50RWhzZFNGdHF2&q=https%3A%2F%2Fhellofrank.ai%2Fstart&v=_qDxAyfnDCQ
+                    - link "https://www.precision.co/" [ref=f7e1306] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUzdSTk1ZWXF2RUFmRFNIOGpUZGlKLXxBR3JiS2FuM3dyOWRTSWZ1eXVPcFVELXJPXy1fSEZ3MjVidFJsOURYRFI1OGJTNUV2MlQ1UThMWlNKYmVWYUhqOW5KSDJWZk54NWZwcHdyUjB1bW8zcjJIVkNUaTItbFBRei1I&q=https%3A%2F%2Fwww.precision.co%2F&v=_qDxAyfnDCQ
+                    - link "https://bit.ly/3XEBXez" [ref=f7e1308] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU3lpTnh4UWZxTG1qSm5XUm5ISHFpcXxBR3JiS2FtVzE3ZTM3bXlvQ1hrQW4zLThjeDBTV1BBODZiNk1OaW9reWNVOV9LX1h5cnhfejF6NE81RVkyVU1KRDFteWdrbXN3bU00cWNrSm1xSUF1aHZJa2JzUVhVU1JzdFRq&q=https%3A%2F%2Fbit.ly%2F3XEBXez&v=_qDxAyfnDCQ
+                    - link "https://bit.ly/3pCTG78" [ref=f7e1310] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rVEVvTEtiX2VNMlBRdVJDYWNCYmhudXxBR3JiS2FsMHNIYTZsbVB5T2JjUnBjWGdMY2pXM2NDSlVPLWpFcVRkZXA0SFM5NTlzZHJUNm11RnFQUTZUOWtqWlV5TGQxdjNfcGlnS1JWNnd3emMyRHFPS1ZhUm1yZGpjWFFE&q=https%3A%2F%2Fbit.ly%2F3pCTG78&v=_qDxAyfnDCQ
+                  - generic [ref=f7e1313]:
+                    - generic [ref=f7e1314]:
+                      - generic [ref=f7e1315]: 스크립트
+                      - paragraph [ref=f7e1318]: 스크립트를 보면서 시청하세요.
+                      - button "스크립트 표시" [ref=f7e1323] [cursor=pointer]
+                    - generic [ref=f7e1327]:
+                      - link "Tech Bridge 구독자 1.54만명" [ref=f7e1328] [cursor=pointer]:
+                        - /url: /@TechBridge-KR
+                        - generic [ref=f7e1329]:
+                          - heading "Tech Bridge" [level=3] [ref=f7e1330]
+                          - generic [ref=f7e1331]: 구독자 1.54만명
+                      - generic [ref=f7e1334]:
+                        - link "동영상" [ref=f7e1337] [cursor=pointer]:
+                          - /url: /channel/UC895rbZX2iXLTDfji7W4PfA/videos
+                        - link "정보" [ref=f7e1343] [cursor=pointer]:
+                          - /url: /channel/UC895rbZX2iXLTDfji7W4PfA/about
+                  - button "간략히" [ref=f7e1347] [cursor=pointer]
+            - text: •
+          - heading "댓글" [level=2] [ref=f7e409]
+      - generic [ref=f7e488]:
+        - generic [ref=f7e493]:
+          - generic [ref=f7e494] [cursor=pointer]
+          - generic [ref=f7e497]:
+            - generic [ref=f7e498] [cursor=pointer]:
+              - generic [ref=f7e499]:
+                - link "How To Implement Agentic AI" [ref=f7e502]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWKq7BUKMavf9IJqwrPEP34fm8AvCwa3oiAGHlL-6gxWxkB8QASAAYMmOxo30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAZWJzYUDqAMEyAMKqgTeAk_Qoxuk9V8Jd-SxW3STWRv6F1eyPWG0PPrAohEFi7MAvPGF6M9qZWVoYDBx4q_vP0Y8NEapPLKkv4PcfEk9Ch5i0UTwyUoZcpeW8uLEMjGN8YiY7sJ0-l0uVtQtKSS1wTV4WNdpM7Qgm0ScJmUh48vfe5bOpLWHkuad6jHmv-dKa01hm-oemgaBWETWAafsySGeWD29KkInXCYAewm5Q_noBGm0jB1GACtJWnKoohHgh7Cil5ieeih8bNWXhLFiI-zlN-Nfn9l9ui4Nxf-XFvzXFHuhHW-ks1tRQTD-sjniTxFJLTfZ0-RDeQrljNOQQUT38uY0-hNEFg3rrF9LE99HlSDHue0JH4ANVhCNkX-ZHiVWdK4cX5nsmnt3BHTVh4FpRRoNQnoFQRNiqqtjsHpkcjRu3E6rXhZW7dqnjfGb09qHo9342q4iXZJK_45rAQ9kuTKmDaG5qAcuY8J3iAW0t6bFVpIFCQgTaAJ47PTANqAGboAHhKPfNZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB-fasQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiw4qPTqrmWA2AB8ggfY2EteXQtaG9zdC1wdWItNzMwMDQ0MTIzMzU5NDcxOZoJQmh0dHBzOi8vd3d3LnNub3dmbGFrZS5jb20vcmVzb3VyY2UvYS1wcmFjdGljYWwtZ3VpZGUtdG8tYWktYWdlbnRzL7EJ7Q2BnfjJ9LPICQDICYoCmAsBoQtEjgw5MmpkM7oLPQgBEAUYBCAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAZoNARKqDQJVU8gNAdINogJodHRwczovL3d3dy5zbm93Zmxha2UuY29tL3Jlc291cmNlL2EtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cy8_dXRtX3NvdXJjZT1nZGEmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj1uYS11cy1lbi1wcm9zLWRpc3BsYXktZ2RhLWV2Zy1hdWRpZW5jZS1sb29rLWRzY2kmdXRtX2NvbnRlbnQ9Z2RhLWRnaW1hZ2UtZXZnLWViLWEtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cyZ1dG1fdGVybT1jLS0tNzgyNTg3NTA3ODY0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzIzMDc4MjM4OLgT____________AbAUAcAVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRd9_84efS_Y6LoXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIt5Sk06q5lgMVGhgrCB3fgxm-EAEYASAAEgLnuvD_BwE&num=1&cid=CAASqwHkaDvYVHXWv1x2kGEiQrJDt9bsnTqZfWqD4zVk40eUndzx3KH_H2Vg149MZwBRnDo3QKCBoe1IUr03Na87dx_uRuCAbohxiCrm2rNKhYorDa29eJ8bfFAU3bBAoklgqEkcE9a1UXuXSQU0SsS37eBe5jhTv95gYsaMMOijxMu1FLLZYWnzHOZ0iDo_4u7s71j4lFEUDJ2rzSNyNyDYuce533duZo4xwMzj0Aw&sig=AOD64_1LjPvf5gT2dLF_CcKCA2ghn_0Lrg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - link "A Guide to Understanding Agentic AI and Defining an ROI Framework." [ref=f7e505]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWKq7BUKMavf9IJqwrPEP34fm8AvCwa3oiAGHlL-6gxWxkB8QASAAYMmOxo30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAZWJzYUDqAMEyAMKqgTeAk_Qoxuk9V8Jd-SxW3STWRv6F1eyPWG0PPrAohEFi7MAvPGF6M9qZWVoYDBx4q_vP0Y8NEapPLKkv4PcfEk9Ch5i0UTwyUoZcpeW8uLEMjGN8YiY7sJ0-l0uVtQtKSS1wTV4WNdpM7Qgm0ScJmUh48vfe5bOpLWHkuad6jHmv-dKa01hm-oemgaBWETWAafsySGeWD29KkInXCYAewm5Q_noBGm0jB1GACtJWnKoohHgh7Cil5ieeih8bNWXhLFiI-zlN-Nfn9l9ui4Nxf-XFvzXFHuhHW-ks1tRQTD-sjniTxFJLTfZ0-RDeQrljNOQQUT38uY0-hNEFg3rrF9LE99HlSDHue0JH4ANVhCNkX-ZHiVWdK4cX5nsmnt3BHTVh4FpRRoNQnoFQRNiqqtjsHpkcjRu3E6rXhZW7dqnjfGb09qHo9342q4iXZJK_45rAQ9kuTKmDaG5qAcuY8J3iAW0t6bFVpIFCQgTaAJ47PTANqAGboAHhKPfNZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB-fasQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiw4qPTqrmWA2AB8ggfY2EteXQtaG9zdC1wdWItNzMwMDQ0MTIzMzU5NDcxOZoJQmh0dHBzOi8vd3d3LnNub3dmbGFrZS5jb20vcmVzb3VyY2UvYS1wcmFjdGljYWwtZ3VpZGUtdG8tYWktYWdlbnRzL7EJ7Q2BnfjJ9LPICQDICYoCmAsBoQtEjgw5MmpkM7oLPQgBEAUYBCAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAZoNARKqDQJVU8gNAdINogJodHRwczovL3d3dy5zbm93Zmxha2UuY29tL3Jlc291cmNlL2EtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cy8_dXRtX3NvdXJjZT1nZGEmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj1uYS11cy1lbi1wcm9zLWRpc3BsYXktZ2RhLWV2Zy1hdWRpZW5jZS1sb29rLWRzY2kmdXRtX2NvbnRlbnQ9Z2RhLWRnaW1hZ2UtZXZnLWViLWEtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cyZ1dG1fdGVybT1jLS0tNzgyNTg3NTA3ODY0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzIzMDc4MjM4OLgT____________AbAUAcAVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRd9_84efS_Y6LoXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIt5Sk06q5lgMVGhgrCB3fgxm-EAEYASAAEgLnuvD_BwE&num=1&cid=CAASqwHkaDvYVHXWv1x2kGEiQrJDt9bsnTqZfWqD4zVk40eUndzx3KH_H2Vg149MZwBRnDo3QKCBoe1IUr03Na87dx_uRuCAbohxiCrm2rNKhYorDa29eJ8bfFAU3bBAoklgqEkcE9a1UXuXSQU0SsS37eBe5jhTv95gYsaMMOijxMu1FLLZYWnzHOZ0iDo_4u7s71j4lFEUDJ2rzSNyNyDYuce533duZo4xwMzj0Aw&sig=AOD64_1LjPvf5gT2dLF_CcKCA2ghn_0Lrg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - generic [ref=f7e506]:
+                  - generic [ref=f7e508]:
+                    - generic [ref=f7e509]: 스폰서
+                    - text: ·
+                  - generic [ref=f7e510]: Snowflake
+              - button "내 광고 센터" [ref=f7e514]
+            - link "Download" [ref=f7e519] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWKq7BUKMavf9IJqwrPEP34fm8AvCwa3oiAGHlL-6gxWxkB8QASAAYMmOxo30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAZWJzYUDqAMEyAMKqgTeAk_Qoxuk9V8Jd-SxW3STWRv6F1eyPWG0PPrAohEFi7MAvPGF6M9qZWVoYDBx4q_vP0Y8NEapPLKkv4PcfEk9Ch5i0UTwyUoZcpeW8uLEMjGN8YiY7sJ0-l0uVtQtKSS1wTV4WNdpM7Qgm0ScJmUh48vfe5bOpLWHkuad6jHmv-dKa01hm-oemgaBWETWAafsySGeWD29KkInXCYAewm5Q_noBGm0jB1GACtJWnKoohHgh7Cil5ieeih8bNWXhLFiI-zlN-Nfn9l9ui4Nxf-XFvzXFHuhHW-ks1tRQTD-sjniTxFJLTfZ0-RDeQrljNOQQUT38uY0-hNEFg3rrF9LE99HlSDHue0JH4ANVhCNkX-ZHiVWdK4cX5nsmnt3BHTVh4FpRRoNQnoFQRNiqqtjsHpkcjRu3E6rXhZW7dqnjfGb09qHo9342q4iXZJK_45rAQ9kuTKmDaG5qAcuY8J3iAW0t6bFVpIFCQgTaAJ47PTANqAGboAHhKPfNZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB-fasQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiw4qPTqrmWA2AB8ggfY2EteXQtaG9zdC1wdWItNzMwMDQ0MTIzMzU5NDcxOZoJQmh0dHBzOi8vd3d3LnNub3dmbGFrZS5jb20vcmVzb3VyY2UvYS1wcmFjdGljYWwtZ3VpZGUtdG8tYWktYWdlbnRzL7EJ7Q2BnfjJ9LPICQDICYoCmAsBoQtEjgw5MmpkM7oLPQgBEAUYBCAIKAEwGkABSABYAWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAZoNARKqDQJVU8gNAdINogJodHRwczovL3d3dy5zbm93Zmxha2UuY29tL3Jlc291cmNlL2EtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cy8_dXRtX3NvdXJjZT1nZGEmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj1uYS11cy1lbi1wcm9zLWRpc3BsYXktZ2RhLWV2Zy1hdWRpZW5jZS1sb29rLWRzY2kmdXRtX2NvbnRlbnQ9Z2RhLWRnaW1hZ2UtZXZnLWViLWEtcHJhY3RpY2FsLWd1aWRlLXRvLWFpLWFnZW50cyZ1dG1fdGVybT1jLS0tNzgyNTg3NTA3ODY0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzIzMDc4MjM4OLgT____________AbAUAcAVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRd9_84efS_Y6LoXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIt5Sk06q5lgMVGhgrCB3fgxm-EAEYASAAEgLnuvD_BwE&num=1&cid=CAASqwHkaDvYVHXWv1x2kGEiQrJDt9bsnTqZfWqD4zVk40eUndzx3KH_H2Vg149MZwBRnDo3QKCBoe1IUr03Na87dx_uRuCAbohxiCrm2rNKhYorDa29eJ8bfFAU3bBAoklgqEkcE9a1UXuXSQU0SsS37eBe5jhTv95gYsaMMOijxMu1FLLZYWnzHOZ0iDo_4u7s71j4lFEUDJ2rzSNyNyDYuce533duZo4xwMzj0Aw&sig=AOD64_1LjPvf5gT2dLF_CcKCA2ghn_0Lrg&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+        - generic [ref=f7e524] [cursor=pointer]:
+          - link [ref=f7e525]:
+            - /url: /watch?v=UkoosAsEA8w&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=f7e526]: 35:35
+          - generic [ref=f7e534]:
+            - generic [ref=f7e535]:
+              - 'heading "[한영자막] 보리스 체르니: Claude Code는 이렇게 만들어졌다" [level=3] [ref=f7e536]':
+                - 'link "[한영자막] 보리스 체르니: Claude Code는 이렇게 만들어졌다 35분" [ref=f7e537]':
+                  - /url: /watch?v=UkoosAsEA8w&pp=ugUEEgJlbg%3D%3D
+                  - text: "[한영자막] 보리스 체르니: Claude Code는 이렇게 만들어졌다"
+              - generic [ref=f7e539]:
+                - group [ref=f7e540]:
+                  - generic [ref=f7e541]: Tech Bridge
+                - group [ref=f7e542]:
+                  - generic "조회수 1.6만회" [ref=f7e546]: 1.6만
+                  - generic "3주 전" [ref=f7e547]
+            - button "추가 작업" [ref=f7e550]
+        - generic [ref=f7e555] [cursor=pointer]:
+          - link [ref=f7e556]:
+            - /url: /watch?v=vbqR91k-mVg
+            - generic [ref=f7e557]: 19:09
+          - generic [ref=f7e565]:
+            - generic [ref=f7e566]:
+              - heading "클로드(Claude) 사용법 A to Z｜가입부터 업무 활용법까지 20분 총정리!" [level=3] [ref=f7e567]:
+                - link "클로드(Claude) 사용법 A to Z｜가입부터 업무 활용법까지 20분 총정리! 19분" [ref=f7e568]:
+                  - /url: /watch?v=vbqR91k-mVg
+                  - text: 클로드(Claude) 사용법 A to Z｜가입부터 업무 활용법까지 20분 총정리!
+              - generic [ref=f7e570]:
+                - group [ref=f7e571]:
+                  - generic [ref=f7e572]: 온선 [온라인 선생님]
+                - group [ref=f7e578]:
+                  - generic "조회수 15만회" [ref=f7e582]: 15만
+                  - generic "4주 전" [ref=f7e583]
+            - button "추가 작업" [ref=f7e586]
+        - generic [ref=f7e591] [cursor=pointer]:
+          - link [ref=f7e592]:
+            - /url: /watch?v=IyJNc5vpN1Q
+            - generic [ref=f7e593]: 56:40
+          - generic [ref=f7e601]:
+            - generic [ref=f7e602]:
+              - heading "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다" [level=3] [ref=f7e603]:
+                - link "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다 56분" [ref=f7e604]:
+                  - /url: /watch?v=IyJNc5vpN1Q
+                  - text: "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다"
+              - generic [ref=f7e606]:
+                - group [ref=f7e607]:
+                  - generic [ref=f7e608]: Tech Bridge
+                - group [ref=f7e609]:
+                  - generic "조회수 2.7천회" [ref=f7e613]: 2.7천
+                  - generic "3일 전" [ref=f7e614]
+                - group [ref=f7e615]:
+                  - generic [ref=f7e616]: 새 동영상
+            - button "추가 작업" [ref=f7e622]
+        - generic [ref=f7e627] [cursor=pointer]:
+          - link [ref=f7e628]:
+            - /url: /watch?v=JOpF8yrE1t8
+            - generic [ref=f7e629]: 23:27
+          - generic [ref=f7e637]:
+            - generic [ref=f7e638]:
+              - heading "\"AI한테 질문하지 마세요.\" 앞으로 5년, 가장 빨리 사라질 직원ㅣ지식인초대석 EP.132 (김대식 X 김혜연)" [level=3] [ref=f7e639]:
+                - link "\"AI한테 질문하지 마세요.\" 앞으로 5년, 가장 빨리 사라질 직원ㅣ지식인초대석 EP.132 (김대식 X 김혜연) 23분" [ref=f7e640]:
+                  - /url: /watch?v=JOpF8yrE1t8
+                  - text: "\"AI한테 질문하지 마세요.\" 앞으로 5년, 가장 빨리 사라질 직원ㅣ지식인초대석 EP.132 (김대식 X 김혜연)"
+              - generic [ref=f7e642]:
+                - group [ref=f7e643]:
+                  - generic [ref=f7e644]: 지식인사이드
+                - group [ref=f7e650]:
+                  - generic "조회수 80만회" [ref=f7e654]: 80만
+                  - generic "3개월 전" [ref=f7e655]
+            - button "추가 작업" [ref=f7e658]
+        - generic [ref=f7e663] [cursor=pointer]:
+          - link [ref=f7e664]:
+            - /url: /watch?v=zv0gHwKQT8M&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=f7e665]: 50:58
+          - generic [ref=f7e673]:
+            - generic [ref=f7e674]:
+              - heading "AI 영상 제작, 이 두개면 다 됩니다 | 클로드 + 힉스필드 MCP 13가지 실전 활용법 (최신 가이드)" [level=3] [ref=f7e675]:
+                - link "AI 영상 제작, 이 두개면 다 됩니다 | 클로드 + 힉스필드 MCP 13가지 실전 활용법 (최신 가이드) 50분" [ref=f7e676]:
+                  - /url: /watch?v=zv0gHwKQT8M&pp=ugUEEgJrbw%3D%3D
+                  - text: AI 영상 제작, 이 두개면 다 됩니다 | 클로드 + 힉스필드 MCP 13가지 실전 활용법 (최신 가이드)
+              - generic [ref=f7e678]:
+                - group [ref=f7e679]:
+                  - generic [ref=f7e680]: 오빠두엑셀 l 엑셀 강의 대표채널
+                - group [ref=f7e686]:
+                  - generic "조회수 7.8만회" [ref=f7e690]: 7.8만
+                  - generic "3주 전" [ref=f7e691]
+            - button "추가 작업" [ref=f7e694]
+        - generic [ref=f7e699] [cursor=pointer]:
+          - link [ref=f7e700]:
+            - /url: /watch?v=yMRr9QFsmgk
+            - generic [ref=f7e701]: 38:05
+          - generic [ref=f7e709]:
+            - generic [ref=f7e710]:
+              - heading "\"한국인만 몰라서 못해요\" 전세계 1위 부업으로 통장에 100억 모은 미친 92년생 재택 부업" [level=3] [ref=f7e711]:
+                - link "\"한국인만 몰라서 못해요\" 전세계 1위 부업으로 통장에 100억 모은 미친 92년생 재택 부업 38분" [ref=f7e712]:
+                  - /url: /watch?v=yMRr9QFsmgk
+                  - text: "\"한국인만 몰라서 못해요\" 전세계 1위 부업으로 통장에 100억 모은 미친 92년생 재택 부업"
+              - generic [ref=f7e714]:
+                - group [ref=f7e715]:
+                  - generic [ref=f7e716]: 배움에 끝은없다
+                - group [ref=f7e717]:
+                  - generic "조회수 78만회" [ref=f7e721]: 78만
+                  - generic "11일 전" [ref=f7e722]
+            - button "추가 작업" [ref=f7e725]
+        - generic [ref=f7e730] [cursor=pointer]:
+          - link [ref=f7e731]:
+            - /url: /watch?v=c88oWQfeo3Q
+            - generic [ref=f7e732]: 42:22
+          - generic [ref=f7e740]:
+            - generic [ref=f7e741]:
+              - heading "한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역)" [level=3] [ref=f7e742]:
+                - link "한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역) 42분" [ref=f7e743]:
+                  - /url: /watch?v=c88oWQfeo3Q
+                  - text: 한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역)
+              - generic [ref=f7e745]:
+                - group [ref=f7e746]:
+                  - generic [ref=f7e747]: BZCF | 비즈까페
+                - group [ref=f7e748]:
+                  - generic "조회수 35만회" [ref=f7e752]: 35만
+                  - generic "2개월 전" [ref=f7e753]
+            - button "추가 작업" [ref=f7e756]
+        - generic [ref=f7e761] [cursor=pointer]:
+          - link [ref=f7e762]:
+            - /url: /watch?v=5QqAnN6vKZk
+            - generic [ref=f7e763]: 17:41
+          - generic [ref=f7e771]:
+            - generic [ref=f7e772]:
+              - heading "\"공부하지 마세요\" 타일러가 말하는 AI 시대 생존법" [level=3] [ref=f7e773]:
+                - link "\"공부하지 마세요\" 타일러가 말하는 AI 시대 생존법 17분" [ref=f7e774]:
+                  - /url: /watch?v=5QqAnN6vKZk
+                  - text: "\"공부하지 마세요\" 타일러가 말하는 AI 시대 생존법"
+              - generic [ref=f7e776]:
+                - group [ref=f7e777]:
+                  - generic [ref=f7e778]: 원빅월드쇼 | One Big World Show | 1BWS
+                - group [ref=f7e779]:
+                  - generic "조회수 18만회" [ref=f7e783]: 18만
+                  - generic "4개월 전" [ref=f7e784]
+            - button "추가 작업" [ref=f7e787]
+        - generic [ref=f7e792] [cursor=pointer]:
+          - link [ref=f7e793]:
+            - /url: /watch?v=QWYnZG7LfEs
+            - generic [ref=f7e794]: 37:27
+          - generic [ref=f7e802]:
+            - generic [ref=f7e803]:
+              - heading "99% 모르는 AI로 주식수익 극대화 하는 법ㅣ대외비 EP.29" [level=3] [ref=f7e804]:
+                - link "99% 모르는 AI로 주식수익 극대화 하는 법ㅣ대외비 EP.29 37분" [ref=f7e805]:
+                  - /url: /watch?v=QWYnZG7LfEs
+                  - text: 99% 모르는 AI로 주식수익 극대화 하는 법ㅣ대외비 EP.29
+              - generic [ref=f7e807]:
+                - group [ref=f7e808]:
+                  - generic [ref=f7e809]: 지식인사이드
+                - group [ref=f7e815]:
+                  - generic "조회수 44만회" [ref=f7e819]: 44만
+                  - generic "4주 전" [ref=f7e820]
+            - button "추가 작업" [ref=f7e823]
+        - generic [ref=f7e828] [cursor=pointer]:
+          - link [ref=f7e829]:
+            - /url: /watch?v=63mY_cNhVIM
+            - generic [ref=f7e830]: 15:45
+          - generic [ref=f7e838]:
+            - generic [ref=f7e839]:
+              - heading "40대 60대도 당장 클로드를 배워야 하는 이유" [level=3] [ref=f7e840]:
+                - link "40대 60대도 당장 클로드를 배워야 하는 이유 15분" [ref=f7e841]:
+                  - /url: /watch?v=63mY_cNhVIM
+                  - text: 40대 60대도 당장 클로드를 배워야 하는 이유
+              - generic [ref=f7e843]:
+                - group [ref=f7e844]:
+                  - generic [ref=f7e845]: 누나IT
+                - group [ref=f7e851]:
+                  - generic "조회수 19만회" [ref=f7e855]: 19만
+                  - generic "2주 전" [ref=f7e856]
+            - button "추가 작업" [ref=f7e859]
+        - generic [ref=f7e864] [cursor=pointer]:
+          - link [ref=f7e865]:
+            - /url: /watch?v=VVWxx9vHOG8&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=f7e866]: 11:30
+          - generic [ref=f7e874]:
+            - generic [ref=f7e875]:
+              - heading "클로드로 업무 생산성 20배 올리는 제일 쉬운 방법 | 80%는 모르고 있는 클로드의 미친 기능" [level=3] [ref=f7e876]:
+                - link "클로드로 업무 생산성 20배 올리는 제일 쉬운 방법 | 80%는 모르고 있는 클로드의 미친 기능 11분 30초" [ref=f7e877]:
+                  - /url: /watch?v=VVWxx9vHOG8&pp=ugUEEgJrbw%3D%3D
+                  - text: 클로드로 업무 생산성 20배 올리는 제일 쉬운 방법 | 80%는 모르고 있는 클로드의 미친 기능
+              - generic [ref=f7e879]:
+                - group [ref=f7e880]:
+                  - generic [ref=f7e881]: 로사장
+                - group [ref=f7e882]:
+                  - generic "조회수 40만회" [ref=f7e886]: 40만
+                  - generic "4개월 전" [ref=f7e887]
+                - group [ref=f7e888]:
+                  - generic [ref=f7e889]: 자동 더빙
+            - button "추가 작업" [ref=f7e898]
+        - generic [ref=f7e903] [cursor=pointer]:
+          - link [ref=f7e904]:
+            - /url: /watch?v=jHbNYb6Eg_s&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=f7e905]: 23:18
+          - generic [ref=f7e913]:
+            - generic [ref=f7e914]:
+              - heading "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC)" [level=3] [ref=f7e915]:
+                - link "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC) 23분" [ref=f7e916]:
+                  - /url: /watch?v=jHbNYb6Eg_s&pp=ugUEEgJrbw%3D%3D
+                  - text: "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC)"
+              - generic [ref=f7e918]:
+                - group [ref=f7e919]:
+                  - generic [ref=f7e920]: 서울대학교 Seoul National University
+                - group [ref=f7e926]:
+                  - generic "조회수 25만회" [ref=f7e930]: 25만
+                  - generic "3주 전" [ref=f7e931]
+            - button "추가 작업" [ref=f7e934]
+        - generic [ref=f7e939] [cursor=pointer]:
+          - link [ref=f7e940]:
+            - /url: /watch?v=ugCzGuccJ2g
+            - generic [ref=f7e941]: 16:59
+          - generic [ref=f7e949]:
+            - generic [ref=f7e950]:
+              - heading "\"대부분 이걸 모릅니다\" 상위 0 1%만 알고있는 챗GPT 제미나이 활용법 | Ep. 책과사람 79 (김덕진 소장 2부)" [level=3] [ref=f7e951]:
+                - link "\"대부분 이걸 모릅니다\" 상위 0 1%만 알고있는 챗GPT 제미나이 활용법 | Ep. 책과사람 79 (김덕진 소장 2부) 16분" [ref=f7e952]:
+                  - /url: /watch?v=ugCzGuccJ2g
+                  - text: "\"대부분 이걸 모릅니다\" 상위 0 1%만 알고있는 챗GPT 제미나이 활용법 | Ep. 책과사람 79 (김덕진 소장 2부)"
+              - generic [ref=f7e954]:
+                - group [ref=f7e955]:
+                  - generic [ref=f7e956]: 책과삶
+                - group [ref=f7e962]:
+                  - generic "조회수 71만회" [ref=f7e966]: 71만
+                  - generic "3개월 전" [ref=f7e967]
+            - button "추가 작업" [ref=f7e970]
+        - generic [ref=f7e975] [cursor=pointer]:
+          - link [ref=f7e976]:
+            - /url: /watch?v=qEF-eUaTq0Y
+            - generic [ref=f7e977]: 14:20
+          - generic [ref=f7e985]:
+            - generic [ref=f7e986]:
+              - heading "스탠포드에서 빅테크로 조용히 퍼지는 개발자 생존법, 대부분 모릅니다 | 미하일 에릭" [level=3] [ref=f7e987]:
+                - link "스탠포드에서 빅테크로 조용히 퍼지는 개발자 생존법, 대부분 모릅니다 | 미하일 에릭 14분 20초" [ref=f7e988]:
+                  - /url: /watch?v=qEF-eUaTq0Y
+                  - text: 스탠포드에서 빅테크로 조용히 퍼지는 개발자 생존법, 대부분 모릅니다 | 미하일 에릭
+              - generic [ref=f7e990]:
+                - group [ref=f7e991]:
+                  - generic [ref=f7e992]: EO Korea
+                - group [ref=f7e993]:
+                  - generic "조회수 16만회" [ref=f7e997]: 16만
+                  - generic "5개월 전" [ref=f7e998]
+            - button "추가 작업" [ref=f7e1001]
+        - generic [ref=f7e1006] [cursor=pointer]:
+          - link [ref=f7e1007]:
+            - /url: /watch?v=thO8nqTECVA
+            - generic [ref=f7e1008]: 15:06
+          - generic [ref=f7e1016]:
+            - generic [ref=f7e1017]:
+              - heading "\"이 3가지는 필수\" AI시대 몸값 폭등시키는 상위 1% 프롬프트 공식 (김다솔 작가)" [level=3] [ref=f7e1018]:
+                - link "\"이 3가지는 필수\" AI시대 몸값 폭등시키는 상위 1% 프롬프트 공식 (김다솔 작가) 15분" [ref=f7e1019]:
+                  - /url: /watch?v=thO8nqTECVA
+                  - text: "\"이 3가지는 필수\" AI시대 몸값 폭등시키는 상위 1% 프롬프트 공식 (김다솔 작가)"
+              - generic [ref=f7e1021]:
+                - group [ref=f7e1022]:
+                  - generic [ref=f7e1023]: 뉴즈 | 스튜디오N
+                - group [ref=f7e1024]:
+                  - generic "조회수 7.9만회" [ref=f7e1028]: 7.9만
+                  - generic "7개월 전" [ref=f7e1029]
+            - button "추가 작업" [ref=f7e1032]
+        - generic [ref=f7e1037] [cursor=pointer]:
+          - link [ref=f7e1038]:
+            - /url: /watch?v=zzBUz9e1YXk
+            - generic [ref=f7e1039]: 15:27
+          - generic [ref=f7e1047]:
+            - generic [ref=f7e1048]:
+              - heading "오픈AI 'GPT 해킹 사건'으로 '지옥문' 열렸다? \"인류 멸망 시나리오 최초 공개\" (ft. 김대식 교수) | 💡지식의발견" [level=3] [ref=f7e1049]:
+                - link "오픈AI 'GPT 해킹 사건'으로 '지옥문' 열렸다? \"인류 멸망 시나리오 최초 공개\" (ft. 김대식 교수) | 💡지식의발견 15분" [ref=f7e1050]:
+                  - /url: /watch?v=zzBUz9e1YXk
+                  - text: 오픈AI 'GPT 해킹 사건'으로 '지옥문' 열렸다? "인류 멸망 시나리오 최초 공개" (ft. 김대식 교수) | 💡지식의발견
+              - generic [ref=f7e1052]:
+                - group [ref=f7e1053]:
+                  - generic [ref=f7e1054]: SBS 뉴스
+                - group [ref=f7e1060]:
+                  - generic "조회수 29만회" [ref=f7e1064]: 29만
+                  - generic "2주 전" [ref=f7e1065]
+            - button "추가 작업" [ref=f7e1068]
+        - generic [ref=f7e1073] [cursor=pointer]:
+          - link [ref=f7e1074]:
+            - /url: /watch?v=SLXNQqS8JF4&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=f7e1075]: 34:12
+          - generic [ref=f7e1083]:
+            - generic [ref=f7e1084]:
+              - heading "영어학원 다 망했다, 미친 동시통역 AI (IT커뮤니케이션연구소 김덕진 소장)(1부)" [level=3] [ref=f7e1085]:
+                - link "영어학원 다 망했다, 미친 동시통역 AI (IT커뮤니케이션연구소 김덕진 소장)(1부) 34분" [ref=f7e1086]:
+                  - /url: /watch?v=SLXNQqS8JF4&pp=ugUEEgJrbw%3D%3D
+                  - text: 영어학원 다 망했다, 미친 동시통역 AI (IT커뮤니케이션연구소 김덕진 소장)(1부)
+              - generic [ref=f7e1088]:
+                - group [ref=f7e1089]:
+                  - generic [ref=f7e1090]: "언더스탠딩 : 세상의 모든 지식"
+                - group [ref=f7e1091]:
+                  - generic "조회수 25만회" [ref=f7e1095]: 25만
+                  - generic "1개월 전" [ref=f7e1096]
+            - button "추가 작업" [ref=f7e1099]
+        - generic [ref=f7e1104] [cursor=pointer]:
+          - link [ref=f7e1105]:
+            - /url: /watch?v=205M3tA8L8U
+            - generic [ref=f7e1106]: 24:34
+          - generic [ref=f7e1114]:
+            - generic [ref=f7e1115]:
+              - heading "하루종일 일하고 욕 먹는 대한민국 밥 장사의 현실ㅣ지식인초대석 EP.163 (노희영 고문 2부)" [level=3] [ref=f7e1116]:
+                - link "하루종일 일하고 욕 먹는 대한민국 밥 장사의 현실ㅣ지식인초대석 EP.163 (노희영 고문 2부) 24분" [ref=f7e1117]:
+                  - /url: /watch?v=205M3tA8L8U
+                  - text: 하루종일 일하고 욕 먹는 대한민국 밥 장사의 현실ㅣ지식인초대석 EP.163 (노희영 고문 2부)
+              - generic [ref=f7e1119]:
+                - group [ref=f7e1120]:
+                  - generic [ref=f7e1121]: 지식인사이드
+                - group [ref=f7e1127]:
+                  - generic "조회수 48만회" [ref=f7e1131]: 48만
+                  - generic "1일 전" [ref=f7e1132]
+                - group [ref=f7e1133]:
+                  - generic [ref=f7e1134]: 새 동영상
+            - button "추가 작업" [ref=f7e1140]
+        - generic [ref=f7e1145] [cursor=pointer]:
+          - link [ref=f7e1146]:
+            - /url: /watch?v=QroLnrrIHMc
+            - generic [ref=f7e1147]: 13:49
+          - generic [ref=f7e1155]:
+            - generic [ref=f7e1156]:
+              - heading "구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그" [level=3] [ref=f7e1157]:
+                - link "구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그 13분 49초" [ref=f7e1158]:
+                  - /url: /watch?v=QroLnrrIHMc
+                  - text: 구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그
+              - generic [ref=f7e1160]:
+                - group [ref=f7e1161]:
+                  - generic [ref=f7e1162]: 비디오머그 - VIDEOMUG
+                - group [ref=f7e1168]:
+                  - generic "조회수 30만회" [ref=f7e1172]: 30만
+                  - generic "5일 전" [ref=f7e1173]
+                - group [ref=f7e1174]:
+                  - generic [ref=f7e1175]: 새 동영상
+            - button "추가 작업" [ref=f7e1181]
+        - generic [ref=f7e1186] [cursor=pointer]:
+          - link [ref=f7e1187]:
+            - /url: /watch?v=UKc3SlEPlKs
+            - generic [ref=f7e1188]: 20:12
+          - generic [ref=f7e1196]:
+            - generic [ref=f7e1197]:
+              - heading "[한영자막] AI로 독학하면 1년 뒤 완전히 달라집니다" [level=3] [ref=f7e1198]:
+                - link "[한영자막] AI로 독학하면 1년 뒤 완전히 달라집니다 20분" [ref=f7e1199]:
+                  - /url: /watch?v=UKc3SlEPlKs
+                  - text: "[한영자막] AI로 독학하면 1년 뒤 완전히 달라집니다"
+              - generic [ref=f7e1201]:
+                - group [ref=f7e1202]:
+                  - generic [ref=f7e1203]: Tech Bridge
+                - group [ref=f7e1204]:
+                  - generic "조회수 2만회" [ref=f7e1208]: 2만
+                  - generic "11일 전" [ref=f7e1209]
+            - button "추가 작업" [ref=f7e1212]

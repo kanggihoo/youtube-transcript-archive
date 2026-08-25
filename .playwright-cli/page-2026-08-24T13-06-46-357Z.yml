@@ -1,0 +1,1628 @@
+- generic [ref=f4e88]:
+  - banner [ref=f4e63]:
+    - generic [ref=f4e65]:
+      - generic [ref=f4e66]:
+        - button "가이드" [ref=f4e68] [cursor=pointer]
+        - link "YouTube 홈" [ref=f4e91] [cursor=pointer]:
+          - /url: /
+        - button "탐색 건너뛰기" [ref=f4e100] [cursor=pointer]
+      - generic [ref=f4e71]:
+        - search [ref=f4e72]:
+          - generic [ref=f4e74]:
+            - generic [ref=f4e75]:
+              - combobox "검색" [expanded] [ref=f4e104]
+              - button [ref=f4e80] [cursor=pointer]
+            - button "Search" [ref=f4e81] [cursor=pointer]
+        - generic [ref=f4e108]:
+          - button "음성으로 검색" [ref=f4e110] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=f4e114]:
+        - button "설정" [ref=f4e119] [cursor=pointer]
+        - link "로그인" [ref=f4e125] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D4DdNMO81_HQ&hl=ko&ec=65620
+  - main [ref=f4e130]:
+    - generic [ref=f4e131]:
+      - generic [ref=f4e133]:
+        - generic [ref=f4e136]:
+          - generic [ref=f4e139] [cursor=pointer]
+          - complementary [ref=f4e140]:
+            - generic "YouTube 동영상 플레이어" [ref=f4e5]:
+              - generic [ref=f4e7]:
+                - generic:
+                  - generic [ref=f4e144] [cursor=pointer]:
+                    - generic [ref=f4e147]:
+                      - generic "Bring your ideas to life" [ref=f4e148]
+                      - generic "base44.com" [ref=f4e149]
+                    - link "시작하기 This link opens in new tab" [ref=f4e150]:
+                      - generic [ref=f4e151]: 시작하기
+                  - generic [ref=f4e152]:
+                    - generic "스폰서" [ref=f4e154]
+                    - button "내 광고 센터" [ref=f4e156] [cursor=pointer]
+                    - link "base44.com This link opens in new tab" [ref=f4e160]:
+                      - generic [ref=f4e161] [cursor=pointer]: base44.com
+                  - button "건너뛰기" [ref=f4e1301] [cursor=pointer]
+              - generic [ref=f4e11]:
+                - generic [ref=f4e12]:
+                  - slider "탐색 슬라이더" [disabled] [ref=f4e13]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "세밀한 탐색을 하려면 패널을 클릭하거나 스크롤하세요." [disabled]
+                - generic [ref=f4e22]:
+                  - generic [ref=f4e23]:
+                    - button "일시중지(k)" [ref=f4e24] [cursor=pointer]
+                    - generic [ref=f4e25]:
+                      - button "음소거(m)" [ref=f4e27] [cursor=pointer]
+                      - slider "볼륨":
+                        - generic [ref=f4e28] [cursor=pointer]
+                    - button "0 분 3 초/0 분 46 초" [ref=f4e1304] [cursor=pointer]: 0:03 / 0:46
+                  - generic [ref=f4e32]:
+                    - generic [ref=f4e33]:
+                      - button "자동재생 사용 설정" [ref=f4e166] [cursor=pointer]
+                      - button "자막(c)" [pressed] [ref=f4e34] [cursor=pointer]
+                      - button "설정" [ref=f4e36] [cursor=pointer]
+                    - generic [ref=f4e37]:
+                      - button "영화관 모드(t)" [ref=f4e38] [cursor=pointer]
+                      - button "전체 화면(f)" [ref=f4e39] [cursor=pointer]
+        - generic [ref=f4e169]:
+          - generic [ref=f4e170]:
+            - generic [ref=f4e172]:
+              - heading "[한영자막] 코딩 에이전트는 스스로 확장되지 않습니다. 팀도 마찬가지입니다. — Patrick Debois, Tessl" [level=1] [ref=f4e175]
+              - generic [ref=f4e176]:
+                - generic [ref=f4e177]:
+                  - generic [ref=f4e178]:
+                    - link [ref=f4e179] [cursor=pointer]:
+                      - /url: /@TechBridge-KR
+                      - img "Tech Bridge" [ref=f4e181]
+                    - generic [ref=f4e182]:
+                      - generic "Tech Bridge" [ref=f4e186]:
+                        - link "Tech Bridge" [ref=f4e187] [cursor=pointer]:
+                          - /url: /@TechBridge-KR
+                      - generic "구독자 1.54만명" [ref=f4e188]
+                  - button "Tech Bridge을(를) 구독합니다." [ref=f4e194] [cursor=pointer]:
+                    - generic: 구독
+                - generic [ref=f4e201]:
+                  - generic [ref=f4e202]:
+                    - generic [ref=f4e206]:
+                      - button "다른 사용자 5명과 함께 이 동영상에 좋아요 표시" [ref=f4e210] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                              - generic: "3"
+                              - generic: "4"
+                              - generic: "5"
+                              - generic: "6"
+                              - generic: "7"
+                              - generic: "8"
+                              - generic: "9"
+                              - generic: "0"
+                              - generic: "1"
+                              - generic: "2"
+                              - generic: "3"
+                              - generic: "4"
+                              - generic: "5"
+                              - generic: "6"
+                              - generic: "7"
+                              - generic: "8"
+                              - generic: "9"
+                              - generic: "0"
+                              - generic: "1"
+                              - generic: "2"
+                              - generic: "3"
+                              - generic: "4"
+                              - generic: "5"
+                              - generic: "6"
+                              - generic: "7"
+                              - generic: "8"
+                              - generic: "9"
+                      - button "동영상에 싫어요 표시" [ref=f4e217] [cursor=pointer]
+                    - button "공유" [ref=f4e223] [cursor=pointer]
+                  - button "재생목록에 저장" [ref=f4e230] [cursor=pointer]:
+                    - generic: 저장
+                  - button "추가 작업" [ref=f4e235] [cursor=pointer]
+              - generic [ref=f4e241]:
+                - generic [ref=f4e243]:
+                  - generic "조회수 224회" [ref=f4e244]:
+                    - generic [ref=f4e245]: 조회수
+                    - generic [ref=f4e246]:
+                      - generic [ref=f4e247]:
+                        - generic [ref=f4e249]: "1"
+                        - generic [ref=f4e250]: "2"
+                        - generic [ref=f4e251]: "3"
+                        - generic [ref=f4e252]: "4"
+                        - generic [ref=f4e253]: "5"
+                        - generic [ref=f4e254]: "6"
+                        - generic [ref=f4e255]: "7"
+                        - generic [ref=f4e256]: "8"
+                        - generic [ref=f4e257]: "9"
+                        - generic [ref=f4e258]: "0"
+                        - generic [ref=f4e259]: "1"
+                        - generic [ref=f4e260]: "2"
+                        - generic [ref=f4e261]: "3"
+                        - generic [ref=f4e262]: "4"
+                        - generic [ref=f4e263]: "5"
+                        - generic [ref=f4e264]: "6"
+                        - generic [ref=f4e265]: "7"
+                        - generic [ref=f4e266]: "8"
+                        - generic [ref=f4e267]: "9"
+                        - generic [ref=f4e268]: "0"
+                        - generic [ref=f4e269]: "1"
+                        - generic [ref=f4e270]: "2"
+                        - generic [ref=f4e271]: "3"
+                        - generic [ref=f4e272]: "4"
+                        - generic [ref=f4e273]: "5"
+                        - generic [ref=f4e274]: "6"
+                        - generic [ref=f4e275]: "7"
+                        - generic [ref=f4e276]: "8"
+                        - generic [ref=f4e277]: "9"
+                      - generic [ref=f4e279]:
+                        - generic [ref=f4e281]: "1"
+                        - generic [ref=f4e282]: "2"
+                        - generic [ref=f4e283]: "3"
+                        - generic [ref=f4e284]: "4"
+                        - generic [ref=f4e285]: "5"
+                        - generic [ref=f4e286]: "6"
+                        - generic [ref=f4e287]: "7"
+                        - generic [ref=f4e288]: "8"
+                        - generic [ref=f4e289]: "9"
+                        - generic [ref=f4e290]: "0"
+                        - generic [ref=f4e291]: "1"
+                        - generic [ref=f4e292]: "2"
+                        - generic [ref=f4e293]: "3"
+                        - generic [ref=f4e294]: "4"
+                        - generic [ref=f4e295]: "5"
+                        - generic [ref=f4e296]: "6"
+                        - generic [ref=f4e297]: "7"
+                        - generic [ref=f4e298]: "8"
+                        - generic [ref=f4e299]: "9"
+                        - generic [ref=f4e300]: "0"
+                        - generic [ref=f4e301]: "1"
+                        - generic [ref=f4e302]: "2"
+                        - generic [ref=f4e303]: "3"
+                        - generic [ref=f4e304]: "4"
+                        - generic [ref=f4e305]: "5"
+                        - generic [ref=f4e306]: "6"
+                        - generic [ref=f4e307]: "7"
+                        - generic [ref=f4e308]: "8"
+                        - generic [ref=f4e309]: "9"
+                      - generic [ref=f4e311]:
+                        - generic [ref=f4e313]: "1"
+                        - generic [ref=f4e314]: "2"
+                        - generic [ref=f4e315]: "3"
+                        - generic [ref=f4e316]: "4"
+                        - generic [ref=f4e317]: "5"
+                        - generic [ref=f4e318]: "6"
+                        - generic [ref=f4e319]: "7"
+                        - generic [ref=f4e320]: "8"
+                        - generic [ref=f4e321]: "9"
+                        - generic [ref=f4e322]: "0"
+                        - generic [ref=f4e323]: "1"
+                        - generic [ref=f4e324]: "2"
+                        - generic [ref=f4e325]: "3"
+                        - generic [ref=f4e326]: "4"
+                        - generic [ref=f4e327]: "5"
+                        - generic [ref=f4e328]: "6"
+                        - generic [ref=f4e329]: "7"
+                        - generic [ref=f4e330]: "8"
+                        - generic [ref=f4e331]: "9"
+                        - generic [ref=f4e332]: "0"
+                        - generic [ref=f4e333]: "1"
+                        - generic [ref=f4e334]: "2"
+                        - generic [ref=f4e335]: "3"
+                        - generic [ref=f4e336]: "4"
+                        - generic [ref=f4e337]: "5"
+                        - generic [ref=f4e338]: "6"
+                        - generic [ref=f4e339]: "7"
+                        - generic [ref=f4e340]: "8"
+                        - generic [ref=f4e341]: "9"
+                    - generic [ref=f4e343]: 회
+                  - generic [ref=f4e379]:
+                    - text: 2026. 8. 24.
+                    - link "#코딩에이전트" [ref=f4e1305] [cursor=pointer]:
+                      - /url: /hashtag/%EC%BD%94%EB%94%A9%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8
+                    - link "#AI에이전트" [ref=f4e1306] [cursor=pointer]:
+                      - /url: /hashtag/ai%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8
+                    - link "#소프트웨어개발" [ref=f4e1307] [cursor=pointer]:
+                      - /url: /hashtag/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EA%B0%9C%EB%B0%9C
+                - generic [ref=f4e383]:
+                  - generic [ref=f4e1310]:
+                    - text: 코딩 에이전트가 팀 생산성을 키우려면, 개인이 코드를 고치는 데서 멈추지 않고 에이전트가 일하는 시스템을 개선해야 합니다. Patrick Debois가 하니스, 피드백 루프, 플랫폼 팀, 그리고 조직의 지식 축적이 왜 핵심인지 설명합니다. 주요 포인트
+                    - list [ref=f4e1311]:
+                      - listitem [ref=f4e1312]: 에이전트 코딩의 차별점은 모델 자체보다 팀의 작업 방식에 있습니다.
+                      - listitem [ref=f4e1313]: 결과 코드만 고치지 말고, 에이전트가 반복해서 막히는 시스템을 개선해야 합니다.
+                      - listitem [ref=f4e1314]: 하니스와 컨텍스트를 공용 자산으로 만들면 한 번의 개선이 팀 전체에 퍼집니다.
+                      - listitem [ref=f4e1315]: 플랫폼 팀은 가드레일·평가·비용 가시성을 갖춘 '포장된 길'을 제공해야 합니다.
+                      - listitem [ref=f4e1316]: 경쟁력은 새로운 지식을 빠르게 반영하면서도 시스템을 안정적으로 유지하는 능력입니다.
+                    - link "#코딩에이전트" [ref=f4e1318] [cursor=pointer]:
+                      - /url: /hashtag/%EC%BD%94%EB%94%A9%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8
+                    - link "#AI에이전트" [ref=f4e1320] [cursor=pointer]:
+                      - /url: /hashtag/ai%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8
+                    - link "#소프트웨어개발" [ref=f4e1322] [cursor=pointer]:
+                      - /url: /hashtag/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EA%B0%9C%EB%B0%9C
+                    - link "#개발생산성" [ref=f4e1324] [cursor=pointer]:
+                      - /url: /hashtag/%EA%B0%9C%EB%B0%9C%EC%83%9D%EC%82%B0%EC%84%B1
+                    - link "#플랫폼엔지니어링" [ref=f4e1326] [cursor=pointer]:
+                      - /url: /hashtag/%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81
+                    - text: "⏱ 타임라인:"
+                    - link "0초" [ref=f4e1328] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ
+                      - text: 00:00
+                    - text: "- 여기서는 안 된다는 말이 뜻하는 것"
+                    - link "2분 28초" [ref=f4e1330] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=148s
+                      - text: 02:28
+                    - text: "- 프롬프팅을 하려고 개발자가 된 게 아니라는 반발"
+                    - link "5분 2초" [ref=f4e1332] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=302s
+                      - text: 05:02
+                    - text: "- 코드를 고치지 말고 시스템을 개선하세요"
+                    - link "6분 46초" [ref=f4e1334] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=406s
+                      - text: 06:46
+                    - text: "- 회고·계획·후속 작업의 압박"
+                    - link "9분 20초" [ref=f4e1336] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=560s
+                      - text: 09:20
+                    - text: "- 사람의 개입 횟수와 재사용, 두 가지 지표"
+                    - link "10분 11초" [ref=f4e1338] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=611s
+                      - text: 10:11
+                    - text: "- 플랫폼 팀이 새로 풀어야 할 문제"
+                    - link "11분 54초" [ref=f4e1340] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=714s
+                      - text: 11:54
+                    - text: "- 확산을 막고 포장된 길과 비용을 보이게 만드는 법"
+                    - link "14분 25초" [ref=f4e1342] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=865s
+                      - text: 14:25
+                    - text: "- 챔피언 프로그램 없이 조직을 지원하는 법"
+                    - link "15분 18초" [ref=f4e1344] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=918s
+                      - text: 15:18
+                    - text: "- 직무명이 무의미해질 때의 채용"
+                    - link "17분 49초" [ref=f4e1346] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=1069s
+                      - text: 17:49
+                    - text: "- 비용을 막는 대신 최적화하는 방법"
+                    - link "20분 20초" [ref=f4e1348] [cursor=pointer]:
+                      - /url: /watch?v=4DdNMO81_HQ&t=1220s
+                      - text: 20:20
+                    - text: "- 희미한 공장과 지식이라는 해자 📎 관련 링크:"
+                    - list [ref=f4e1349]:
+                      - listitem [ref=f4e1350]:
+                        - link "https://x.com/patrickdebois" [ref=f4e1352] [cursor=pointer]:
+                          - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU1JxVWhzZkxVLTQ0RWl6Y3h3dWx6aHxBR3JiS2FsQWNsOFNfZjM1NEtQaElKZWZSLTUtb2ctUDJpS1lKWTdob3hvc0tyal9zTzBkbTllZkpYU2tMcWhia1hpX3RybzhXbWRiVW1SanU1UV9jNmlORlhaSDBnTnFRYU9S&q=https%3A%2F%2Fx.com%2Fpatrickdebois&v=4DdNMO81_HQ
+                      - listitem [ref=f4e1353]:
+                        - 'link "LinkedIn Channel Link: patrickdebois" [ref=f4e1356] [cursor=pointer]':
+                          - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rVHFtc242N1pJTmhGWTJwakdhN0hBOXxBR3JiS2FrN3ctOTZCYVlCRzZMOWUtMTZMRUJpS2FmTmpST2pocWJMdXVaN1BaclVfQV9BanBFSDlIc3p3Yk9tNG1tWTRLQXZSaHVKaUZRQjdqR2FwR1dCRjRqemkwazR3S1RD&q=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpatrickdebois%2F&v=4DdNMO81_HQ
+                          - text: / patrickdebois
+                      - listitem [ref=f4e1358]:
+                        - link "https://jedi.be" [ref=f4e1360] [cursor=pointer]:
+                          - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU3pFX3JIM2laajhIQ2NHZk1LbGdhc3xBR3JiS2FuNHhUeU9GLUJYTGRYZF91a1dwLWRzSkNPQzBheXFwTG1EdDBGOUJTa1kyWVkxbnlNNjJsRVVmMDB1c1picGlocmlUS19mV0xya1RsN2JHOFVZdXpkTFpocnl2MTRa&q=https%3A%2F%2Fjedi.be%2F&v=4DdNMO81_HQ
+                  - generic [ref=f4e1363]:
+                    - generic [ref=f4e1364]:
+                      - generic [ref=f4e1365]: 콘텐츠 생성 방식
+                      - generic [ref=f4e1366]: 자동 더빙
+                      - generic [ref=f4e1368]:
+                        - text: 일부 언어의 오디오 트랙이 자동으로 생성되었습니다.
+                        - link "자세히 알아보기" [ref=f4e1370] [cursor=pointer]:
+                          - /url: //support.google.com/youtube/answer/15569972?hl=ko
+                    - generic [ref=f4e1372]:
+                      - heading "챕터 모두 보기" [level=2] [ref=f4e1374]:
+                        - generic [ref=f4e1376]:
+                          - generic [ref=f4e1377]: 챕터
+                          - button "모두 보기" [ref=f4e1382] [cursor=pointer]
+                      - generic [ref=f4e1386]:
+                        - generic [ref=f4e1388]:
+                          - link "여기서는 안 된다는 말이 뜻하는 것 0:00" [ref=f4e1390] [cursor=pointer]:
+                            - /url: /watch?v=4DdNMO81_HQ
+                            - generic [ref=f4e1393]:
+                              - heading "여기서는 안 된다는 말이 뜻하는 것" [level=3] [ref=f4e1394]
+                              - generic [ref=f4e1395]: 0:00
+                          - link "프롬프팅을 하려고 개발자가 된 게 아니라는 반발 2:28" [ref=f4e1397] [cursor=pointer]:
+                            - /url: /watch?v=4DdNMO81_HQ&t=148s
+                            - generic [ref=f4e1400]:
+                              - heading "프롬프팅을 하려고 개발자가 된 게 아니라는 반발" [level=3] [ref=f4e1401]
+                              - generic [ref=f4e1402]: 2:28
+                          - link "코드를 고치지 말고 시스템을 개선하세요 5:02" [ref=f4e1404] [cursor=pointer]:
+                            - /url: /watch?v=4DdNMO81_HQ&t=302s
+                            - generic [ref=f4e1407]:
+                              - heading "코드를 고치지 말고 시스템을 개선하세요" [level=3] [ref=f4e1408]
+                              - generic [ref=f4e1409]: 5:02
+                          - link "회고·계획·후속 작업의 압박 6:46" [ref=f4e1411] [cursor=pointer]:
+                            - /url: /watch?v=4DdNMO81_HQ&t=406s&pp=0gcJCSADDuyUWbzu
+                            - generic [ref=f4e1414]:
+                              - heading "회고·계획·후속 작업의 압박" [level=3] [ref=f4e1415]
+                              - generic [ref=f4e1416]: 6:46
+                          - link "사람의 개입 횟수와 재사용, 두 가지 지표 9:20" [ref=f4e1418] [cursor=pointer]:
+                            - /url: /watch?v=4DdNMO81_HQ&t=560s
+                            - generic [ref=f4e1421]:
+                              - heading "사람의 개입 횟수와 재사용, 두 가지 지표" [level=3] [ref=f4e1422]
+                              - generic [ref=f4e1423]: 9:20
+                          - link "플랫폼 팀이 새로 풀어야 할 문제 10:11" [ref=f4e1425] [cursor=pointer]:
+                            - /url: /watch?v=4DdNMO81_HQ&t=611s&pp=0gcJCSADDuyUWbzu
+                            - generic [ref=f4e1428]:
+                              - heading "플랫폼 팀이 새로 풀어야 할 문제" [level=3] [ref=f4e1429]
+                              - generic [ref=f4e1430]: 10:11
+                          - link "확산을 막고 포장된 길과 비용을 보이게 만드는 법 11:54" [ref=f4e1432] [cursor=pointer]:
+                            - /url: /watch?v=4DdNMO81_HQ&t=714s
+                            - generic [ref=f4e1435]:
+                              - heading "확산을 막고 포장된 길과 비용을 보이게 만드는 법" [level=3] [ref=f4e1436]
+                              - generic [ref=f4e1437]: 11:54
+                          - link "챔피언 프로그램 없이 조직을 지원하는 법 14:25" [ref=f4e1439] [cursor=pointer]:
+                            - /url: /watch?v=4DdNMO81_HQ&t=865s
+                            - generic [ref=f4e1442]:
+                              - heading "챔피언 프로그램 없이 조직을 지원하는 법" [level=3] [ref=f4e1443]
+                              - generic [ref=f4e1444]: 14:25
+                        - generic [ref=f4e1445] [cursor=pointer]
+                    - generic [ref=f4e1449]:
+                      - generic [ref=f4e1450]: 스크립트
+                      - paragraph [ref=f4e1453]: 스크립트를 보면서 시청하세요.
+                      - button "스크립트 표시" [ref=f4e1458] [cursor=pointer]
+                    - generic [ref=f4e1462]:
+                      - link "Tech Bridge 구독자 1.54만명" [ref=f4e1463] [cursor=pointer]:
+                        - /url: /@TechBridge-KR
+                        - generic [ref=f4e1464]:
+                          - heading "Tech Bridge" [level=3] [ref=f4e1465]
+                          - generic [ref=f4e1466]: 구독자 1.54만명
+                      - generic [ref=f4e1469]:
+                        - link "동영상" [ref=f4e1472] [cursor=pointer]:
+                          - /url: /channel/UC895rbZX2iXLTDfji7W4PfA/videos
+                        - link "정보" [ref=f4e1478] [cursor=pointer]:
+                          - /url: /channel/UC895rbZX2iXLTDfji7W4PfA/about
+                  - button "간략히" [ref=f4e1482] [cursor=pointer]
+            - text: •
+          - generic [ref=f4e392]:
+            - generic [ref=f4e393]:
+              - heading "댓글 0개" [level=2] [ref=f4e1485]
+              - generic [ref=f4e1488]:
+                - tooltip "tooltip"
+                - group [ref=f4e1490]:
+                  - button "댓글 정렬" [ref=f4e1492] [cursor=pointer]:
+                    - generic [ref=f4e1496]: 정렬 기준
+            - textbox [ref=f4e1501]
+      - generic [ref=f4e469]:
+        - generic [ref=f4e470]:
+          - generic [ref=f4e471]:
+            - generic [ref=f4e474]:
+              - generic [ref=f4e477] [cursor=pointer]
+              - generic [ref=f4e478]:
+                - generic "스폰서 - Bring your ideas to life base44.com" [ref=f4e480]:
+                  - img "Base44" [ref=f4e487]
+                  - generic [ref=f4e488]:
+                    - generic [ref=f4e489]: Bring your ideas to life
+                    - generic [ref=f4e490]:
+                      - generic [ref=f4e492]:
+                        - generic [ref=f4e493]: 스폰서
+                        - text: ·
+                      - generic [ref=f4e494]: base44.com
+                - button "내 광고 센터" [ref=f4e497] [cursor=pointer]
+                - button [ref=f4e504] [cursor=pointer]
+            - generic [ref=f4e511]:
+              - generic [ref=f4e515] [cursor=pointer]:
+                - generic [ref=f4e516]: AI App Builder
+                - generic [ref=f4e517]:
+                  - generic [ref=f4e518]: Build real apps from a prompt.
+                  - generic [ref=f4e519]: No code. No waiting.
+              - link "시작하기" [ref=f4e522] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CUHR5zkGMasS4PPnr2OMPtbnJkQ3pn7ybiQHmq9r40BWxkB8QASAAYMmOxo30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYX-keADqAMEyAMKqgSTA0_QlIsylQUHuiOoyGmmcH8eXn2julVLF2OTSEj4rAnd0CavSePVEFccUeoPHnTUd5gYJ_AqasbSQ8oRUdjDqlsLD4F3LSL5TxYme319c_8pwqsXpH42JaDy2GdazORNNp_B1KGLUopz6BeOTtt-sdO_qdbm55G_KkTfSKJ3DXUCQF-lemSP66A87VQIL_73tgor2LQp6-GaTQtfodkJq1ihxpfXuOyH1ocmyOk0xZspf8SFmyhOeTUbOi85_1Nnl8URjywuMJaYAmjXBjRjsGVTPS0ZHp4OOSbM5ml7kULVz52wVRQMuMuRF5ag6uCbQnp5-DnTvbit4X6M3lKB9x4W_3q4hnLKbkql2GXQVwbAgtdpxOerSl_Rp024dpSMVDJTtQdyAt18fxnUUTDg5YrHbWlfj66w5CX7jR8ndqKTDY2vLVGXFZ5BRPMb_of84e-DtL-gdcySR_liL2dL8k6RHT3Ok_V8W6CRJcKY8EvKvbxrD1jXpqveJW0sETmjKKe0-qmbEV_pFUry4BldB7Zz19WIBY2dhO1YoAahAYAH4ef4hhuQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB_0HqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgHwsixApIIC091Z3hET2FyZ0tJqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY4MWiuaq5lgNgAfIIH2NhLXl0LWhvc3QtcHViLTczMDA0NDEyMzM1OTQ3MTmaCSBodHRwczovL2Jhc2U0NC5jb20vbHAtZW4vYnVpbGRlcrEJO-DcMVNeOyvICQPICRjICY8ByAnCAaELyK4fJ2-ZtkO6C0UIARABGAQgASgBMBBAAUgBYABoAHACiAEAmAEBogESCgAYACAAWAFgAHABqAIB2AICqAEB2AEBgAIBiAIGugMFdmlkbHPQCxLgCwGiDCpiDQoLY29tLndpeC5pb3NqFAoSY29tLmJhc2U0NC5hbmRyb2lkeACIAQDSDAIQAZoNARKqDQJVU8gNAdIN0QRodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjM0NzAzLjU3MjIwNTVCQVNFNDRfWU9VVFVCRV9ERU0vQjMzODA5MjE0LjQ0NzExMzgyMTtkY190cmtfYWlkPTYzMjcwNDk0MjtkY190cmtfY2lkPTI0OTA1NjM0ODtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtnZHByPSR7R0RQUn07Z2Rwcl9jb25zZW50PSR7R0RQUl9DT05TRU5UXzc1NX07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xOztkY19ydWk9MTtkY19lcHM9QUhhczhjQ0lMazRCM0I0RXRrVm4zMkFXTTJtRHdMR19qdnU5d1FtLUpvbGVYT3Y3NktaNUxwZFFxQWN3LTU0ZkJ4dHNmbkhNTUNmQnIxeXZ0ZXhzNHc7ZGNfcHViaWQ9Nj9odHRwczovL2Jhc2U0NC5jb20vbHAtZW4vYnVpbGRlcj91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249eXRfYmFzZTQ0X2FjcV91c19lbl9kdF9wcm9mX2Fkdi1wcm9mX2ZyZWVfMDUtMjZea3dyX3NvZnR3YXJlLWRldmVsb3BlciZleHBlcmltZW50X2lkPV5jNV5eJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzg1MDk3ODk1N7gT____________AYgUBbAUAcAVyYCAQNAVAdgVAZAWAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRc_vROjXIpzrboXBigAMAA4AdAYAfAYAbIZAS_CGQIIAQ&gclid=EAIaIQobChMIxNeiuaq5lgMV-TV2Bh21XDLSEAEYASAAEgIapvD_BwE&num=1&cid=CAASqwHkaEOciZv4h9roO325lMth96XcXhOPdR0WgJXNDdJ4U2vClmiUlWJzVnm_po_D7hp8uCch7fXUZKAwF2A32Vu0VvqfwJMDQQ8N68VvUU6OFUVV-GIKAVitwXT8vq0vyKrU_STTdmYLNMYYr1BLjKc_Aj6LAf8tjpp_tVNSfNPtcaJyv1nK479yvOB8lfedBtGwdFTRIGWNZyNkV6Luv8fOmJssahCeO5FIBOk&ad_cpn=%5BAD_CPN%5D&sig=AOD64_3N5_zCWkDqdni8akRRf0l3PYPTRw&label=video_click_to_advertiser_site&ctype=110&ms=%5BCLICK_MS%5D&adclksrc=%5BCLICK_SOURCE%5D
+          - generic [ref=f4e1502]:
+            - generic [ref=f4e1504]:
+              - generic [ref=f4e1505]:
+                - heading "동영상 정보" [active] [level=2] [ref=f4e1507]
+                - button "닫기" [ref=f4e1512] [cursor=pointer]
+              - tablist [ref=f4e1518]:
+                - tab "챕터" [ref=f4e1521] [cursor=pointer]
+                - tab "스크립트" [selected] [ref=f4e1529] [cursor=pointer]
+            - generic [ref=f4e1536]:
+              - generic [ref=f4e1541]:
+                - generic [ref=f4e1542]: 스크립트 검색
+                - textbox "스크립트 검색" [ref=f4e1543]
+              - generic [ref=f4e1544]:
+                - generic [ref=f4e1545]:
+                  - button [ref=f4e1548] [cursor=pointer]:
+                    - 'heading "챕터 1: 여기서는 안 된다는 말이 뜻하는 것" [level=3] [ref=f4e1550]'
+                  - generic [ref=f4e1551]:
+                    - button "0초 Um I'm going to talk to you maybe not on the technical side but more on the organizational side. So if you're here" [ref=f4e1553] [cursor=pointer]:
+                      - generic [ref=f4e1556]:
+                        - generic [ref=f4e1557]: 0:00
+                        - generic [ref=f4e1558]: 0초
+                        - text: Um I'm going to talk to you maybe not on the technical side but more on the organizational side. So if you're here
+                    - button "7초 for any technology you can still leave if you want to." [ref=f4e1560] [cursor=pointer]:
+                      - generic [ref=f4e1563]:
+                        - generic [ref=f4e1564]: 0:07
+                        - generic [ref=f4e1565]: 7초
+                        - text: for any technology you can still leave if you want to.
+                    - button "13초 So in 2009 um a lot of people were telling me the idea of continuous delivery was crazy and I feel we're in" [ref=f4e1567] [cursor=pointer]:
+                      - generic [ref=f4e1570]:
+                        - generic [ref=f4e1571]: 0:13
+                        - generic [ref=f4e1572]: 13초
+                        - text: So in 2009 um a lot of people were telling me the idea of continuous delivery was crazy and I feel we're in
+                    - button "21초 kind of the same era or kind of the same thing right now with a dark factory. It will not work here. That's what I keep" [ref=f4e1574] [cursor=pointer]:
+                      - generic [ref=f4e1577]:
+                        - generic [ref=f4e1578]: 0:21
+                        - generic [ref=f4e1579]: 21초
+                        - text: kind of the same era or kind of the same thing right now with a dark factory. It will not work here. That's what I keep
+                    - button "29초 hearing over and over again. Um, but what they're actually signaling to me, we're not ready yet. So, it's not the" [ref=f4e1581] [cursor=pointer]:
+                      - generic [ref=f4e1584]:
+                        - generic [ref=f4e1585]: 0:29
+                        - generic [ref=f4e1586]: 29초
+                        - text: hearing over and over again. Um, but what they're actually signaling to me, we're not ready yet. So, it's not the
+                    - button "36초 technology that can't make it work. It's not something they want be able to do eventually, but they're just not set up for this." [ref=f4e1588] [cursor=pointer]:
+                      - generic [ref=f4e1591]:
+                        - generic [ref=f4e1592]: 0:36
+                        - generic [ref=f4e1593]: 36초
+                        - text: technology that can't make it work. It's not something they want be able to do eventually, but they're just not set up for this.
+                    - button "46초 And there's been a lot of conference talks here about optimizing agents with loops and harnesses and all those pieces. And" [ref=f4e1595] [cursor=pointer]:
+                      - generic [ref=f4e1598]:
+                        - generic [ref=f4e1599]: 0:46
+                        - generic [ref=f4e1600]: 46초
+                        - text: And there's been a lot of conference talks here about optimizing agents with loops and harnesses and all those pieces. And
+                    - button "54초 I think that's great, but eventually we'll get there, right? It's not that this is the rocket science and yes we'll have to assemble this in a good way but" [ref=f4e1602] [cursor=pointer]:
+                      - generic [ref=f4e1605]:
+                        - generic [ref=f4e1606]: 0:54
+                        - generic [ref=f4e1607]: 54초
+                        - text: I think that's great, but eventually we'll get there, right? It's not that this is the rocket science and yes we'll have to assemble this in a good way but
+                    - button "1분 3초 one day this will kind of become commodity somewhere maybe even going into one of the you know frontier labs" [ref=f4e1609] [cursor=pointer]:
+                      - generic [ref=f4e1612]:
+                        - generic [ref=f4e1613]: 1:03
+                        - generic [ref=f4e1614]: 1분 3초
+                        - text: one day this will kind of become commodity somewhere maybe even going into one of the you know frontier labs
+                    - button "1분 10초 that just offers this as a service and will kind of make this work uh and that's not going to be the differentiator um for your organization." [ref=f4e1616] [cursor=pointer]:
+                      - generic [ref=f4e1619]:
+                        - generic [ref=f4e1620]: 1:10
+                        - generic [ref=f4e1621]: 1분 10초
+                        - text: that just offers this as a service and will kind of make this work uh and that's not going to be the differentiator um for your organization.
+                    - button "1분 20초 So I'm starting from there up assume we're heading towards the dark factory some kind of form of autonomous working within an organization." [ref=f4e1623] [cursor=pointer]:
+                      - generic [ref=f4e1626]:
+                        - generic [ref=f4e1627]: 1:20
+                        - generic [ref=f4e1628]: 1분 20초
+                        - text: So I'm starting from there up assume we're heading towards the dark factory some kind of form of autonomous working within an organization.
+                    - button "1분 30초 Um what I've seen for the people adopting this within our organization including here uh where I work at TESL" [ref=f4e1630] [cursor=pointer]:
+                      - generic [ref=f4e1633]:
+                        - generic [ref=f4e1634]: 1:30
+                        - generic [ref=f4e1635]: 1분 30초
+                        - text: Um what I've seen for the people adopting this within our organization including here uh where I work at TESL
+                    - button "1분 37초 it changes dynamic of the way you collaborate around this and for those familiar there's like Conway's law like" [ref=f4e1637] [cursor=pointer]:
+                      - generic [ref=f4e1640]:
+                        - generic [ref=f4e1641]: 1:37
+                        - generic [ref=f4e1642]: 1분 37초
+                        - text: it changes dynamic of the way you collaborate around this and for those familiar there's like Conway's law like
+                    - button "1분 46초 you know the way you organize yourselves and the tools there is a relationship on how they interact and kind of work together on this but today I'm not" [ref=f4e1644] [cursor=pointer]:
+                      - generic [ref=f4e1647]:
+                        - generic [ref=f4e1648]: 1:46
+                        - generic [ref=f4e1649]: 1분 46초
+                        - text: you know the way you organize yourselves and the tools there is a relationship on how they interact and kind of work together on this but today I'm not
+                    - button "1분 55초 talking about like how you become better with your agent but it is about how will we will change your team dynamics, your" [ref=f4e1651] [cursor=pointer]:
+                      - generic [ref=f4e1654]:
+                        - generic [ref=f4e1655]: 1:55
+                        - generic [ref=f4e1656]: 1분 55초
+                        - text: talking about like how you become better with your agent but it is about how will we will change your team dynamics, your
+                    - button "2분 2초 platform and your organization. So that's what I'll take you through enabling the team. I assume most of you" [ref=f4e1658] [cursor=pointer]:
+                      - generic [ref=f4e1661]:
+                        - generic [ref=f4e1662]: 2:02
+                        - generic [ref=f4e1663]: 2분 2초
+                        - text: platform and your organization. So that's what I'll take you through enabling the team. I assume most of you
+                    - button "2분 10초 somewhere work in a team and that you're not somewhere a soloreneur working. So it kind of works different than just you" [ref=f4e1665] [cursor=pointer]:
+                      - generic [ref=f4e1668]:
+                        - generic [ref=f4e1669]: 2:10
+                        - generic [ref=f4e1670]: 2분 10초
+                        - text: somewhere work in a team and that you're not somewhere a soloreneur working. So it kind of works different than just you
+                    - button "2분 18초 with your claude code and a team working together around that with claude or any of the coding agents there as well." [ref=f4e1672] [cursor=pointer]:
+                      - generic [ref=f4e1675]:
+                        - generic [ref=f4e1676]: 2:18
+                        - generic [ref=f4e1677]: 2분 18초
+                        - text: with your claude code and a team working together around that with claude or any of the coding agents there as well.
+                - generic [ref=f4e1678]:
+                  - button [ref=f4e1681] [cursor=pointer]:
+                    - 'heading "챕터 2: 프롬프팅을 하려고 개발자가 된 게 아니라는 반발" [level=3] [ref=f4e1683]'
+                  - generic [ref=f4e1684]:
+                    - button "2분 28초 The narrative that I heard a lot is well the developer eventually becomes more of a conductor and an orchestrator of" [ref=f4e1686] [cursor=pointer]:
+                      - generic [ref=f4e1689]:
+                        - generic [ref=f4e1690]: 2:28
+                        - generic [ref=f4e1691]: 2분 28초
+                        - text: The narrative that I heard a lot is well the developer eventually becomes more of a conductor and an orchestrator of
+                    - button "2분 37초 agents and I think that's fair that's been an evolution that we're on on the path we're more like becoming the managers of the agent and kind of dealing with the agents." [ref=f4e1693] [cursor=pointer]:
+                      - generic [ref=f4e1696]:
+                        - generic [ref=f4e1697]: 2:37
+                        - generic [ref=f4e1698]: 2분 37초
+                        - text: agents and I think that's fair that's been an evolution that we're on on the path we're more like becoming the managers of the agent and kind of dealing with the agents.
+                    - button "2분 48초 Now what I've seen is that if eventually a lot of developer told me we didn't sign up for this, we didn't sign up for better prompting writing better specs." [ref=f4e1700] [cursor=pointer]:
+                      - generic [ref=f4e1703]:
+                        - generic [ref=f4e1704]: 2:48
+                        - generic [ref=f4e1705]: 2분 48초
+                        - text: Now what I've seen is that if eventually a lot of developer told me we didn't sign up for this, we didn't sign up for better prompting writing better specs.
+                    - button "2분 58초 We're engineers, we're technical and that creates friction like is this the role that we really want to do. There" [ref=f4e1707] [cursor=pointer]:
+                      - generic [ref=f4e1710]:
+                        - generic [ref=f4e1711]: 2:58
+                        - generic [ref=f4e1712]: 2분 58초
+                        - text: We're engineers, we're technical and that creates friction like is this the role that we really want to do. There
+                    - button "3분 6초 was a thing that came around which maybe is more context engineering that put a first step around like hey it's not just" [ref=f4e1714] [cursor=pointer]:
+                      - generic [ref=f4e1717]:
+                        - generic [ref=f4e1718]: 3:06
+                        - generic [ref=f4e1719]: 3분 6초
+                        - text: was a thing that came around which maybe is more context engineering that put a first step around like hey it's not just
+                    - button "3분 14초 a prompt. We'll test the prompt. we'll kind of evaluate the prompt. We'll kind of distribute the prompt and kind of optimize the prompt. So yes, there's a" [ref=f4e1721] [cursor=pointer]:
+                      - generic [ref=f4e1724]:
+                        - generic [ref=f4e1725]: 3:14
+                        - generic [ref=f4e1726]: 3분 14초
+                        - text: a prompt. We'll test the prompt. we'll kind of evaluate the prompt. We'll kind of distribute the prompt and kind of optimize the prompt. So yes, there's a
+                    - button "3분 22초 little bit of engineering, but still a lot of developers kind of felt empty just working kind of with a prompt and a specification as such." [ref=f4e1728] [cursor=pointer]:
+                      - generic [ref=f4e1731]:
+                        - generic [ref=f4e1732]: 3:22
+                        - generic [ref=f4e1733]: 3분 22초
+                        - text: little bit of engineering, but still a lot of developers kind of felt empty just working kind of with a prompt and a specification as such.
+                    - button "3분 33초 What I've seen is that when we started introducing hardness and loops and eventually more autonomous work within the whole organization, a new technical path opened." [ref=f4e1735] [cursor=pointer]:
+                      - generic [ref=f4e1738]:
+                        - generic [ref=f4e1739]: 3:33
+                        - generic [ref=f4e1740]: 3분 33초
+                        - text: What I've seen is that when we started introducing hardness and loops and eventually more autonomous work within the whole organization, a new technical path opened.
+                    - button "3분 44초 All of a sudden, we were helping the agent with tooling, building tooling for the agent, and that kind of reignited" [ref=f4e1742] [cursor=pointer]:
+                      - generic [ref=f4e1745]:
+                        - generic [ref=f4e1746]: 3:44
+                        - generic [ref=f4e1747]: 3분 44초
+                        - text: All of a sudden, we were helping the agent with tooling, building tooling for the agent, and that kind of reignited
+                    - button "3분 52초 some of the developers kind of felt that it wasn't for them. Now all of a sudden they were like, \"Yes, we can do this. We" [ref=f4e1749] [cursor=pointer]:
+                      - generic [ref=f4e1752]:
+                        - generic [ref=f4e1753]: 3:52
+                        - generic [ref=f4e1754]: 3분 52초
+                        - text: some of the developers kind of felt that it wasn't for them. Now all of a sudden they were like, "Yes, we can do this. We
+                    - button "3분 59초 have that knowledge. We're like somehow helping this even with a kind of programmatic way.\" So I I think that's interesting that the identity where we" [ref=f4e1756] [cursor=pointer]:
+                      - generic [ref=f4e1759]:
+                        - generic [ref=f4e1760]: 3:59
+                        - generic [ref=f4e1761]: 3분 59초
+                        - text: have that knowledge. We're like somehow helping this even with a kind of programmatic way." So I I think that's interesting that the identity where we
+                    - button "4분 8초 say abstraction abstraction abstraction technically all of a sudden the craft created some new location for more engineering stuff to go to." [ref=f4e1763] [cursor=pointer]:
+                      - generic [ref=f4e1766]:
+                        - generic [ref=f4e1767]: 4:08
+                        - generic [ref=f4e1768]: 4분 8초
+                        - text: say abstraction abstraction abstraction technically all of a sudden the craft created some new location for more engineering stuff to go to.
+                    - button "4분 19초 Now when I get the question can we please help people and they're skeptical people" [ref=f4e1770] [cursor=pointer]:
+                      - generic [ref=f4e1773]:
+                        - generic [ref=f4e1774]: 4:19
+                        - generic [ref=f4e1775]: 4분 19초
+                        - text: Now when I get the question can we please help people and they're skeptical people
+                    - button "4분 26초 what do I do and I also said that these are really great people to engage in" [ref=f4e1777] [cursor=pointer]:
+                      - generic [ref=f4e1780]:
+                        - generic [ref=f4e1781]: 4:26
+                        - generic [ref=f4e1782]: 4분 26초
+                        - text: what do I do and I also said that these are really great people to engage in
+                    - button "4분 34초 creating better context for the agent because you tell them please improve please put all your knowledge to improve the result of the agent and the same" [ref=f4e1784] [cursor=pointer]:
+                      - generic [ref=f4e1787]:
+                        - generic [ref=f4e1788]: 4:34
+                        - generic [ref=f4e1789]: 4분 34초
+                        - text: creating better context for the agent because you tell them please improve please put all your knowledge to improve the result of the agent and the same
+                    - button "4분 42초 with the harness. So if you have those kind of more resistant people that like complained maybe about the quality that" [ref=f4e1791] [cursor=pointer]:
+                      - generic [ref=f4e1794]:
+                        - generic [ref=f4e1795]: 4:42
+                        - generic [ref=f4e1796]: 4분 42초
+                        - text: with the harness. So if you have those kind of more resistant people that like complained maybe about the quality that
+                    - button "4분 50초 things were produced by just a vanilla kind of coding agent use almost that anger use kind of that skepticism to kind of make it better." [ref=f4e1798] [cursor=pointer]:
+                      - generic [ref=f4e1801]:
+                        - generic [ref=f4e1802]: 4:50
+                        - generic [ref=f4e1803]: 4분 50초
+                        - text: things were produced by just a vanilla kind of coding agent use almost that anger use kind of that skepticism to kind of make it better.
+                - generic [ref=f4e1804]:
+                  - button [ref=f4e1807] [cursor=pointer]:
+                    - 'heading "챕터 3: 코드를 고치지 말고 시스템을 개선하세요" [level=3] [ref=f4e1809]'
+                  - generic [ref=f4e1810]:
+                    - button "5분 2초 And the big mentality shift, if I would advise a a company right now for their" [ref=f4e1812] [cursor=pointer]:
+                      - generic [ref=f4e1815]:
+                        - generic [ref=f4e1816]: 5:02
+                        - generic [ref=f4e1817]: 5분 2초
+                        - text: And the big mentality shift, if I would advise a a company right now for their
+                    - button "5분 9초 developers, is kind of stop fixing the code that the agent kind of produced," [ref=f4e1819] [cursor=pointer]:
+                      - generic [ref=f4e1822]:
+                        - generic [ref=f4e1823]: 5:09
+                        - generic [ref=f4e1824]: 5분 9초
+                        - text: developers, is kind of stop fixing the code that the agent kind of produced,
+                    - button "5분 16초 but improve the system. I'm I'm not the only one saying this in this event, but kind of that is the difference like you" [ref=f4e1826] [cursor=pointer]:
+                      - generic [ref=f4e1829]:
+                        - generic [ref=f4e1830]: 5:16
+                        - generic [ref=f4e1831]: 5분 16초
+                        - text: but improve the system. I'm I'm not the only one saying this in this event, but kind of that is the difference like you
+                    - button "5분 24초 kind of improve the system. And I think it was Swix uh a couple of years who said it like stop building the thing but build the thing that builds the thing" [ref=f4e1833] [cursor=pointer]:
+                      - generic [ref=f4e1836]:
+                        - generic [ref=f4e1837]: 5:24
+                        - generic [ref=f4e1838]: 5분 24초
+                        - text: kind of improve the system. And I think it was Swix uh a couple of years who said it like stop building the thing but build the thing that builds the thing
+                    - button "5분 32초 right so we going on that abstraction whether that is with context with harness with loops and that is kind of" [ref=f4e1840] [cursor=pointer]:
+                      - generic [ref=f4e1843]:
+                        - generic [ref=f4e1844]: 5:32
+                        - generic [ref=f4e1845]: 5분 32초
+                        - text: right so we going on that abstraction whether that is with context with harness with loops and that is kind of
+                    - button "5분 39초 the change that a lot of people who are still very tightly in the loop autocomp completion prompting that they kind of" [ref=f4e1847] [cursor=pointer]:
+                      - generic [ref=f4e1850]:
+                        - generic [ref=f4e1851]: 5:39
+                        - generic [ref=f4e1852]: 5분 39초
+                        - text: the change that a lot of people who are still very tightly in the loop autocomp completion prompting that they kind of
+                    - button "5분 46초 need to think about elevating this to the system thinking so what we're really trying to do is" [ref=f4e1854] [cursor=pointer]:
+                      - generic [ref=f4e1857]:
+                        - generic [ref=f4e1858]: 5:46
+                        - generic [ref=f4e1859]: 5분 46초
+                        - text: need to think about elevating this to the system thinking so what we're really trying to do is
+                    - button "5분 55초 minimize the human touches but still with good engineering practices and some of the narrative that" [ref=f4e1861] [cursor=pointer]:
+                      - generic [ref=f4e1864]:
+                        - generic [ref=f4e1865]: 5:55
+                        - generic [ref=f4e1866]: 5분 55초
+                        - text: minimize the human touches but still with good engineering practices and some of the narrative that
+                    - button "6분 3초 comes up more often in the beginning we're like oh great vibe coding a prompt and it gives a result and we can keep going where we now see well we're kind" [ref=f4e1868] [cursor=pointer]:
+                      - generic [ref=f4e1871]:
+                        - generic [ref=f4e1872]: 6:03
+                        - generic [ref=f4e1873]: 6분 3초
+                        - text: comes up more often in the beginning we're like oh great vibe coding a prompt and it gives a result and we can keep going where we now see well we're kind
+                    - button "6분 12초 of instructing it through prompts but we're also instructing this like please do it with tests please update the" [ref=f4e1875] [cursor=pointer]:
+                      - generic [ref=f4e1878]:
+                        - generic [ref=f4e1879]: 6:12
+                        - generic [ref=f4e1880]: 6분 12초
+                        - text: of instructing it through prompts but we're also instructing this like please do it with tests please update the
+                    - button "6분 19초 documentation please do this all the things that we're saying to good engineers were now asking the agents to do. So if" [ref=f4e1882] [cursor=pointer]:
+                      - generic [ref=f4e1885]:
+                        - generic [ref=f4e1886]: 6:19
+                        - generic [ref=f4e1887]: 6분 19초
+                        - text: documentation please do this all the things that we're saying to good engineers were now asking the agents to do. So if
+                    - button "6분 28초 you still have people who kind of yoloing their way into this, I think you should tell them no, stop doing this." [ref=f4e1889] [cursor=pointer]:
+                      - generic [ref=f4e1892]:
+                        - generic [ref=f4e1893]: 6:28
+                        - generic [ref=f4e1894]: 6분 28초
+                        - text: you still have people who kind of yoloing their way into this, I think you should tell them no, stop doing this.
+                    - button "6분 34초 Like engineering practices still matter for you to maintain the system and also for the agent to keep getting better at this." [ref=f4e1896] [cursor=pointer]:
+                      - generic [ref=f4e1899]:
+                        - generic [ref=f4e1900]: 6:34
+                        - generic [ref=f4e1901]: 6분 34초
+                        - text: Like engineering practices still matter for you to maintain the system and also for the agent to keep getting better at this.
+                - generic [ref=f4e1902]:
+                  - button [ref=f4e1905] [cursor=pointer]:
+                    - 'heading "챕터 4: 회고·계획·후속 작업의 압박" [level=3] [ref=f4e1907]'
+                  - generic [ref=f4e1908]:
+                    - button "6분 46초 What I started seeing in some of the more advanced kind of teams is that their rituals of hey we're doing a" [ref=f4e1910] [cursor=pointer]:
+                      - generic [ref=f4e1913]:
+                        - generic [ref=f4e1914]: 6:46
+                        - generic [ref=f4e1915]: 6분 46초
+                        - text: What I started seeing in some of the more advanced kind of teams is that their rituals of hey we're doing a
+                    - button "6분 54초 planning and we're doing a retro in the team that they weren't about like hey we had issues with the code but we're" [ref=f4e1917] [cursor=pointer]:
+                      - generic [ref=f4e1920]:
+                        - generic [ref=f4e1921]: 6:54
+                        - generic [ref=f4e1922]: 6분 54초
+                        - text: planning and we're doing a retro in the team that they weren't about like hey we had issues with the code but we're
+                    - button "7분 1초 saying we had issues with the system. So on the retro part is like hey the agent" [ref=f4e1924] [cursor=pointer]:
+                      - generic [ref=f4e1927]:
+                        - generic [ref=f4e1928]: 7:01
+                        - generic [ref=f4e1929]: 7분 1초
+                        - text: saying we had issues with the system. So on the retro part is like hey the agent
+                    - button "7분 8초 went over and over hit this problem. Can we fix the system? That's something you learn in the retro. And on the planning" [ref=f4e1931] [cursor=pointer]:
+                      - generic [ref=f4e1934]:
+                        - generic [ref=f4e1935]: 7:08
+                        - generic [ref=f4e1936]: 7분 8초
+                        - text: went over and over hit this problem. Can we fix the system? That's something you learn in the retro. And on the planning
+                    - button "7분 16초 side, what I started seeing is that things who were uh that were sufficiently scoped enough" [ref=f4e1938] [cursor=pointer]:
+                      - generic [ref=f4e1941]:
+                        - generic [ref=f4e1942]: 7:16
+                        - generic [ref=f4e1943]: 7분 16초
+                        - text: side, what I started seeing is that things who were uh that were sufficiently scoped enough
+                    - button "7분 23초 were easy to pick up by agents because they were well defined and what still was left for the humans were the things" [ref=f4e1945] [cursor=pointer]:
+                      - generic [ref=f4e1948]:
+                        - generic [ref=f4e1949]: 7:23
+                        - generic [ref=f4e1950]: 7분 23초
+                        - text: were easy to pick up by agents because they were well defined and what still was left for the humans were the things
+                    - button "7분 31초 that weren't scoped out well. So there were like a split in the planning where you said these things can straight go into agents well defined and the harness" [ref=f4e1952] [cursor=pointer]:
+                      - generic [ref=f4e1955]:
+                        - generic [ref=f4e1956]: 7:31
+                        - generic [ref=f4e1957]: 7분 31초
+                        - text: that weren't scoped out well. So there were like a split in the planning where you said these things can straight go into agents well defined and the harness
+                    - button "7분 39초 is getting better and this is conversational things that we need to decide as a team and" [ref=f4e1959] [cursor=pointer]:
+                      - generic [ref=f4e1962]:
+                        - generic [ref=f4e1963]: 7:39
+                        - generic [ref=f4e1964]: 7분 39초
+                        - text: is getting better and this is conversational things that we need to decide as a team and
+                    - button "7분 48초 what I find important is you there's a certain kind of cycle that developers go to yes they learn first about prompting" [ref=f4e1966] [cursor=pointer]:
+                      - generic [ref=f4e1969]:
+                        - generic [ref=f4e1970]: 7:48
+                        - generic [ref=f4e1971]: 7분 48초
+                        - text: what I find important is you there's a certain kind of cycle that developers go to yes they learn first about prompting
+                    - button "7분 56초 they get better specs context harness loop also the industry is learning like that But there is the lead of the team" [ref=f4e1973] [cursor=pointer]:
+                      - generic [ref=f4e1976]:
+                        - generic [ref=f4e1977]: 7:56
+                        - generic [ref=f4e1978]: 7분 56초
+                        - text: they get better specs context harness loop also the industry is learning like that But there is the lead of the team
+                    - button "8분 6초 can say well stop prompting make the context reusable. Now we got that now we jump to the next. So part of the team" [ref=f4e1980] [cursor=pointer]:
+                      - generic [ref=f4e1983]:
+                        - generic [ref=f4e1984]: 8:06
+                        - generic [ref=f4e1985]: 8분 6초
+                        - text: can say well stop prompting make the context reusable. Now we got that now we jump to the next. So part of the team
+                    - button "8분 14초 lead is putting that pace at almost that constraint and that directive in the team where it is doesn't work where you" [ref=f4e1987] [cursor=pointer]:
+                      - generic [ref=f4e1990]:
+                        - generic [ref=f4e1991]: 8:14
+                        - generic [ref=f4e1992]: 8분 14초
+                        - text: lead is putting that pace at almost that constraint and that directive in the team where it is doesn't work where you
+                    - button "8분 22초 just say go figure it out and do something on your own." [ref=f4e1994] [cursor=pointer]:
+                      - generic [ref=f4e1997]:
+                        - generic [ref=f4e1998]: 8:22
+                        - generic [ref=f4e1999]: 8분 22초
+                        - text: just say go figure it out and do something on your own.
+                    - button "8분 27초 And one of the impacts of that is that if you start producing as a team more," [ref=f4e2001] [cursor=pointer]:
+                      - generic [ref=f4e2004]:
+                        - generic [ref=f4e2005]: 8:27
+                        - generic [ref=f4e2006]: 8분 27초
+                        - text: And one of the impacts of that is that if you start producing as a team more,
+                    - button "8분 34초 the people downstream, GTM, people like that, they have a hard time keeping up. Even users have a hard time" [ref=f4e2008] [cursor=pointer]:
+                      - generic [ref=f4e2011]:
+                        - generic [ref=f4e2012]: 8:34
+                        - generic [ref=f4e2013]: 8분 34초
+                        - text: the people downstream, GTM, people like that, they have a hard time keeping up. Even users have a hard time
+                    - button "8분 41초 keeping up. So you need to help them also with automation. So your harness doesn't stop at your coding. It also is extended to those people as well. And" [ref=f4e2015] [cursor=pointer]:
+                      - generic [ref=f4e2018]:
+                        - generic [ref=f4e2019]: 8:41
+                        - generic [ref=f4e2020]: 8분 41초
+                        - text: keeping up. So you need to help them also with automation. So your harness doesn't stop at your coding. It also is extended to those people as well. And
+                    - button "8분 51초 the same thing with kind of requiring uh like gathering requirements. the input might not come fast enough for your" [ref=f4e2022] [cursor=pointer]:
+                      - generic [ref=f4e2025]:
+                        - generic [ref=f4e2026]: 8:51
+                        - generic [ref=f4e2027]: 8분 51초
+                        - text: the same thing with kind of requiring uh like gathering requirements. the input might not come fast enough for your
+                    - button "8분 58초 team. So that's another kind of piece that you need to tap into that workflow as well." [ref=f4e2029] [cursor=pointer]:
+                      - generic [ref=f4e2032]:
+                        - generic [ref=f4e2033]: 8:58
+                        - generic [ref=f4e2034]: 8분 58초
+                        - text: team. So that's another kind of piece that you need to tap into that workflow as well.
+                    - button "9분 5초 There's a lot of metrics that people are saying like hey is your like tokens spent and all that stuff. I started to" [ref=f4e2036] [cursor=pointer]:
+                      - generic [ref=f4e2039]:
+                        - generic [ref=f4e2040]: 9:05
+                        - generic [ref=f4e2041]: 9분 5초
+                        - text: There's a lot of metrics that people are saying like hey is your like tokens spent and all that stuff. I started to
+                    - button "9분 14초 believe in these two metrics to kind of see on how to be more productive." [ref=f4e2043] [cursor=pointer]:
+                      - generic [ref=f4e2046]:
+                        - generic [ref=f4e2047]: 9:14
+                        - generic [ref=f4e2048]: 9분 14초
+                        - text: believe in these two metrics to kind of see on how to be more productive.
+                    - button "9분 19초 One is you start measuring how many human touches you still do to have the agent do the right thing. That's" [ref=f4e2050] [cursor=pointer]:
+                      - generic [ref=f4e2053]:
+                        - generic [ref=f4e2054]: 9:19
+                        - generic [ref=f4e2055]: 9분 19초
+                        - text: One is you start measuring how many human touches you still do to have the agent do the right thing. That's
+                - generic [ref=f4e2056]:
+                  - button [ref=f4e2059] [cursor=pointer]:
+                    - 'heading "챕터 5: 사람의 개입 횟수와 재사용, 두 가지 지표" [level=3] [ref=f4e2061]'
+                  - generic [ref=f4e2062]:
+                    - button "9분 28초 supposed to go down the better your harness is, the better your context is, the better your guidelines are. And on the other hand," [ref=f4e2064] [cursor=pointer]:
+                      - generic [ref=f4e2067]:
+                        - generic [ref=f4e2068]: 9:28
+                        - generic [ref=f4e2069]: 9분 28초
+                        - text: supposed to go down the better your harness is, the better your context is, the better your guidelines are. And on the other hand,
+                    - button "9분 37초 if you're going from solo to shared system, that becomes a multiplier. You fix" [ref=f4e2071] [cursor=pointer]:
+                      - generic [ref=f4e2074]:
+                        - generic [ref=f4e2075]: 9:37
+                        - generic [ref=f4e2076]: 9분 37초
+                        - text: if you're going from solo to shared system, that becomes a multiplier. You fix
+                    - button "9분 44초 something once, everybody gets the benefit. This is not the multiplier from the one person becoming the 10x person," [ref=f4e2078] [cursor=pointer]:
+                      - generic [ref=f4e2081]:
+                        - generic [ref=f4e2082]: 9:44
+                        - generic [ref=f4e2083]: 9분 44초
+                        - text: something once, everybody gets the benefit. This is not the multiplier from the one person becoming the 10x person,
+                    - button "9분 52초 but the one change that optimize the agents has an impact on all the people." [ref=f4e2085] [cursor=pointer]:
+                      - generic [ref=f4e2088]:
+                        - generic [ref=f4e2089]: 9:52
+                        - generic [ref=f4e2090]: 9분 52초
+                        - text: but the one change that optimize the agents has an impact on all the people.
+                    - button "9분 58초 So that is kind of the pot that we're all you can start that in a team working together within your repo, sharing the context, working on harness, but what" [ref=f4e2092] [cursor=pointer]:
+                      - generic [ref=f4e2095]:
+                        - generic [ref=f4e2096]: 9:58
+                        - generic [ref=f4e2097]: 9분 58초
+                        - text: So that is kind of the pot that we're all you can start that in a team working together within your repo, sharing the context, working on harness, but what
+                    - button "10분 7초 you basically want to do is you want to scale this out. So you come into the realm of the platform people, right?" [ref=f4e2099] [cursor=pointer]:
+                      - generic [ref=f4e2102]:
+                        - generic [ref=f4e2103]: 10:07
+                        - generic [ref=f4e2104]: 10분 7초
+                        - text: you basically want to do is you want to scale this out. So you come into the realm of the platform people, right?
+                - generic [ref=f4e2105]:
+                  - button [ref=f4e2108] [cursor=pointer]:
+                    - 'heading "챕터 6: 플랫폼 팀이 새로 풀어야 할 문제" [level=3] [ref=f4e2110]'
+                  - generic [ref=f4e2111]:
+                    - button "10분 14초 because they're the typical shared organization working on this. Now, the platform people, they might not be" [ref=f4e2113] [cursor=pointer]:
+                      - generic [ref=f4e2116]:
+                        - generic [ref=f4e2117]: 10:14
+                        - generic [ref=f4e2118]: 10분 14초
+                        - text: because they're the typical shared organization working on this. Now, the platform people, they might not be
+                    - button "10분 21초 paying close attention because they're like infrastructure and cloud and working on MTP gateway and stuff like that, but there's new things like" [ref=f4e2120] [cursor=pointer]:
+                      - generic [ref=f4e2123]:
+                        - generic [ref=f4e2124]: 10:21
+                        - generic [ref=f4e2125]: 10분 21초
+                        - text: paying close attention because they're like infrastructure and cloud and working on MTP gateway and stuff like that, but there's new things like
+                    - button "10분 30초 bubbling up there. They need to think about like maybe skill registries or eval systems for a context and guard" [ref=f4e2127] [cursor=pointer]:
+                      - generic [ref=f4e2130]:
+                        - generic [ref=f4e2131]: 10:30
+                        - generic [ref=f4e2132]: 10분 30초
+                        - text: bubbling up there. They need to think about like maybe skill registries or eval systems for a context and guard
+                    - button "10분 37초 rails specifically for coding agents and identities and stuff. So they need maybe a little bit of a hand kind of grow into" [ref=f4e2134] [cursor=pointer]:
+                      - generic [ref=f4e2137]:
+                        - generic [ref=f4e2138]: 10:37
+                        - generic [ref=f4e2139]: 10분 37초
+                        - text: rails specifically for coding agents and identities and stuff. So they need maybe a little bit of a hand kind of grow into
+                    - button "10분 44초 that role and that kind of central role it's hard. You need an owner to drive" [ref=f4e2141] [cursor=pointer]:
+                      - generic [ref=f4e2144]:
+                        - generic [ref=f4e2145]: 10:44
+                        - generic [ref=f4e2146]: 10분 44초
+                        - text: that role and that kind of central role it's hard. You need an owner to drive
+                    - button "10분 54초 that program. But is it the platform team? Is it developer experience team?" [ref=f4e2148] [cursor=pointer]:
+                      - generic [ref=f4e2151]:
+                        - generic [ref=f4e2152]: 10:54
+                        - generic [ref=f4e2153]: 10분 54초
+                        - text: that program. But is it the platform team? Is it developer experience team?
+                    - button "10분 59초 They don't typically own any of those pieces of the infrastructure and the other people don't really do the development. So there's somewhere a" [ref=f4e2155] [cursor=pointer]:
+                      - generic [ref=f4e2158]:
+                        - generic [ref=f4e2159]: 10:59
+                        - generic [ref=f4e2160]: 10분 59초
+                        - text: They don't typically own any of those pieces of the infrastructure and the other people don't really do the development. So there's somewhere a
+                    - button "11분 7초 blend, but you need to kind of make sure that there's an owner driving this centralized piece and not just within" [ref=f4e2162] [cursor=pointer]:
+                      - generic [ref=f4e2165]:
+                        - generic [ref=f4e2166]: 11:07
+                        - generic [ref=f4e2167]: 11분 7초
+                        - text: blend, but you need to kind of make sure that there's an owner driving this centralized piece and not just within
+                    - button "11분 14초 your team because you want to have paved roads. And that's how I see it. Reusable context across teams. Why we all" [ref=f4e2169] [cursor=pointer]:
+                      - generic [ref=f4e2172]:
+                        - generic [ref=f4e2173]: 11:14
+                        - generic [ref=f4e2174]: 11분 14초
+                        - text: your team because you want to have paved roads. And that's how I see it. Reusable context across teams. Why we all
+                    - button "11분 23초 inventing how we do the authentication system, right? This is a shared component. Let's put it in the registry. Why are you building all your harnesses?" [ref=f4e2176] [cursor=pointer]:
+                      - generic [ref=f4e2179]:
+                        - generic [ref=f4e2180]: 11:23
+                        - generic [ref=f4e2181]: 11분 23초
+                        - text: inventing how we do the authentication system, right? This is a shared component. Let's put it in the registry. Why are you building all your harnesses?
+                    - button "11분 32초 Well, if we're all using the same llinters and the same security tools, that's a reusable component. So, I think that will centralize similar to the pave" [ref=f4e2183] [cursor=pointer]:
+                      - generic [ref=f4e2186]:
+                        - generic [ref=f4e2187]: 11:32
+                        - generic [ref=f4e2188]: 11분 32초
+                        - text: Well, if we're all using the same llinters and the same security tools, that's a reusable component. So, I think that will centralize similar to the pave
+                    - button "11분 40초 path for cloud into that platform registry of reuse." [ref=f4e2190] [cursor=pointer]:
+                      - generic [ref=f4e2193]:
+                        - generic [ref=f4e2194]: 11:40
+                        - generic [ref=f4e2195]: 11분 40초
+                        - text: path for cloud into that platform registry of reuse.
+                    - button "11분 47초 But if everybody can put stuff like on the internet in the repo, it becomes a" [ref=f4e2197] [cursor=pointer]:
+                      - generic [ref=f4e2200]:
+                        - generic [ref=f4e2201]: 11:47
+                        - generic [ref=f4e2202]: 11분 47초
+                        - text: But if everybody can put stuff like on the internet in the repo, it becomes a
+                - generic [ref=f4e2203]:
+                  - button [ref=f4e2206] [cursor=pointer]:
+                    - 'heading "챕터 7: 확산을 막고 포장된 길과 비용을 보이게 만드는 법" [level=3] [ref=f4e2208]'
+                  - generic [ref=f4e2209]:
+                    - button "11분 54초 sprawl and it becomes a thing like well he has a skill is maintaining it. that person is also has a similar skill and" [ref=f4e2211] [cursor=pointer]:
+                      - generic [ref=f4e2214]:
+                        - generic [ref=f4e2215]: 11:54
+                        - generic [ref=f4e2216]: 11분 54초
+                        - text: sprawl and it becomes a thing like well he has a skill is maintaining it. that person is also has a similar skill and
+                    - button "12분 2초 forked it not what I do like which one do I pick so there is a kind of thing that you say there's an owner for this" [ref=f4e2218] [cursor=pointer]:
+                      - generic [ref=f4e2221]:
+                        - generic [ref=f4e2222]: 12:02
+                        - generic [ref=f4e2223]: 12분 2초
+                        - text: forked it not what I do like which one do I pick so there is a kind of thing that you say there's an owner for this
+                    - button "12분 11초 area and they also care about making it testable they make sure that it's modeler that other people can extend kind of the context for example or the" [ref=f4e2225] [cursor=pointer]:
+                      - generic [ref=f4e2228]:
+                        - generic [ref=f4e2229]: 12:11
+                        - generic [ref=f4e2230]: 12분 11초
+                        - text: area and they also care about making it testable they make sure that it's modeler that other people can extend kind of the context for example or the
+                    - button "12분 20초 harness that it's security scanned so you build kind of a more centralized and the fact that it's secured and kind of" [ref=f4e2232] [cursor=pointer]:
+                      - generic [ref=f4e2235]:
+                        - generic [ref=f4e2236]: 12:20
+                        - generic [ref=f4e2237]: 12분 20초
+                        - text: harness that it's security scanned so you build kind of a more centralized and the fact that it's secured and kind of
+                    - button "12분 27초 maintained as something instead of just something I share around in my organization." [ref=f4e2239] [cursor=pointer]:
+                      - generic [ref=f4e2242]:
+                        - generic [ref=f4e2243]: 12:27
+                        - generic [ref=f4e2244]: 12분 27초
+                        - text: maintained as something instead of just something I share around in my organization.
+                    - button "12분 34초 Now that consensus is hard. I'm not saying this is tap versus spaces, but at times it feels like that if you have two" [ref=f4e2246] [cursor=pointer]:
+                      - generic [ref=f4e2249]:
+                        - generic [ref=f4e2250]: 12:34
+                        - generic [ref=f4e2251]: 12분 34초
+                        - text: Now that consensus is hard. I'm not saying this is tap versus spaces, but at times it feels like that if you have two
+                    - button "12분 42초 developer teams having to have consensus on how the way they work. That requires a lot of communication and brokerage. So" [ref=f4e2253] [cursor=pointer]:
+                      - generic [ref=f4e2256]:
+                        - generic [ref=f4e2257]: 12:42
+                        - generic [ref=f4e2258]: 12분 42초
+                        - text: developer teams having to have consensus on how the way they work. That requires a lot of communication and brokerage. So
+                    - button "12분 49초 you probably don't end up with one thing but a catalog of three, four paved roads where they can pick off and they can still do their own but that's on the" [ref=f4e2260] [cursor=pointer]:
+                      - generic [ref=f4e2263]:
+                        - generic [ref=f4e2264]: 12:49
+                        - generic [ref=f4e2265]: 12분 49초
+                        - text: you probably don't end up with one thing but a catalog of three, four paved roads where they can pick off and they can still do their own but that's on the
+                    - button "12분 58초 wrong budget. Right. The centralized pieces will be maintained and that is supposed to be the easy way of adoption to go there." [ref=f4e2267] [cursor=pointer]:
+                      - generic [ref=f4e2270]:
+                        - generic [ref=f4e2271]: 12:58
+                        - generic [ref=f4e2272]: 12분 58초
+                        - text: wrong budget. Right. The centralized pieces will be maintained and that is supposed to be the easy way of adoption to go there.
+                    - button "13분 8초 Now if they do this blindly, we also want to make sure that they know what is costs" [ref=f4e2274] [cursor=pointer]:
+                      - generic [ref=f4e2277]:
+                        - generic [ref=f4e2278]: 13:08
+                        - generic [ref=f4e2279]: 13분 8초
+                        - text: Now if they do this blindly, we also want to make sure that they know what is costs
+                    - button "13분 15초 because if they visualize the cost, they might be eager to do some optimization in there, right? And that kind of is" [ref=f4e2281] [cursor=pointer]:
+                      - generic [ref=f4e2284]:
+                        - generic [ref=f4e2285]: 13:15
+                        - generic [ref=f4e2286]: 13분 15초
+                        - text: because if they visualize the cost, they might be eager to do some optimization in there, right? And that kind of is
+                    - button "13분 22초 part of the platform team is making that visible. How much is this spending? How much is that kind like helping? If I can reduce the number of iterations the" [ref=f4e2288] [cursor=pointer]:
+                      - generic [ref=f4e2291]:
+                        - generic [ref=f4e2292]: 13:22
+                        - generic [ref=f4e2293]: 13분 22초
+                        - text: part of the platform team is making that visible. How much is this spending? How much is that kind like helping? If I can reduce the number of iterations the
+                    - button "13분 30초 agent has to run through that is an optimization that I can run but if I don't visualize that and I just see the end result then we don't know right so" [ref=f4e2295] [cursor=pointer]:
+                      - generic [ref=f4e2298]:
+                        - generic [ref=f4e2299]: 13:30
+                        - generic [ref=f4e2300]: 13분 30초
+                        - text: agent has to run through that is an optimization that I can run but if I don't visualize that and I just see the end result then we don't know right so
+                    - button "13분 39초 that is part of the platform team helping people and so what I'm arguing is that we should somewhere move from the solo" [ref=f4e2302] [cursor=pointer]:
+                      - generic [ref=f4e2305]:
+                        - generic [ref=f4e2306]: 13:39
+                        - generic [ref=f4e2307]: 13분 39초
+                        - text: that is part of the platform team helping people and so what I'm arguing is that we should somewhere move from the solo
+                    - button "13분 48초 developer to the team shared kind of context and pieces to a multiplayer system in the organization and I think" [ref=f4e2309] [cursor=pointer]:
+                      - generic [ref=f4e2312]:
+                        - generic [ref=f4e2313]: 13:48
+                        - generic [ref=f4e2314]: 13분 48초
+                        - text: developer to the team shared kind of context and pieces to a multiplayer system in the organization and I think
+                    - button "13분 55초 that's where the multiplication effect will happen right because you have this flywheel of improvements to go uh into multiple directions." [ref=f4e2316] [cursor=pointer]:
+                      - generic [ref=f4e2319]:
+                        - generic [ref=f4e2320]: 13:55
+                        - generic [ref=f4e2321]: 13분 55초
+                        - text: that's where the multiplication effect will happen right because you have this flywheel of improvements to go uh into multiple directions.
+                    - button "14분 7초 Now one layer higher the VP engineering says how do I enable the organization right and that is that I you know I can" [ref=f4e2323] [cursor=pointer]:
+                      - generic [ref=f4e2326]:
+                        - generic [ref=f4e2327]: 14:07
+                        - generic [ref=f4e2328]: 14분 7초
+                        - text: Now one layer higher the VP engineering says how do I enable the organization right and that is that I you know I can
+                    - button "14분 17초 predict the story in your organization a hackathon a lunch and learn let's share the successes have a shared slack channel have a champions program that's" [ref=f4e2330] [cursor=pointer]:
+                      - generic [ref=f4e2333]:
+                        - generic [ref=f4e2334]: 14:17
+                        - generic [ref=f4e2335]: 14분 17초
+                        - text: predict the story in your organization a hackathon a lunch and learn let's share the successes have a shared slack channel have a champions program that's
+                - generic [ref=f4e2336]:
+                  - button [ref=f4e2339] [cursor=pointer]:
+                    - 'heading "챕터 8: 챔피언 프로그램 없이 조직을 지원하는 법" [level=3] [ref=f4e2341]'
+                  - generic [ref=f4e2342]:
+                    - button "14분 25초 all generic transformation it could have been agile that transformed like that it could have been devops it doesn't matter and on the other side we know that the" [ref=f4e2344] [cursor=pointer]:
+                      - generic [ref=f4e2347]:
+                        - generic [ref=f4e2348]: 14:25
+                        - generic [ref=f4e2349]: 14분 25초
+                        - text: all generic transformation it could have been agile that transformed like that it could have been devops it doesn't matter and on the other side we know that the
+                    - button "14분 34초 strategy of just you know give licensing and educate people do something let the thousands of flowers bloom it doesn't" [ref=f4e2351] [cursor=pointer]:
+                      - generic [ref=f4e2354]:
+                        - generic [ref=f4e2355]: 14:34
+                        - generic [ref=f4e2356]: 14분 34초
+                        - text: strategy of just you know give licensing and educate people do something let the thousands of flowers bloom it doesn't
+                    - button "14분 42초 work so what I'm advocating is that the kind of on the organizational is that you give the team leads and the platform" [ref=f4e2358] [cursor=pointer]:
+                      - generic [ref=f4e2361]:
+                        - generic [ref=f4e2362]: 14:42
+                        - generic [ref=f4e2363]: 14분 42초
+                        - text: work so what I'm advocating is that the kind of on the organizational is that you give the team leads and the platform
+                    - button "14분 50초 that mandate to start doing that work and it's not a solo developer piece" [ref=f4e2365] [cursor=pointer]:
+                      - generic [ref=f4e2368]:
+                        - generic [ref=f4e2369]: 14:50
+                        - generic [ref=f4e2370]: 14분 50초
+                        - text: that mandate to start doing that work and it's not a solo developer piece
+                    - button "14분 56초 now finding people that help you externally is a mess yes we have all the titles the new job" [ref=f4e2372] [cursor=pointer]:
+                      - generic [ref=f4e2375]:
+                        - generic [ref=f4e2376]: 14:56
+                        - generic [ref=f4e2377]: 14분 56초
+                        - text: now finding people that help you externally is a mess yes we have all the titles the new job
+                    - button "15분 5초 titles AI product engineer for a deployed engineer you know there was a whole talk on this agentic engineer AI engineer it doesn't mean anything you" [ref=f4e2379] [cursor=pointer]:
+                      - generic [ref=f4e2382]:
+                        - generic [ref=f4e2383]: 15:05
+                        - generic [ref=f4e2384]: 15분 5초
+                        - text: titles AI product engineer for a deployed engineer you know there was a whole talk on this agentic engineer AI engineer it doesn't mean anything you
+                    - button "15분 14초 cannot judge whether what kind of the maturity of this because nobody's really that mature" [ref=f4e2386] [cursor=pointer]:
+                      - generic [ref=f4e2389]:
+                        - generic [ref=f4e2390]: 15:14
+                        - generic [ref=f4e2391]: 15분 14초
+                        - text: cannot judge whether what kind of the maturity of this because nobody's really that mature
+                - generic [ref=f4e2392]:
+                  - button [ref=f4e2395] [cursor=pointer]:
+                    - 'heading "챕터 9: 직무명이 무의미해질 때의 채용" [level=3] [ref=f4e2397]'
+                  - generic [ref=f4e2398]:
+                    - button "15분 22초 but it's a signal when you put a job posting out there that people might with the new intention will be looking there" [ref=f4e2400] [cursor=pointer]:
+                      - generic [ref=f4e2403]:
+                        - generic [ref=f4e2404]: 15:22
+                        - generic [ref=f4e2405]: 15분 22초
+                        - text: but it's a signal when you put a job posting out there that people might with the new intention will be looking there
+                    - button "15분 28초 but it's not a validation of the skills as such right so that is challenging for people um kind of hiring people." [ref=f4e2407] [cursor=pointer]:
+                      - generic [ref=f4e2410]:
+                        - generic [ref=f4e2411]: 15:28
+                        - generic [ref=f4e2412]: 15분 28초
+                        - text: but it's not a validation of the skills as such right so that is challenging for people um kind of hiring people.
+                    - button "15분 39초 Now they come to the interview and I heard stories about uh people using AI" [ref=f4e2414] [cursor=pointer]:
+                      - generic [ref=f4e2417]:
+                        - generic [ref=f4e2418]: 15:39
+                        - generic [ref=f4e2419]: 15분 39초
+                        - text: Now they come to the interview and I heard stories about uh people using AI
+                    - button "15분 45초 to like uh in their ears be response to the interview person and stuff like that. I think what what I hear from most" [ref=f4e2421] [cursor=pointer]:
+                      - generic [ref=f4e2424]:
+                        - generic [ref=f4e2425]: 15:45
+                        - generic [ref=f4e2426]: 15분 45초
+                        - text: to like uh in their ears be response to the interview person and stuff like that. I think what what I hear from most
+                    - button "15분 54초 companies is they say first step is we give them an exercise and we want them to really go nuts on the eye to solve" [ref=f4e2428] [cursor=pointer]:
+                      - generic [ref=f4e2431]:
+                        - generic [ref=f4e2432]: 15:54
+                        - generic [ref=f4e2433]: 15분 54초
+                        - text: companies is they say first step is we give them an exercise and we want them to really go nuts on the eye to solve
+                    - button "16분 2초 this. you know if they have help from AI that's all good that shows you kind of like how much they can kind of leverage" [ref=f4e2435] [cursor=pointer]:
+                      - generic [ref=f4e2438]:
+                        - generic [ref=f4e2439]: 16:02
+                        - generic [ref=f4e2440]: 16분 2초
+                        - text: this. you know if they have help from AI that's all good that shows you kind of like how much they can kind of leverage
+                    - button "16분 11초 the eye to do this now after they pass this you do a walk through and you actually say please explain me what" [ref=f4e2442] [cursor=pointer]:
+                      - generic [ref=f4e2445]:
+                        - generic [ref=f4e2446]: 16:11
+                        - generic [ref=f4e2447]: 16분 11초
+                        - text: the eye to do this now after they pass this you do a walk through and you actually say please explain me what
+                    - button "16분 19초 happened why is this a good idea that's where you are testing the taste and the engineering skills on why they doing" [ref=f4e2449] [cursor=pointer]:
+                      - generic [ref=f4e2452]:
+                        - generic [ref=f4e2453]: 16:19
+                        - generic [ref=f4e2454]: 16분 19초
+                        - text: happened why is this a good idea that's where you are testing the taste and the engineering skills on why they doing
+                    - button "16분 26초 this first part AI then engineering and the third thing is how do you collaborate are you willing to share." [ref=f4e2456] [cursor=pointer]:
+                      - generic [ref=f4e2459]:
+                        - generic [ref=f4e2460]: 16:26
+                        - generic [ref=f4e2461]: 16분 26초
+                        - text: this first part AI then engineering and the third thing is how do you collaborate are you willing to share.
+                    - button "16분 34초 Are you open or are you a solo player?" [ref=f4e2463] [cursor=pointer]:
+                      - generic [ref=f4e2466]:
+                        - generic [ref=f4e2467]: 16:34
+                        - generic [ref=f4e2468]: 16분 34초
+                        - text: Are you open or are you a solo player?
+                    - button "16분 36초 That's another signal that you tap into, right? But that fits into that whole thing of like making it sharable, making" [ref=f4e2470] [cursor=pointer]:
+                      - generic [ref=f4e2473]:
+                        - generic [ref=f4e2474]: 16:36
+                        - generic [ref=f4e2475]: 16분 36초
+                        - text: That's another signal that you tap into, right? But that fits into that whole thing of like making it sharable, making
+                    - button "16분 43초 it reusable, making it engineering grade within an organization. Those are the people that you look for, not people" [ref=f4e2477] [cursor=pointer]:
+                      - generic [ref=f4e2480]:
+                        - generic [ref=f4e2481]: 16:43
+                        - generic [ref=f4e2482]: 16분 43초
+                        - text: it reusable, making it engineering grade within an organization. Those are the people that you look for, not people
+                    - button "16분 50초 who've studied ML or AI, not people who are like experts per se at the coding." [ref=f4e2484] [cursor=pointer]:
+                      - generic [ref=f4e2487]:
+                        - generic [ref=f4e2488]: 16:50
+                        - generic [ref=f4e2489]: 16분 50초
+                        - text: who've studied ML or AI, not people who are like experts per se at the coding.
+                    - button "16분 56초 There's a blend on this. Now, you might not find a person who has all three, which is okay, but at least you know like, hey, they're very savvy on this" [ref=f4e2491] [cursor=pointer]:
+                      - generic [ref=f4e2494]:
+                        - generic [ref=f4e2495]: 16:56
+                        - generic [ref=f4e2496]: 16분 56초
+                        - text: There's a blend on this. Now, you might not find a person who has all three, which is okay, but at least you know like, hey, they're very savvy on this
+                    - button "17분 4초 piece, but then for the other piece, they need mentoring and they need tutoring. But like, don't put all the three pieces into one kind of saying like they're junior or they're senior." [ref=f4e2498] [cursor=pointer]:
+                      - generic [ref=f4e2501]:
+                        - generic [ref=f4e2502]: 17:04
+                        - generic [ref=f4e2503]: 17분 4초
+                        - text: piece, but then for the other piece, they need mentoring and they need tutoring. But like, don't put all the three pieces into one kind of saying like they're junior or they're senior.
+                    - button "17분 15초 They have like different skills on there." [ref=f4e2505] [cursor=pointer]:
+                      - generic [ref=f4e2508]:
+                        - generic [ref=f4e2509]: 17:15
+                        - generic [ref=f4e2510]: 17분 15초
+                        - text: They have like different skills on there.
+                    - button "17분 18초 Now the VP engineering has to defend this and they would uh have to make the case" [ref=f4e2512] [cursor=pointer]:
+                      - generic [ref=f4e2515]:
+                        - generic [ref=f4e2516]: 17:18
+                        - generic [ref=f4e2517]: 17분 18초
+                        - text: Now the VP engineering has to defend this and they would uh have to make the case
+                    - button "17분 27초 right. Well, we have x amount of licenses that we sold. We have faster delivery maybe that they can promise but hard to prove. We have quality that" [ref=f4e2519] [cursor=pointer]:
+                      - generic [ref=f4e2522]:
+                        - generic [ref=f4e2523]: 17:27
+                        - generic [ref=f4e2524]: 17분 27초
+                        - text: right. Well, we have x amount of licenses that we sold. We have faster delivery maybe that they can promise but hard to prove. We have quality that
+                    - button "17분 35초 improved again hard to say. But similar to what I said with the metrics of how" [ref=f4e2526] [cursor=pointer]:
+                      - generic [ref=f4e2529]:
+                        - generic [ref=f4e2530]: 17:35
+                        - generic [ref=f4e2531]: 17분 35초
+                        - text: improved again hard to say. But similar to what I said with the metrics of how
+                    - button "17분 43초 effective are your agents, you can show that how much turns and how much improvement that you're making on that" [ref=f4e2533] [cursor=pointer]:
+                      - generic [ref=f4e2536]:
+                        - generic [ref=f4e2537]: 17:43
+                        - generic [ref=f4e2538]: 17분 43초
+                        - text: effective are your agents, you can show that how much turns and how much improvement that you're making on that
+                - generic [ref=f4e2539]:
+                  - button [ref=f4e2542] [cursor=pointer]:
+                    - 'heading "챕터 10: 비용을 막는 대신 최적화하는 방법" [level=3] [ref=f4e2544]'
+                  - generic [ref=f4e2545]:
+                    - button "17분 50초 journey and same thing how much there is reuse. So it's an easier way to kind of show metrics than comparing productivity" [ref=f4e2547] [cursor=pointer]:
+                      - generic [ref=f4e2550]:
+                        - generic [ref=f4e2551]: 17:50
+                        - generic [ref=f4e2552]: 17분 50초
+                        - text: journey and same thing how much there is reuse. So it's an easier way to kind of show metrics than comparing productivity
+                    - button "17분 59초 with and without agent coding that help you in kind of those uh discussions as well. And so when people say" [ref=f4e2554] [cursor=pointer]:
+                      - generic [ref=f4e2557]:
+                        - generic [ref=f4e2558]: 17:59
+                        - generic [ref=f4e2559]: 17분 59초
+                        - text: with and without agent coding that help you in kind of those uh discussions as well. And so when people say
+                    - button "18분 9초 uh the vendors are charging completely nuts so we're going to limit the spend." [ref=f4e2561] [cursor=pointer]:
+                      - generic [ref=f4e2564]:
+                        - generic [ref=f4e2565]: 18:09
+                        - generic [ref=f4e2566]: 18분 9초
+                        - text: uh the vendors are charging completely nuts so we're going to limit the spend.
+                    - button "18분 14초 You shouldn't say like let's limit all the spends." [ref=f4e2568] [cursor=pointer]:
+                      - generic [ref=f4e2571]:
+                        - generic [ref=f4e2572]: 18:14
+                        - generic [ref=f4e2573]: 18분 14초
+                        - text: You shouldn't say like let's limit all the spends.
+                    - button "18분 18초 Your reflex should be let's optimize the spend and help them kind of reduce that uh in a good way. Whether that's as" [ref=f4e2575] [cursor=pointer]:
+                      - generic [ref=f4e2578]:
+                        - generic [ref=f4e2579]: 18:18
+                        - generic [ref=f4e2580]: 18분 18초
+                        - text: Your reflex should be let's optimize the spend and help them kind of reduce that uh in a good way. Whether that's as
+                    - button "18분 25초 simple as saying pick the right model, educate them on the model, but also on like giving them better context and harnesses because that will make your cost go down there as well." [ref=f4e2582] [cursor=pointer]:
+                      - generic [ref=f4e2585]:
+                        - generic [ref=f4e2586]: 18:25
+                        - generic [ref=f4e2587]: 18분 25초
+                        - text: simple as saying pick the right model, educate them on the model, but also on like giving them better context and harnesses because that will make your cost go down there as well.
+                    - button "18분 36초 the debate on smaller and bigger teams." [ref=f4e2589] [cursor=pointer]:
+                      - generic [ref=f4e2592]:
+                        - generic [ref=f4e2593]: 18:36
+                        - generic [ref=f4e2594]: 18분 36초
+                        - text: the debate on smaller and bigger teams.
+                    - button "18분 40초 Yes, it's nice to have like one person who can do it all. That's the ultimate dream. They can do everything." [ref=f4e2596] [cursor=pointer]:
+                      - generic [ref=f4e2599]:
+                        - generic [ref=f4e2600]: 18:40
+                        - generic [ref=f4e2601]: 18분 40초
+                        - text: Yes, it's nice to have like one person who can do it all. That's the ultimate dream. They can do everything.
+                    - button "18분 46초 Typically, they're paired with a complimentary skill. Maybe PM design and so on. Okay, then we need a backup if one of them is on holiday. So, that" [ref=f4e2603] [cursor=pointer]:
+                      - generic [ref=f4e2606]:
+                        - generic [ref=f4e2607]: 18:46
+                        - generic [ref=f4e2608]: 18분 46초
+                        - text: Typically, they're paired with a complimentary skill. Maybe PM design and so on. Okay, then we need a backup if one of them is on holiday. So, that
+                    - button "18분 55초 amounts back to three. And then maybe somebody has to care about production and tickets coming in. could be the same" [ref=f4e2610] [cursor=pointer]:
+                      - generic [ref=f4e2613]:
+                        - generic [ref=f4e2614]: 18:55
+                        - generic [ref=f4e2615]: 18분 55초
+                        - text: amounts back to three. And then maybe somebody has to care about production and tickets coming in. could be the same
+                    - button "19분 2초 people if you're really productive, but yeah, you know, you lose speed on features if you're still doing bugs and that depends a little bit on your" [ref=f4e2617] [cursor=pointer]:
+                      - generic [ref=f4e2620]:
+                        - generic [ref=f4e2621]: 19:02
+                        - generic [ref=f4e2622]: 19분 2초
+                        - text: people if you're really productive, but yeah, you know, you lose speed on features if you're still doing bugs and that depends a little bit on your
+                    - button "19분 9초 quality. And then there's the junior you want to get on the road as well to kind of make sure they're still learning what good looks like in one of those three" [ref=f4e2624] [cursor=pointer]:
+                      - generic [ref=f4e2627]:
+                        - generic [ref=f4e2628]: 19:09
+                        - generic [ref=f4e2629]: 19분 9초
+                        - text: quality. And then there's the junior you want to get on the road as well to kind of make sure they're still learning what good looks like in one of those three
+                    - button "19분 18초 areas. So I think we're still limited in a way in an organization that we're not going to each team being a solo or one" [ref=f4e2631] [cursor=pointer]:
+                      - generic [ref=f4e2634]:
+                        - generic [ref=f4e2635]: 19:18
+                        - generic [ref=f4e2636]: 19분 18초
+                        - text: areas. So I think we're still limited in a way in an organization that we're not going to each team being a solo or one
+                    - button "19분 26초 or two. Yes, a lot of experience, but I think that is the thing. Now we keep investing in actually education for that piece as well." [ref=f4e2638] [cursor=pointer]:
+                      - generic [ref=f4e2641]:
+                        - generic [ref=f4e2642]: 19:26
+                        - generic [ref=f4e2643]: 19분 26초
+                        - text: or two. Yes, a lot of experience, but I think that is the thing. Now we keep investing in actually education for that piece as well.
+                    - button "19분 35초 So one of the final attitudes is the dark factory with probably a dim factory. You have to see what risk you're willing to take for what" [ref=f4e2645] [cursor=pointer]:
+                      - generic [ref=f4e2648]:
+                        - generic [ref=f4e2649]: 19:35
+                        - generic [ref=f4e2650]: 19분 35초
+                        - text: So one of the final attitudes is the dark factory with probably a dim factory. You have to see what risk you're willing to take for what
+                    - button "19분 42초 features. So not all features will become autonomous but you can invest more in auditing like provenence like" [ref=f4e2652] [cursor=pointer]:
+                      - generic [ref=f4e2655]:
+                        - generic [ref=f4e2656]: 19:42
+                        - generic [ref=f4e2657]: 19분 42초
+                        - text: features. So not all features will become autonomous but you can invest more in auditing like provenence like
+                    - button "19분 50초 who changed the code verifiers that kind of check whether that code was useful and when it fails you invest in" [ref=f4e2659] [cursor=pointer]:
+                      - generic [ref=f4e2662]:
+                        - generic [ref=f4e2663]: 19:50
+                        - generic [ref=f4e2664]: 19분 50초
+                        - text: who changed the code verifiers that kind of check whether that code was useful and when it fails you invest in
+                    - button "19분 57초 situational awareness as well. So there's a whole spectrum from being a micromanager to being a autonomous approval that everything kind of is" [ref=f4e2666] [cursor=pointer]:
+                      - generic [ref=f4e2669]:
+                        - generic [ref=f4e2670]: 19:57
+                        - generic [ref=f4e2671]: 19분 57초
+                        - text: situational awareness as well. So there's a whole spectrum from being a micromanager to being a autonomous approval that everything kind of is
+                    - button "20분 6초 correct but you make the decision on what your risk level is and I think your mode is capturing the knowledge right the knowledge you're" [ref=f4e2673] [cursor=pointer]:
+                      - generic [ref=f4e2676]:
+                        - generic [ref=f4e2677]: 20:06
+                        - generic [ref=f4e2678]: 20분 6초
+                        - text: correct but you make the decision on what your risk level is and I think your mode is capturing the knowledge right the knowledge you're
+                    - button "20분 15초 putting now into skills you're in your context and maybe in your harness the way you kind of restrain this your" [ref=f4e2680] [cursor=pointer]:
+                      - generic [ref=f4e2683]:
+                        - generic [ref=f4e2684]: 20:15
+                        - generic [ref=f4e2685]: 20분 15초
+                        - text: putting now into skills you're in your context and maybe in your harness the way you kind of restrain this your
+                - generic [ref=f4e2686]:
+                  - button [ref=f4e2689] [cursor=pointer]:
+                    - 'heading "챕터 11: 희미한 공장과 지식이라는 해자" [level=3] [ref=f4e2691]'
+                  - generic [ref=f4e2692]:
+                    - button "20분 22초 business context and for me that kind of brings continuous delivery actually to continuous learning" [ref=f4e2694] [cursor=pointer]:
+                      - generic [ref=f4e2697]:
+                        - generic [ref=f4e2698]: 20:22
+                        - generic [ref=f4e2699]: 20분 22초
+                        - text: business context and for me that kind of brings continuous delivery actually to continuous learning
+                    - button "20분 29초 And if you ask the question, how fast can we swap in swap out something new?" [ref=f4e2701] [cursor=pointer]:
+                      - generic [ref=f4e2704]:
+                        - generic [ref=f4e2705]: 20:29
+                        - generic [ref=f4e2706]: 20분 29초
+                        - text: And if you ask the question, how fast can we swap in swap out something new?
+                    - button "20분 34초 That's your reactive mode. And if you can improve that, ultimately it's not about making the whole system more reliable, but can I keep it reliable" [ref=f4e2708] [cursor=pointer]:
+                      - generic [ref=f4e2711]:
+                        - generic [ref=f4e2712]: 20:34
+                        - generic [ref=f4e2713]: 20분 34초
+                        - text: That's your reactive mode. And if you can improve that, ultimately it's not about making the whole system more reliable, but can I keep it reliable
+                    - button "20분 44초 while changing more of the system?" [ref=f4e2715] [cursor=pointer]:
+                      - generic [ref=f4e2718]:
+                        - generic [ref=f4e2719]: 20:44
+                        - generic [ref=f4e2720]: 20분 44초
+                        - text: while changing more of the system?
+        - generic [ref=f4e530]:
+          - generic [ref=f4e535]:
+            - generic [ref=f4e536] [cursor=pointer]
+            - generic [ref=f4e539]:
+              - generic [ref=f4e540] [cursor=pointer]:
+                - generic [ref=f4e541]:
+                  - link "A browser that’s actually private." [ref=f4e544]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C1lJXzkGMavL_PNHqn88PlIC04Am9p4aciQGd77DZ4RVkEAEgAGDJjsaN9KTQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGNzOTSPagDBMgDCqoE3AJP0M19lZm4io9MdICkgkLUXbVBYHXLRbepqOzWBAROzGswzqaHbETo7G-_wlfA7AYJaayErOB1fO1HZdQAWiCoqnu0bsK-tbO9p72U5SCT_D2cDySpOjjNR2E9yXORwWACT_JqGzu9ZyWijF6fshMfSGjL_WlCk97iLFw9FIN1zxmemrLUHffIAbX-qL0I_QBKkAoKLaGVy4vEN4hP8zD9_6qYM2t3HoBRY3uQO_HVPEsm_WAubqmkrE9_cepWx2zU3U2YCnQm80QSsCuo6VsGtG2Is65JA-ukiwUH7Vkgbgj3ZdHSYMmAYMvEntSsXNHXJCCz6Va6rGlY85rAqHnH8GtxwRei4JRzwp_8uRqPTMKU7uWJWW7y6hi7a89SVgHojGhG88-ZbbQKepS1cIxdJ2Fr86nSrrP4QXJAESYYpfILxkvojl1DUBbrRFtYu1OZALl3vlwAv3S22GmIBc7yiadZkgUKCBNoAnjh6J-2GKAGboAHjYS1shiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfn2rECqAfetbEC0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYiIyjuaq5lgNgAfIIH2NhLXl0LWhvc3QtcHViLTczMDA0NDEyMzM1OTQ3MTmaCSVodHRwczovL3d3dy5hcHBsZS5jb20vc2FmYXJpL3ByaXZhY3kvsQnuxzc5zd9DLsgJAMgJigKYCwGhC8iuHydvmbZDugs9CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwV2aWRsc9ALE9IMAhABmg0BE6oNAlVTyA0B0g3eAWh0dHBzOi8vd3d3LmFwcGxlLmNvbS9zYWZhcmkvcHJpdmFjeS8_Y2lkPXd3YS11cy1kaXMtc2FmLTI2c2ZyaS1wZGlzLWdnYWRzcC1zdGFmLWRtZGdueWYtZGNwbS1tb3MtZHNrLWFtYWN0LWdudC1icm9hLXBydmxwLWFjdG5pdS11c2VuLWhlcm9hcnQtc3RhdGljLTExYXItYmFuLXNhZi1zcHRyYy1uYS1uYS1uYS1uYS1uYS0wNjk3MzExMCZyaWQ9MzA0LWNhbXBhaWduJm1waWQ9Njk3MzExMLgT____________AbAUAcAVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAboXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMI8p6juaq5lgMVUfXnAx0UAA2cEAEYASAAEgIH8PD_BwE&num=1&cid=CAASqwHkaLmVc23jC9kS5u7lPUhNIEFZYK6XsBGYem--3KVsNTMpBtHsF1P4MZJg1cJYbLVpuAeP6VnPfSuDW01e7xHRNfx73XiCrV6brBMgndktD90dKO5ajCJp56LqIWCdzSG40GFRV8tqPCw8UakggkD5161wBLhnV5MHIlfnBfBSN3RSXgWxFYWtOErIl7q0DkZmAJfyvz6zuYT0veQMB-dTKkFVfI8gieTI3Mo&sig=AOD64_3z3p3QdWOnKVtk06L7pEMLBPeibQ&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "Safari fights tracking with machine learning." [ref=f4e547]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C1lJXzkGMavL_PNHqn88PlIC04Am9p4aciQGd77DZ4RVkEAEgAGDJjsaN9KTQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGNzOTSPagDBMgDCqoE3AJP0M19lZm4io9MdICkgkLUXbVBYHXLRbepqOzWBAROzGswzqaHbETo7G-_wlfA7AYJaayErOB1fO1HZdQAWiCoqnu0bsK-tbO9p72U5SCT_D2cDySpOjjNR2E9yXORwWACT_JqGzu9ZyWijF6fshMfSGjL_WlCk97iLFw9FIN1zxmemrLUHffIAbX-qL0I_QBKkAoKLaGVy4vEN4hP8zD9_6qYM2t3HoBRY3uQO_HVPEsm_WAubqmkrE9_cepWx2zU3U2YCnQm80QSsCuo6VsGtG2Is65JA-ukiwUH7Vkgbgj3ZdHSYMmAYMvEntSsXNHXJCCz6Va6rGlY85rAqHnH8GtxwRei4JRzwp_8uRqPTMKU7uWJWW7y6hi7a89SVgHojGhG88-ZbbQKepS1cIxdJ2Fr86nSrrP4QXJAESYYpfILxkvojl1DUBbrRFtYu1OZALl3vlwAv3S22GmIBc7yiadZkgUKCBNoAnjh6J-2GKAGboAHjYS1shiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfn2rECqAfetbEC0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYiIyjuaq5lgNgAfIIH2NhLXl0LWhvc3QtcHViLTczMDA0NDEyMzM1OTQ3MTmaCSVodHRwczovL3d3dy5hcHBsZS5jb20vc2FmYXJpL3ByaXZhY3kvsQnuxzc5zd9DLsgJAMgJigKYCwGhC8iuHydvmbZDugs9CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwV2aWRsc9ALE9IMAhABmg0BE6oNAlVTyA0B0g3eAWh0dHBzOi8vd3d3LmFwcGxlLmNvbS9zYWZhcmkvcHJpdmFjeS8_Y2lkPXd3YS11cy1kaXMtc2FmLTI2c2ZyaS1wZGlzLWdnYWRzcC1zdGFmLWRtZGdueWYtZGNwbS1tb3MtZHNrLWFtYWN0LWdudC1icm9hLXBydmxwLWFjdG5pdS11c2VuLWhlcm9hcnQtc3RhdGljLTExYXItYmFuLXNhZi1zcHRyYy1uYS1uYS1uYS1uYS1uYS0wNjk3MzExMCZyaWQ9MzA0LWNhbXBhaWduJm1waWQ9Njk3MzExMLgT____________AbAUAcAVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAboXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMI8p6juaq5lgMVUfXnAx0UAA2cEAEYASAAEgIH8PD_BwE&num=1&cid=CAASqwHkaLmVc23jC9kS5u7lPUhNIEFZYK6XsBGYem--3KVsNTMpBtHsF1P4MZJg1cJYbLVpuAeP6VnPfSuDW01e7xHRNfx73XiCrV6brBMgndktD90dKO5ajCJp56LqIWCdzSG40GFRV8tqPCw8UakggkD5161wBLhnV5MHIlfnBfBSN3RSXgWxFYWtOErIl7q0DkZmAJfyvz6zuYT0veQMB-dTKkFVfI8gieTI3Mo&sig=AOD64_3z3p3QdWOnKVtk06L7pEMLBPeibQ&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=f4e548]:
+                    - generic [ref=f4e550]:
+                      - generic [ref=f4e551]: 스폰서
+                      - text: ·
+                    - generic [ref=f4e552]: Apple
+                - button "내 광고 센터" [ref=f4e556]
+              - link "Learn more" [ref=f4e561] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C1lJXzkGMavL_PNHqn88PlIC04Am9p4aciQGd77DZ4RVkEAEgAGDJjsaN9KTQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGNzOTSPagDBMgDCqoE3AJP0M19lZm4io9MdICkgkLUXbVBYHXLRbepqOzWBAROzGswzqaHbETo7G-_wlfA7AYJaayErOB1fO1HZdQAWiCoqnu0bsK-tbO9p72U5SCT_D2cDySpOjjNR2E9yXORwWACT_JqGzu9ZyWijF6fshMfSGjL_WlCk97iLFw9FIN1zxmemrLUHffIAbX-qL0I_QBKkAoKLaGVy4vEN4hP8zD9_6qYM2t3HoBRY3uQO_HVPEsm_WAubqmkrE9_cepWx2zU3U2YCnQm80QSsCuo6VsGtG2Is65JA-ukiwUH7Vkgbgj3ZdHSYMmAYMvEntSsXNHXJCCz6Va6rGlY85rAqHnH8GtxwRei4JRzwp_8uRqPTMKU7uWJWW7y6hi7a89SVgHojGhG88-ZbbQKepS1cIxdJ2Fr86nSrrP4QXJAESYYpfILxkvojl1DUBbrRFtYu1OZALl3vlwAv3S22GmIBc7yiadZkgUKCBNoAnjh6J-2GKAGboAHjYS1shiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfn2rECqAfetbEC0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYiIyjuaq5lgNgAfIIH2NhLXl0LWhvc3QtcHViLTczMDA0NDEyMzM1OTQ3MTmaCSVodHRwczovL3d3dy5hcHBsZS5jb20vc2FmYXJpL3ByaXZhY3kvsQnuxzc5zd9DLsgJAMgJigKYCwGhC8iuHydvmbZDugs9CAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwV2aWRsc9ALE9IMAhABmg0BE6oNAlVTyA0B0g3eAWh0dHBzOi8vd3d3LmFwcGxlLmNvbS9zYWZhcmkvcHJpdmFjeS8_Y2lkPXd3YS11cy1kaXMtc2FmLTI2c2ZyaS1wZGlzLWdnYWRzcC1zdGFmLWRtZGdueWYtZGNwbS1tb3MtZHNrLWFtYWN0LWdudC1icm9hLXBydmxwLWFjdG5pdS11c2VuLWhlcm9hcnQtc3RhdGljLTExYXItYmFuLXNhZi1zcHRyYy1uYS1uYS1uYS1uYS1uYS0wNjk3MzExMCZyaWQ9MzA0LWNhbXBhaWduJm1waWQ9Njk3MzExMLgT____________AbAUAcAVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAboXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMI8p6juaq5lgMVUfXnAx0UAA2cEAEYASAAEgIH8PD_BwE&num=1&cid=CAASqwHkaLmVc23jC9kS5u7lPUhNIEFZYK6XsBGYem--3KVsNTMpBtHsF1P4MZJg1cJYbLVpuAeP6VnPfSuDW01e7xHRNfx73XiCrV6brBMgndktD90dKO5ajCJp56LqIWCdzSG40GFRV8tqPCw8UakggkD5161wBLhnV5MHIlfnBfBSN3RSXgWxFYWtOErIl7q0DkZmAJfyvz6zuYT0veQMB-dTKkFVfI8gieTI3Mo&sig=AOD64_3z3p3QdWOnKVtk06L7pEMLBPeibQ&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+          - generic [ref=f4e566] [cursor=pointer]:
+            - link [ref=f4e567]:
+              - /url: /watch?v=jHbNYb6Eg_s&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f4e568]: 23:18
+            - generic [ref=f4e576]:
+              - generic [ref=f4e577]:
+                - heading "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC)" [level=3] [ref=f4e578]:
+                  - link "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC) 23분" [ref=f4e579]:
+                    - /url: /watch?v=jHbNYb6Eg_s&pp=ugUEEgJrbw%3D%3D
+                    - text: "\"OO해줘\" 라고 명령하시면 안 됩니다 | 서울대 박현우 교수 | 샤로잡다 시즌2 (ENG CC)"
+                - generic [ref=f4e581]:
+                  - group [ref=f4e582]:
+                    - generic [ref=f4e583]: 서울대학교 Seoul National University
+                  - group [ref=f4e589]:
+                    - generic "조회수 25만회" [ref=f4e593]: 25만
+                    - generic "3주 전" [ref=f4e594]
+              - button "추가 작업" [ref=f4e597]
+          - generic [ref=f4e602] [cursor=pointer]:
+            - link [ref=f4e603]:
+              - /url: /watch?v=c88oWQfeo3Q
+              - generic [ref=f4e604]: 42:22
+            - generic [ref=f4e612]:
+              - generic [ref=f4e613]:
+                - heading "한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역)" [level=3] [ref=f4e614]:
+                  - link "한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역) 42분" [ref=f4e615]:
+                    - /url: /watch?v=c88oWQfeo3Q
+                    - text: 한 분이라도 더 보셨으면 좋겠습니다 (앤트로픽 풀다큐 번역)
+                - generic [ref=f4e617]:
+                  - group [ref=f4e618]:
+                    - generic [ref=f4e619]: BZCF | 비즈까페
+                  - group [ref=f4e620]:
+                    - generic "조회수 35만회" [ref=f4e624]: 35만
+                    - generic "2개월 전" [ref=f4e625]
+              - button "추가 작업" [ref=f4e628]
+          - generic [ref=f4e633] [cursor=pointer]:
+            - link [ref=f4e634]:
+              - /url: /watch?v=inFcatV7OuA
+              - generic [ref=f4e635]: 22:59
+            - generic [ref=f4e643]:
+              - generic [ref=f4e644]:
+                - heading "\"제 조언은, AI에 투자하지 말라는 겁니다\"…〈인간은 필요 없다〉 저자 제리 카플란이 답한 AI 버블의 진실 [더 프롬프트] EP.4 | YTN [ENG SUB]" [level=3] [ref=f4e645]:
+                  - link "\"제 조언은, AI에 투자하지 말라는 겁니다\"…〈인간은 필요 없다〉 저자 제리 카플란이 답한 AI 버블의 진실 [더 프롬프트] EP.4 | YTN [ENG SUB] 22분" [ref=f4e646]:
+                    - /url: /watch?v=inFcatV7OuA
+                    - text: "\"제 조언은, AI에 투자하지 말라는 겁니다\"…〈인간은 필요 없다〉 저자 제리 카플란이 답한 AI 버블의 진실 [더 프롬프트] EP.4 | YTN [ENG SUB]"
+                - generic [ref=f4e648]:
+                  - group [ref=f4e649]:
+                    - generic [ref=f4e650]: YTN
+                  - group [ref=f4e656]:
+                    - generic "조회수 3만회" [ref=f4e660]: 3만
+                    - generic "1일 전" [ref=f4e661]
+                  - group [ref=f4e662]:
+                    - generic [ref=f4e663]: 새 동영상
+              - button "추가 작업" [ref=f4e669]
+          - generic [ref=f4e674] [cursor=pointer]:
+            - link [ref=f4e675]:
+              - /url: /watch?v=x3e_Yl4NNHY&pp=ugUEEgJlbg%3D%3D
+              - generic [ref=f4e676]: 19:33
+            - generic [ref=f4e684]:
+              - generic [ref=f4e685]:
+                - heading "[한영자막] \"코드를 이해하는 것\"이 새로운 병목입니다" [level=3] [ref=f4e686]:
+                  - link "[한영자막] \"코드를 이해하는 것\"이 새로운 병목입니다 19분" [ref=f4e687]:
+                    - /url: /watch?v=x3e_Yl4NNHY&pp=ugUEEgJlbg%3D%3D
+                    - text: "[한영자막] \"코드를 이해하는 것\"이 새로운 병목입니다"
+                - generic [ref=f4e689]:
+                  - group [ref=f4e690]:
+                    - generic [ref=f4e691]: Tech Bridge
+                  - group [ref=f4e692]:
+                    - generic "조회수 2.5만회" [ref=f4e696]: 2.5만
+                    - generic "1개월 전" [ref=f4e697]
+              - button "추가 작업" [ref=f4e700]
+          - generic [ref=f4e705] [cursor=pointer]:
+            - link [ref=f4e706]:
+              - /url: /watch?v=9QcvYurmtsI
+              - generic [ref=f4e707]: 5:47
+            - generic [ref=f4e715]:
+              - generic [ref=f4e716]:
+                - heading "\"공보의? 제가 미쳤다고 가요?\" 의대생 '당돌' 발언에 '싸늘' [G1현장영상]" [level=3] [ref=f4e717]:
+                  - link "\"공보의? 제가 미쳤다고 가요?\" 의대생 '당돌' 발언에 '싸늘' [G1현장영상] 5분 47초" [ref=f4e718]:
+                    - /url: /watch?v=9QcvYurmtsI
+                    - text: "\"공보의? 제가 미쳤다고 가요?\" 의대생 '당돌' 발언에 '싸늘' [G1현장영상]"
+                - generic [ref=f4e720]:
+                  - group [ref=f4e721]:
+                    - generic [ref=f4e722]: G1 News
+                  - group [ref=f4e723]:
+                    - generic "조회수 120만회" [ref=f4e727]: 120만
+                    - generic "1개월 전" [ref=f4e728]
+              - button "추가 작업" [ref=f4e731]
+          - generic [ref=f4e736] [cursor=pointer]:
+            - link [ref=f4e737]:
+              - /url: /watch?v=vd__njvqkqc
+              - generic [ref=f4e738]: 8:07
+            - generic [ref=f4e746]:
+              - generic [ref=f4e747]:
+                - heading "대답할 때마다 돈 나가는 오픈AI · 앤스로픽 돈 들어오는 구글" [level=3] [ref=f4e748]:
+                  - link "대답할 때마다 돈 나가는 오픈AI · 앤스로픽 돈 들어오는 구글 8분 7초" [ref=f4e749]:
+                    - /url: /watch?v=vd__njvqkqc
+                    - text: 대답할 때마다 돈 나가는 오픈AI · 앤스로픽 돈 들어오는 구글
+                - generic [ref=f4e751]:
+                  - group [ref=f4e752]:
+                    - generic [ref=f4e753]: 티타임즈TV
+                  - group [ref=f4e759]:
+                    - generic "조회수 11만회" [ref=f4e763]: 11만
+                    - generic "1일 전" [ref=f4e764]
+                  - group [ref=f4e765]:
+                    - generic [ref=f4e766]: 새 동영상
+              - button "추가 작업" [ref=f4e772]
+          - generic [ref=f4e777] [cursor=pointer]:
+            - link [ref=f4e778]:
+              - /url: /watch?v=i0NcKL1JLfg&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f4e779]: 19:49
+            - generic [ref=f4e787]:
+              - generic [ref=f4e788]:
+                - heading "코딩도 과제도 AI가 다 하는 시대, 컴공에서는 무엇을 배워야 할까? | 서울대 이재욱 교수 | 샤로잡다 시즌2 (ENG CC)" [level=3] [ref=f4e789]:
+                  - link "코딩도 과제도 AI가 다 하는 시대, 컴공에서는 무엇을 배워야 할까? | 서울대 이재욱 교수 | 샤로잡다 시즌2 (ENG CC) 19분" [ref=f4e790]:
+                    - /url: /watch?v=i0NcKL1JLfg&pp=ugUEEgJrbw%3D%3D
+                    - text: 코딩도 과제도 AI가 다 하는 시대, 컴공에서는 무엇을 배워야 할까? | 서울대 이재욱 교수 | 샤로잡다 시즌2 (ENG CC)
+                - generic [ref=f4e792]:
+                  - group [ref=f4e793]:
+                    - generic [ref=f4e794]: 서울대학교 Seoul National University
+                  - group [ref=f4e800]:
+                    - generic "조회수 33만회" [ref=f4e804]: 33만
+                    - generic "1개월 전" [ref=f4e805]
+              - button "추가 작업" [ref=f4e808]
+          - generic [ref=f4e813] [cursor=pointer]:
+            - link [ref=f4e814]:
+              - /url: /watch?v=UNnsS03whx0
+              - generic [ref=f4e815]: 26:54
+            - generic [ref=f4e823]:
+              - generic [ref=f4e824]:
+                - heading "꼭 알아야할 안드레 카파시 30분 인터뷰 완전정리 - AI시대의 필수 인사이트!" [level=3] [ref=f4e825]:
+                  - link "꼭 알아야할 안드레 카파시 30분 인터뷰 완전정리 - AI시대의 필수 인사이트! 26분" [ref=f4e826]:
+                    - /url: /watch?v=UNnsS03whx0
+                    - text: 꼭 알아야할 안드레 카파시 30분 인터뷰 완전정리 - AI시대의 필수 인사이트!
+                - generic [ref=f4e828]:
+                  - group [ref=f4e829]:
+                    - generic [ref=f4e830]: 김플립 - LLM 코딩
+                  - group [ref=f4e831]:
+                    - generic "조회수 5.8만회" [ref=f4e835]: 5.8만
+                    - generic "3개월 전" [ref=f4e836]
+              - button "추가 작업" [ref=f4e839]
+          - generic [ref=f4e844] [cursor=pointer]:
+            - link [ref=f4e845]:
+              - /url: /watch?v=b9gFAGY_oMM
+              - generic [ref=f4e846]: 30:50
+            - generic [ref=f4e854]:
+              - generic [ref=f4e855]:
+                - heading "대치동에 보내지 않아도 됩니다, AI 시대 내 아이에게 진짜 필요한 5가지 능력 | 백영재 인류학자 경영인 | AI 인재 커리어 경계인 | 인생질문 356회" [level=3] [ref=f4e856]:
+                  - link "대치동에 보내지 않아도 됩니다, AI 시대 내 아이에게 진짜 필요한 5가지 능력 | 백영재 인류학자 경영인 | AI 인재 커리어 경계인 | 인생질문 356회 30분" [ref=f4e857]:
+                    - /url: /watch?v=b9gFAGY_oMM
+                    - text: 대치동에 보내지 않아도 됩니다, AI 시대 내 아이에게 진짜 필요한 5가지 능력 | 백영재 인류학자 경영인 | AI 인재 커리어 경계인 | 인생질문 356회
+                - generic [ref=f4e859]:
+                  - group [ref=f4e860]:
+                    - generic [ref=f4e861]: 세바시 인생질문
+                  - group [ref=f4e862]:
+                    - generic "조회수 2.6만회" [ref=f4e866]: 2.6만
+                    - generic "4일 전" [ref=f4e867]
+                  - group [ref=f4e868]:
+                    - generic [ref=f4e869]: 새 동영상
+              - button "추가 작업" [ref=f4e875]
+          - generic [ref=f4e880] [cursor=pointer]:
+            - link [ref=f4e881]:
+              - /url: /watch?v=Cy1xjHaoqGI
+              - generic [ref=f4e882]: 20:04
+            - generic [ref=f4e890]:
+              - generic [ref=f4e891]:
+                - heading "오픈AI보다 똑똑한 AI브라우저 만든 20대 천재 한국인의 미친 집념ㅣ아메리칸 드림 2.0" [level=3] [ref=f4e892]:
+                  - link "오픈AI보다 똑똑한 AI브라우저 만든 20대 천재 한국인의 미친 집념ㅣ아메리칸 드림 2.0 20분" [ref=f4e893]:
+                    - /url: /watch?v=Cy1xjHaoqGI
+                    - text: 오픈AI보다 똑똑한 AI브라우저 만든 20대 천재 한국인의 미친 집념ㅣ아메리칸 드림 2.0
+                - generic [ref=f4e895]:
+                  - group [ref=f4e896]:
+                    - generic [ref=f4e897]: EO Korea
+                  - group [ref=f4e898]:
+                    - generic "조회수 11만회" [ref=f4e902]: 11만
+                    - generic "11일 전" [ref=f4e903]
+              - button "추가 작업" [ref=f4e906]
+          - generic [ref=f4e911] [cursor=pointer]:
+            - link [ref=f4e912]:
+              - /url: /watch?v=LPZh9BOjkQs&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f4e913]: 7:58
+            - generic [ref=f4e921]:
+              - generic [ref=f4e922]:
+                - heading "한 눈에 보는 대규모 언어 모델" [level=3] [ref=f4e923]:
+                  - link "한 눈에 보는 대규모 언어 모델 7분 58초" [ref=f4e924]:
+                    - /url: /watch?v=LPZh9BOjkQs&pp=ugUEEgJrbw%3D%3D
+                    - text: 한 눈에 보는 대규모 언어 모델
+                - generic [ref=f4e926]:
+                  - group [ref=f4e927]:
+                    - generic [ref=f4e928]: 3Blue1Brown
+                  - group [ref=f4e934]:
+                    - generic "조회수 719만회" [ref=f4e938]: 719만
+                    - generic "1년 전" [ref=f4e939]
+                  - group [ref=f4e940]:
+                    - generic [ref=f4e941]: 더빙
+              - button "추가 작업" [ref=f4e950]
+          - generic [ref=f4e955] [cursor=pointer]:
+            - link [ref=f4e956]:
+              - /url: /watch?v=SW2bVwdr8Zg
+              - generic [ref=f4e957]: 16:17
+            - generic [ref=f4e965]:
+              - generic [ref=f4e966]:
+                - heading "제가 이걸 공짜로 들어도 될까요? (빌 애크먼)" [level=3] [ref=f4e967]:
+                  - link "제가 이걸 공짜로 들어도 될까요? (빌 애크먼) 16분" [ref=f4e968]:
+                    - /url: /watch?v=SW2bVwdr8Zg
+                    - text: 제가 이걸 공짜로 들어도 될까요? (빌 애크먼)
+                - generic [ref=f4e970]:
+                  - group [ref=f4e971]:
+                    - generic [ref=f4e972]: BZCF | 비즈까페
+                  - group [ref=f4e973]:
+                    - generic "조회수 18만회" [ref=f4e977]: 18만
+                    - generic "3주 전" [ref=f4e978]
+              - button "추가 작업" [ref=f4e981]
+          - generic [ref=f4e986] [cursor=pointer]:
+            - link [ref=f4e987]:
+              - /url: /watch?v=M0N-Hxgqi7I
+              - generic [ref=f4e988]: 1:10:03
+            - generic [ref=f4e996]:
+              - generic [ref=f4e997]:
+                - 'heading "일론머스크 : \"인간 이제 5년 남았다\"" [level=3] [ref=f4e998]':
+                  - 'link "일론머스크 : \"인간 이제 5년 남았다\" 1시간 10분" [ref=f4e999]':
+                    - /url: /watch?v=M0N-Hxgqi7I
+                    - text: "일론머스크 : \"인간 이제 5년 남았다\""
+                - generic [ref=f4e1001]:
+                  - group [ref=f4e1002]:
+                    - generic [ref=f4e1003]: BZCF | 비즈까페
+                  - group [ref=f4e1004]:
+                    - generic "조회수 41만회" [ref=f4e1008]: 41만
+                    - generic "3주 전" [ref=f4e1009]
+              - button "추가 작업" [ref=f4e1012]
+          - generic [ref=f4e1017] [cursor=pointer]:
+            - link [ref=f4e1018]:
+              - /url: /watch?v=QroLnrrIHMc
+              - generic [ref=f4e1019]: 13:49
+            - generic [ref=f4e1027]:
+              - generic [ref=f4e1028]:
+                - heading "구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그" [level=3] [ref=f4e1029]:
+                  - link "구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그 13분 49초" [ref=f4e1030]:
+                    - /url: /watch?v=QroLnrrIHMc
+                    - text: 구글에 무슨 일이? '전설급' AI 인재 다 떠난다 / 오그랲 / 비디오머그
+                - generic [ref=f4e1032]:
+                  - group [ref=f4e1033]:
+                    - generic [ref=f4e1034]: 비디오머그 - VIDEOMUG
+                  - group [ref=f4e1040]:
+                    - generic "조회수 30만회" [ref=f4e1044]: 30만
+                    - generic "5일 전" [ref=f4e1045]
+                  - group [ref=f4e1046]:
+                    - generic [ref=f4e1047]: 새 동영상
+              - button "추가 작업" [ref=f4e1053]
+          - generic [ref=f4e1058] [cursor=pointer]:
+            - link [ref=f4e1059]:
+              - /url: /watch?v=W6aOdLlEz1w
+              - generic [ref=f4e1060]: 25:00
+            - generic [ref=f4e1068]:
+              - generic [ref=f4e1069]:
+                - heading "2026년에도 소프트웨어 엔지니어가 되어야 할까? GitHub 부사장에게 묻다" [level=3] [ref=f4e1070]:
+                  - link "2026년에도 소프트웨어 엔지니어가 되어야 할까? GitHub 부사장에게 묻다 25분" [ref=f4e1071]:
+                    - /url: /watch?v=W6aOdLlEz1w
+                    - text: 2026년에도 소프트웨어 엔지니어가 되어야 할까? GitHub 부사장에게 묻다
+                - generic [ref=f4e1073]:
+                  - group [ref=f4e1074]:
+                    - generic [ref=f4e1075]: Jean Lee
+                  - group [ref=f4e1076]:
+                    - generic "조회수 21만회" [ref=f4e1080]: 21만
+                    - generic "1개월 전" [ref=f4e1081]
+              - button "추가 작업" [ref=f4e1084]
+          - generic [ref=f4e1089] [cursor=pointer]:
+            - link [ref=f4e1090]:
+              - /url: /watch?v=KKX3J2TPapo&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f4e1091]: 36:29
+            - generic [ref=f4e1099]:
+              - generic [ref=f4e1100]:
+                - heading "[지식뉴스] \"이거 진짜예요\"...돈도 인프라도 다 밀리는 한국, 대체 뭘 믿고 AI에 국운 걸었나 / 교양이를 부탁해" [level=3] [ref=f4e1101]:
+                  - link "[지식뉴스] \"이거 진짜예요\"...돈도 인프라도 다 밀리는 한국, 대체 뭘 믿고 AI에 국운 걸었나 / 교양이를 부탁해 36분" [ref=f4e1102]:
+                    - /url: /watch?v=KKX3J2TPapo&pp=ugUEEgJrbw%3D%3D
+                    - text: "[지식뉴스] \"이거 진짜예요\"...돈도 인프라도 다 밀리는 한국, 대체 뭘 믿고 AI에 국운 걸었나 / 교양이를 부탁해"
+                - generic [ref=f4e1104]:
+                  - group [ref=f4e1105]:
+                    - generic [ref=f4e1106]: 교양이를 부탁해
+                  - group [ref=f4e1107]:
+                    - generic "조회수 13만회" [ref=f4e1111]: 13만
+                    - generic "3일 전" [ref=f4e1112]
+                  - group [ref=f4e1113]:
+                    - generic [ref=f4e1114]: 새 동영상
+              - button "추가 작업" [ref=f4e1120]
+          - generic [ref=f4e1125] [cursor=pointer]:
+            - link [ref=f4e1126]:
+              - /url: /watch?v=IyJNc5vpN1Q
+              - generic [ref=f4e1127]: 56:40
+            - generic [ref=f4e1135]:
+              - generic [ref=f4e1136]:
+                - heading "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다" [level=3] [ref=f4e1137]:
+                  - link "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다 56분" [ref=f4e1138]:
+                    - /url: /watch?v=IyJNc5vpN1Q
+                    - text: "[한영자막] AI 시대에 소프트웨어 기본기가 중요한 이유를 엉클 밥에게 물었습니다"
+                - generic [ref=f4e1140]:
+                  - group [ref=f4e1141]:
+                    - generic [ref=f4e1142]: Tech Bridge
+                  - group [ref=f4e1143]:
+                    - generic "조회수 2.7천회" [ref=f4e1147]: 2.7천
+                    - generic "3일 전" [ref=f4e1148]
+                  - group [ref=f4e1149]:
+                    - generic [ref=f4e1150]: 새 동영상
+              - button "추가 작업" [ref=f4e1156]
+          - generic [ref=f4e1161] [cursor=pointer]:
+            - link [ref=f4e1162]:
+              - /url: /watch?v=hx5TnPMxKU8&pp=0gcJCRMMAYcqIYzv
+              - generic [ref=f4e1163]: 22:29
+            - generic [ref=f4e1171]:
+              - generic [ref=f4e1172]:
+                - heading "“엔비디아를 가장 위협할 기업, 구글과 애플입니다” (김정호 카이스트 교수)" [level=3] [ref=f4e1173]:
+                  - link "“엔비디아를 가장 위협할 기업, 구글과 애플입니다” (김정호 카이스트 교수) 22분" [ref=f4e1174]:
+                    - /url: /watch?v=hx5TnPMxKU8&pp=0gcJCRMMAYcqIYzv
+                    - text: “엔비디아를 가장 위협할 기업, 구글과 애플입니다” (김정호 카이스트 교수)
+                - generic [ref=f4e1176]:
+                  - group [ref=f4e1177]:
+                    - generic [ref=f4e1178]: 티타임즈TV
+                  - group [ref=f4e1184]:
+                    - generic "조회수 21만회" [ref=f4e1188]: 21만
+                    - generic "2일 전" [ref=f4e1189]
+                  - group [ref=f4e1190]:
+                    - generic [ref=f4e1191]: 새 동영상
+              - button "추가 작업" [ref=f4e1197]
+          - generic [ref=f4e1202] [cursor=pointer]:
+            - link [ref=f4e1203]:
+              - /url: /watch?v=vq5mTwRjikQ&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f4e1204]: 35:14
+            - generic [ref=f4e1212]:
+              - generic [ref=f4e1213]:
+                - heading "\"논문, 보고서 요약해줘\"라고 AI한테 시키는 것이 '최악의 프롬프팅'인 이유(이제현 박사)" [level=3] [ref=f4e1214]:
+                  - link "\"논문, 보고서 요약해줘\"라고 AI한테 시키는 것이 '최악의 프롬프팅'인 이유(이제현 박사) 35분" [ref=f4e1215]:
+                    - /url: /watch?v=vq5mTwRjikQ&pp=ugUEEgJrbw%3D%3D
+                    - text: "\"논문, 보고서 요약해줘\"라고 AI한테 시키는 것이 '최악의 프롬프팅'인 이유(이제현 박사)"
+                - generic [ref=f4e1217]:
+                  - group [ref=f4e1218]:
+                    - generic [ref=f4e1219]: 티타임즈TV
+                  - group [ref=f4e1225]:
+                    - generic "조회수 17만회" [ref=f4e1229]: 17만
+                    - generic "8개월 전" [ref=f4e1230]
+              - button "추가 작업" [ref=f4e1233]
+          - generic [ref=f4e1238] [cursor=pointer]:
+            - link [ref=f4e1239]:
+              - /url: /watch?v=4h7_lPC38Kg&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=f4e1240]: 16:57
+            - generic [ref=f4e1248]:
+              - generic [ref=f4e1249]:
+                - heading "SK하이닉스 Nature 논문 최초 공개, AI 광학 메모리 시대 등장 | CPO가 메모리까지 들어오면 생기는 일" [level=3] [ref=f4e1250]:
+                  - link "SK하이닉스 Nature 논문 최초 공개, AI 광학 메모리 시대 등장 | CPO가 메모리까지 들어오면 생기는 일 16분" [ref=f4e1251]:
+                    - /url: /watch?v=4h7_lPC38Kg&pp=ugUEEgJrbw%3D%3D
+                    - text: SK하이닉스 Nature 논문 최초 공개, AI 광학 메모리 시대 등장 | CPO가 메모리까지 들어오면 생기는 일
+                - generic [ref=f4e1253]:
+                  - group [ref=f4e1254]:
+                    - generic [ref=f4e1255]: 안될공학 - IT 테크 신기술
+                  - group [ref=f4e1261]:
+                    - generic "조회수 3.8만회" [ref=f4e1265]: 3.8만
+                    - generic "1일 전" [ref=f4e1266]
+                  - group [ref=f4e1267]:
+                    - generic [ref=f4e1268]: 새 동영상
+              - button "추가 작업" [ref=f4e1274]
