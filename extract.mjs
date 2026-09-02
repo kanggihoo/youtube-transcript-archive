@@ -66,10 +66,12 @@ const main = (raw) => {
   const id = videoId(cleanUrl(raw));
   const url = `https://www.youtube.com/watch?v=${id}`;
 
+  const defuddleBin = process.platform === "win32" ? "defuddle.cmd" : "defuddle";
   const fetch = () =>
-    execFileSync("defuddle", ["parse", url, "-m", "-f"], {
+    execFileSync(defuddleBin, ["parse", url, "-m", "-f"], {
       encoding: "utf8",
       maxBuffer: 64 * 1024 * 1024,
+      shell: process.platform === "win32",
     });
 
   // published가 비는 일이 실제로 있습니다. 재시도로 채워지는 경우가 있어 한 번만 더 봅니다.
@@ -97,7 +99,9 @@ const main = (raw) => {
   console.log(out);
 };
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+import { pathToFileURL } from "node:url";
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   try {
     main(process.argv[2]);
   } catch (e) {
