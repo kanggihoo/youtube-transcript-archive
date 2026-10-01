@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transcript Viewer</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<style>
+  :root { --bg:#fafaf9; --panel:#fff; --line:#e7e5e4; --text:#1c1917; --muted:#78716c; --accent:#2563eb; --danger:#dc2626; --sel:#eff6ff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0c0a09; --panel:#1c1917; --line:#292524; --text:#e7e5e4; --muted:#a8a29e; --accent:#60a5fa; --danger:#f87171; --sel:#1e293b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.65 system-ui, "Malgun Gothic", sans-serif; height:100vh; display:flex; }
+  button { font:inherit; cursor:pointer; border:1px solid var(--line); background:var(--panel); color:var(--text); border-radius:6px; padding:5px 12px; }
+  button:hover:not(:disabled) { border-color:var(--accent); }
+  button:disabled { opacity:.4; cursor:default; }
+  aside { width:340px; flex-shrink:0; border-right:1px solid var(--line); display:flex; flex-direction:column; background:var(--panel); }
+  aside header { padding:12px; border-bottom:1px solid var(--line); display:flex; flex-direction:column; gap:8px; }
+  aside input { font:inherit; padding:6px 10px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--text); }
+  #list { overflow:auto; flex:1; margin:0; padding:0; list-style:none; }
+  #list li { padding:8px 12px; border-bottom:1px solid var(--line); cursor:pointer; font-size:13px; }
+  #list li:hover { background:var(--sel); }
+  #list li.on { background:var(--sel); border-left:3px solid var(--accent); }
+  #list .date { color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; }
+  main { flex:1; display:flex; flex-direction:column; min-width:0; }
+  .bar { display:flex; gap:8px; align-items:center; padding:10px 20px; border-bottom:1px solid var(--line); background:var(--panel); flex-wrap:wrap; }
+  .bar .spacer { flex:1; }
+  .tabs button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  #del { color:var(--danger); }
+  #del:hover { border-color:var(--danger); }
+  #meta { padding:14px 28px 0; color:var(--muted); font-size:13px; }
+  #meta h1 { color:var(--text); font-size:20px; margin:0 0 4px; line-height:1.4; }
+  #meta a { color:var(--accent); }
+  #doc { overflow:auto; flex:1; padding:8px 28px 60px; }
+  #doc > * { max-width:860px; }
+  #doc pre, #doc code { background:var(--bg); border-radius:4px; }
+  #doc pre { padding:10px; overflow:auto; }
+  #doc img { max-width:100%; }
+  #doc table { border-collapse:collapse; } #doc td, #doc th { border:1px solid var(--line); padding:4px 8px; }
+  .empty { margin:auto; text-align:center; color:var(--muted); }
+  .empty p { margin:6px 0 14px; }
+  @media (max-width: 760px) { body { flex-direction:column; } aside { width:auto; max-height:35vh; } }
+</style>
+</head>
+<body>
+<aside>
+  <header>
+    <button id="repick" hidden>📁 폴더 다시 선택</button>
+    <input id="q" placeholder="검색 (제목 / id)">
+    <span id="count" class="date"></span>
+  </header>
+  <ul id="list"></ul>
+</aside>
+<main>
+  <div class="bar">
+    <button id="prev" disabled>← 이전</button>
+    <button id="next" disabled>다음 →</button>
+    <span class="tabs" id="tabs"></span>
+    <span class="spacer"></span>
+    <button id="del" disabled>🗑 이 영상 삭제</button>
+  </div>
+  <div id="meta"></div>
+  <div id="doc">
+    <div class="empty" style="margin-top:20vh">
+      <p>불러오는 중…</p>
+      <p>키보드: ← → 영상 이동 · 1 2 3 탭 전환</p>
+    </div>
+  </div>
+</main>
+<script>
+const TABS = [["summary.md","요약"],["ko.md","한국어"],["original.md","원문"]];
+const $ = id => document.getElementById(id);
+let videos = [], shown = [], cur = -1, tab = "summary.md";
+
+// 저장소 두 가지. node viewer.mjs로 열면 서버, .html을 바로 열면 브라우저 폴더 접근(File System Access API)
+const api = (path, opt) => fetch(path, opt).then(async r => { if (!r.ok) throw new Error((await r.text()) || r.status); return r; });
+const server = {
+  list: async () => (await api("/api/list")).json(),
+  read: async (dir, f) => (await api(`/api/file?dir=${encodeURIComponent(dir)}&f=${f}`)).text(),
+  remove: dir => api(`/api/video?dir=${encodeURIComponent(dir)}`, { method: "DELETE" }),
+};
+const local = root => ({
+  list: async () => {
+    const out = [];
+    for await (const [name, e] of root.entries()) {
+      if (e.kind !== "directory") continue;
+      const files = [];
+      for await (const f of e.keys()) if (TABS.some(([t]) => t === f)) files.push(f);
+      out.push({ name, files });
+    }
+    return out;
+  },
+  read: async (dir, f) => (await (await (await root.getDirectoryHandle(dir)).getFileHandle(f)).getFile()).text(),
+  remove: dir => root.removeEntry(dir, { recursive: true }),
+});
+let store = server;
+
+// 한 번 고른 폴더는 IndexedDB에 기억한다. Chrome/Edge에서 "방문할 때마다 허용"을 고르면 다음부터 자동으로 열린다
+const idb = (mode, fn) => new Promise((ok, no) => {
+  const r = indexedDB.open("transcript-viewer", 1);
+  r.onupgradeneeded = () => r.result.createObjectStore("kv");
+  r.onsuccess = () => { const t = r.result.transaction("kv", mode); const q = fn(t.objectStore("kv")); t.oncomplete = () => ok(q?.result); t.onerror = () => no(t.error); };
+  r.onerror = () => no(r.error);
+});
+const VIDEO = /^\d{4}-\d{2}-\d{2}x?-[\w-]{11}-/;
+
+// 고른 폴더가 transcripts/든 프로젝트 루트든 받아들이고, 영상 폴더가 하나도 없으면 실패로 본다
+async function resolve(h) {
+  for (const cand of [h, await h.getDirectoryHandle("transcripts").catch(() => null)]) {
+    if (!cand) continue;
+    for await (const [name, e] of cand.entries()) if (e.kind === "directory" && VIDEO.test(name)) return cand;
+  }
+  throw new Error(`고른 폴더 "${h.name}" 안에 영상 폴더가 없습니다. youtube-transcript-archive 또는 transcripts 폴더를 고르세요.`);
+}
+
+async function use(h) {
+  store = local(await resolve(h));
+  $("repick").hidden = false;
+  $("repick").textContent = `📁 ${h.name} (다시 선택)`;
+  await load();
+}
+
+async function connect(fresh) {
+  let h = fresh ? null : await idb("readonly", s => s.get("root")).catch(() => null);
+  if (!h || (await h.requestPermission({ mode: "readwrite" })) !== "granted") {
+    h = await showDirectoryPicker({ id: "transcripts", mode: "readwrite", startIn: "desktop" });
+  }
+  try { await use(h); }
+  catch (e) { await idb("readwrite", s => s.delete("root")).catch(() => {}); return ask(e.message); }
+  await idb("readwrite", s => s.put(h, "root")).catch(() => {});
+}
+
+function ask(note) {
+  message(`<button id="connect">📁 transcripts 폴더 연결</button><p>${note}</p>`);
+  $("connect").onclick = () => connect(!!note.match(/영상 폴더가 없/)).catch(e => e.name !== "AbortError" && alert(e.message));
+}
+
+async function start() {
+  if (location.protocol.startsWith("http")) return load();
+  if (!window.showDirectoryPicker)
+    return message("이 브라우저는 폴더에 접근할 수 없습니다. Chrome이나 Edge로 여세요.");
+  const h = await idb("readonly", s => s.get("root")).catch(() => null);
+  if (h && (await h.queryPermission({ mode: "readwrite" })) === "granted") {
+    try { return await use(h); }
+    catch (e) { await idb("readwrite", s => s.delete("root")).catch(() => {}); return ask(e.message); }
+  }
+  ask(h ? "권한을 다시 허용해 주세요. 팝업에서 <b>방문할 때마다 허용</b>을 고르면 다음부터 자동으로 열립니다."
+        : "처음 한 번만 <b>youtube-transcript-archive</b> 폴더(또는 그 안의 transcripts)를 고르세요.");
+}
+const message = html => $("doc").innerHTML = `<div class="empty" style="margin-top:20vh">${html}</div>`;
+
+async function load() {
+  videos = (await store.list()).map(({ name, files }) => {
+    const m = name.match(/^(\d{4}-\d{2}-\d{2}x?)-([\w-]{11})-(.*)$/);
+    return { name, has: files, date: m?.[1] ?? "", id: m?.[2] ?? "", title: (m?.[3] ?? name).replace(/-/g, " ") };
+  });
+  videos.sort((a, b) => b.name.localeCompare(a.name));
+  filter();
+  if (shown.length) show(0);
+  else message("transcripts/ 에 영상이 없습니다.");
+}
+
+function filter() {
+  const q = $("q").value.trim().toLowerCase();
+  const sel = shown[cur];
+  shown = videos.filter(v => !q || v.name.toLowerCase().includes(q));
+  cur = sel ? shown.indexOf(sel) : -1;
+  $("count").textContent = `${shown.length} / ${videos.length}개`;
+  $("list").innerHTML = "";
+  shown.forEach((v, i) => {
+    const li = document.createElement("li");
+    li.innerHTML = `<div class="date">${v.date} · ${v.id}</div>`;
+    li.append(v.title);
+    li.onclick = () => show(i);
+    if (i === cur) li.className = "on";
+    $("list").append(li);
+  });
+  nav();
+}
+
+function nav() {
+  $("prev").disabled = cur <= 0;
+  $("next").disabled = cur < 0 || cur >= shown.length - 1;
+  $("del").disabled = cur < 0;
+  [...$("list").children].forEach((li, i) => li.classList.toggle("on", i === cur));
+  $("list").children[cur]?.scrollIntoView({ block: "nearest" });
+}
+
+async function show(i) {
+  cur = i; nav();
+  const v = shown[i];
+  v.files = {};
+  await Promise.all(v.has.map(async f => {
+    try { v.files[f] = await store.read(v.name, f); } catch {}
+  }));
+  if (v !== shown[cur]) return;
+  if (!v.files[tab]) tab = TABS.find(([f]) => v.files[f])?.[0] ?? tab;
+  $("tabs").innerHTML = "";
+  TABS.forEach(([f, label], k) => {
+    const b = document.createElement("button");
+    b.textContent = `${k + 1} ${label}`;
+    b.disabled = !v.files[f];
+    b.className = f === tab ? "on" : "";
+    b.onclick = () => { tab = f; show(cur); };
+    $("tabs").append(b, " ");
+  });
+  render(v);
+}
+
+function frontmatter(md) {
+  const m = md.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+  if (!m) return [{}, md];
+  const fm = {};
+  for (const line of m[1].split(/\r?\n/)) {
+    const k = line.match(/^(\w+):\s*(.*)$/);
+    if (k) fm[k[1]] = k[2].replace(/^"(.*)"$/, "$1");
+  }
+  return [fm, md.slice(m[0].length)];
+}
+
+function render(v) {
+  const src = v.files[tab];
+  const [fm, body] = src ? frontmatter(src) : [{}, "*이 파일이 없습니다.*"];
+  const orig = frontmatter(v.files["original.md"] ?? "")[0];
+  const url = fm.source || orig.source || (v.id && `https://www.youtube.com/watch?v=${v.id}`);
+  const esc = s => String(s).replace(/[&<>"]/g, c => `&#${c.charCodeAt(0)};`);
+  $("meta").innerHTML = `<h1>${esc(orig.title || fm.title || v.title)}</h1>
+    ${esc(v.date)}${orig.author ? " · " + esc(orig.author) : ""} · <a href="${esc(url)}" target="_blank">YouTube에서 보기</a> · <code>${esc(v.name)}</code>`;
+  const html = window.marked ? marked.parse(body.replace(/^!\[\]\(https:\/\/www\.youtube\.com\/[^)]*\)\s*/m, "")) : `<pre>${esc(body)}</pre>`;
+  $("doc").innerHTML = html;
+  $("doc").querySelectorAll("a").forEach(a => a.target = "_blank");
+  $("doc").scrollTop = 0;
+}
+
+async function del() {
+  const v = shown[cur];
+  if (!confirm(`이 영상 폴더를 통째로 삭제합니다. 되돌릴 수 없습니다.\n\n${v.name}\n\n(${Object.keys(v.files).join(", ") || "파일 없음"})`)) return;
+  try { await store.remove(v.name); }
+  catch (e) { return alert("삭제 실패: " + e.message); }
+  videos.splice(videos.indexOf(v), 1);
+  const at = cur;
+  cur = -1; filter();
+  if (shown.length) show(Math.min(at, shown.length - 1));
+  else { $("meta").innerHTML = ""; $("doc").innerHTML = ""; $("tabs").innerHTML = ""; }
+}
+
+$("q").oninput = filter;
+$("repick").onclick = () => connect(true).catch(e => e.name !== "AbortError" && alert(e.message));
+$("prev").onclick = () => show(cur - 1);
+$("next").onclick = () => show(cur + 1);
+$("del").onclick = del;
+start().catch(e => message(`목록을 못 불러왔습니다: ${e.message}`));
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT" || cur < 0) return;
+  if (e.key === "ArrowLeft" && cur > 0) show(cur - 1);
+  else if (e.key === "ArrowRight" && cur < shown.length - 1) show(cur + 1);
+  else if (["1", "2", "3"].includes(e.key)) { const f = TABS[e.key - 1][0]; if (shown[cur].files?.[f]) { tab = f; show(cur); } }
+});
+</script>
+</body>
+</html>

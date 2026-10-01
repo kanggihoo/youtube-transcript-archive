@@ -10,6 +10,7 @@ node --env-file=.env sync.mjs                            # 재생목록에서 �
 node --env-file=.env sync.mjs --dry-run                  # 받을 목록만 출력
 node --env-file=.env sync.mjs --clean                    # 받은 뒤 재생목록에서 삭제
 node extract.test.mjs && node sync.test.mjs              # 성공하면 ok
+node viewer.mjs                                          # transcripts/ 뷰어를 브라우저로 연다 (삭제 가능)
 ```
 
 URL은 붙여넣은 그대로 주면 됩니다. zsh 이스케이프(`watch\?v\=...`), 따옴표, 앞뒤 공백, `?si=` 같은 추적 파라미터는 스크립트가 걷어냅니다.
