@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<title>transcripts viewer</title>
+<style>
+  body { font: 15px/1.6 system-ui, sans-serif; max-width: 860px; margin: 0 auto; padding: 16px; }
+  nav { position: sticky; top: 0; background: #fff; padding: 8px 0; border-bottom: 1px solid #ddd; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  nav .sp { flex: 1; }
+  button.on { font-weight: bold; background: #def; }
+  #title { font-size: 13px; color: #666; margin: 8px 0; }
+  pre { white-space: pre-wrap; }
+</style>
+<nav>
+  <button id="open">transcripts 폴더 열기</button>
+  <span id="tabs"></span>
+  <span class="sp"></span>
+  <button id="prev">← 이전</button>
+  <input id="go" list="dl" placeholder="날짜/제목/ID 검색 후 Enter" size="24">
+  <datalist id="dl"></datalist>
+  <span id="pos"></span>
+  <button id="next">다음 →</button>
+  <button id="copy">복사</button>
+  <button id="del">삭제</button>
+</nav>
+<div id="title"></div>
+<main id="body">폴더를 열어주세요 (Chrome/Edge 필요).</main>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+let text = '', root, dirs = [], i = 0, tab = 'summary.md';
+const $ = id => document.getElementById(id);
+
+// 폴더 핸들을 IndexedDB에 저장해 두면 다음부터 다시 고르지 않고 권한만 재확인하면 된다
+const idb = () => new Promise(r => { const q = indexedDB.open('viewer', 1); q.onupgradeneeded = () => q.result.createObjectStore('k'); q.onsuccess = () => r(q.result); });
+const kv = async (m, ...a) => { const db = await idb(); return new Promise(r => { const q = db.transaction('k', m === 'get' ? 'readonly' : 'readwrite').objectStore('k')[m](...a); q.onsuccess = () => r(q.result); }); };
+
+$('open').onclick = async () => {
+  root = await kv('get', 'root');
+  if (!root || await root.requestPermission({ mode: 'readwrite' }) !== 'granted') {
+    root = await showDirectoryPicker({ id: 'transcripts', mode: 'readwrite' }); // id: 피커가 마지막 위치를 기억
+    await kv('put', root, 'root');
+  }
+  await reload(0);
+};
+kv('get', 'root').then(h => { if (h) $('open').textContent = `${h.name}/ 열기 (저장됨)`; });
+
+async function reload(at) {
+  dirs = [];
+  for await (const [name, h] of root.entries()) if (h.kind === 'directory') dirs.push(name);
+  dirs.sort();
+  $('dl').innerHTML = dirs.map(d => `<option value="${d.replace(/"/g, '&quot;')}">`).join('');
+  i = Math.min(at, dirs.length - 1);
+  await show();
+}
+
+async function show() {
+  $('pos').textContent = dirs.length ? `${i + 1} / ${dirs.length}` : '0 / 0';
+  if (!dirs.length) { $('body').textContent = '비어 있음'; $('title').textContent = ''; $('tabs').innerHTML = ''; return; }
+  const d = await root.getDirectoryHandle(dirs[i]);
+  const files = [];
+  for await (const [name] of d.entries()) if (name.endsWith('.md')) files.push(name);
+  files.sort();
+  if (!files.includes(tab)) tab = files.includes('summary.md') ? 'summary.md' : files[0];
+  $('title').textContent = dirs[i];
+  $('tabs').innerHTML = '';
+  for (const f of files) {
+    const b = document.createElement('button');
+    b.textContent = f; b.className = f === tab ? 'on' : '';
+    b.onclick = () => { tab = f; show(); };
+    $('tabs').append(b);
+  }
+  text = await (await (await d.getFileHandle(tab)).getFile()).text();
+  $('body').innerHTML = marked.parse(text.replace(/^---\n[\s\S]*?\n---\n/, '')); // 프론트매터 제외
+  scrollTo(0, 0);
+}
+
+// 입력값이 포함된 첫 폴더로 이동 (날짜 앞부분만 쳐도 해당 날짜 첫 항목)
+$('go').onchange = () => {
+  const q = $('go').value.trim().toLowerCase();
+  const n = dirs.findIndex(d => d.toLowerCase().includes(q));
+  if (q && n >= 0) { i = n; show(); $('go').blur(); }
+};
+$('prev').onclick = () => { if (i > 0) { i--; show(); } };
+$('next').onclick = () => { if (i < dirs.length - 1) { i++; show(); } };
+$('copy').onclick = async () => { await navigator.clipboard.writeText(text); $('copy').textContent = '복사됨'; setTimeout(() => $('copy').textContent = '복사', 1000); };
+$('del').onclick = async () => {
+  if (!dirs.length || !confirm(`삭제할까요?\n${dirs[i]}`)) return;
+  await root.removeEntry(dirs[i], { recursive: true });
+  await reload(i); // 같은 위치 = 다음 항목
+};
+addEventListener('keydown', e => { if (e.target.id === 'go') return; if (e.key === 'ArrowLeft') $('prev').click(); if (e.key === 'ArrowRight') $('next').click(); });
+</script>
