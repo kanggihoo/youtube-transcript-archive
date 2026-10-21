@@ -34,7 +34,7 @@ const slugify = (title) =>
     .replace(/-+/g, "-")
     .replace(/^[-.]+|[-.]+$/g, "")
     .slice(0, SLUG_MAX)
-    .replace(/-+$/, "");
+    .replace(/[-.]+$/, "");
 
 const frontmatter = (md) => {
   const fm = md.match(/^---\n([\s\S]*?)\n---/);
