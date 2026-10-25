@@ -155,7 +155,8 @@ async function load() {
     const m = name.match(/^(\d{4}-\d{2}-\d{2}x?)-([\w-]{11})-(.*)$/);
     return { name, has: files, date: m?.[1] ?? "", id: m?.[2] ?? "", title: (m?.[3] ?? name).replace(/-/g, " ") };
   });
-  videos.sort((a, b) => b.name.localeCompare(a.name));
+  // snacks explorer(LazyVim)와 같은 순서: 이름 오름차순, 로케일 무시하고 코드 순서로 비교
+  videos.sort((a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0));
   filter();
   if (shown.length) show(0);
   else message("transcripts/ 에 영상이 없습니다.");

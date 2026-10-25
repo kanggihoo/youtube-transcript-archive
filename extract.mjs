@@ -9,6 +9,17 @@ import { join } from "node:path";
 
 const SLUG_MAX = 60;
 
+// 우선 언어. defuddle은 --lang이 없으면 알파벳순 0번째 자막(Arabic 등)을 집을 수 있습니다.
+const LANGS = ["en", "ko"];
+
+// 자막 본문이 라틴/한글 위주인지 봅니다. 요청한 언어가 없을 때 defuddle이 엉뚱한 언어로 폴백한 걸 거릅니다.
+const isPreferredScript = (md) => {
+  const t = md.slice(md.indexOf("## Transcript"));
+  const letters = t.match(/\p{L}/gu)?.length || 0;
+  const wanted = t.match(/[\p{Script=Latin}\p{Script=Hangul}]/gu)?.length || 0;
+  return letters > 0 && wanted / letters > 0.8;
+};
+
 // 붙여넣기 사고를 걷어냅니다. zsh는 URL의 `?`를 글로브로 보기 때문에
 // `watch\?v\=...` 형태가 섞여 들어오기 쉽고, 그대로 두면 defuddle이 빈 페이지를 받습니다.
 const cleanUrl = (raw) =>
@@ -67,16 +78,20 @@ const main = (raw) => {
   const url = `https://www.youtube.com/watch?v=${id}`;
 
   const defuddleBin = process.platform === "win32" ? "defuddle.cmd" : "defuddle";
-  const fetch = () =>
-    execFileSync(defuddleBin, ["parse", url, "-m", "-f"], {
+  const fetch = (lang) =>
+    execFileSync(defuddleBin, ["parse", url, "-m", "-f", "-l", lang], {
       encoding: "utf8",
       maxBuffer: 64 * 1024 * 1024,
       shell: process.platform === "win32",
     });
 
   // published가 비는 일이 실제로 있습니다. 재시도로 채워지는 경우가 있어 한 번만 더 봅니다.
-  let md = fetch();
-  if (md.includes("## Transcript") && !publishedDate(md)) md = fetch();
+  let md = "";
+  for (const lang of LANGS) {
+    md = fetch(lang);
+    if (md.includes("## Transcript") && !publishedDate(md)) md = fetch(lang);
+    if (md.includes("## Transcript") && isPreferredScript(md)) break;
+  }
 
   if (!md.includes("## Transcript")) {
     throw new Error(`자막을 찾을 수 없습니다 (자막 없는 영상일 수 있습니다): ${url}`);
@@ -110,4 +125,4 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   }
 }
 
-export { cleanUrl, videoId, slugify, frontmatterTitle, publishedDate };
+export { isPreferredScript, cleanUrl, videoId, slugify, frontmatterTitle, publishedDate };
