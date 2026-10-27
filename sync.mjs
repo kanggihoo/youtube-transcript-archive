@@ -54,7 +54,7 @@ const apiError = async (res) => {
   return new Error(`API ${res.status}${reason ? ` (${reason})` : ""}: ${e?.message ?? "본문 없음"}`);
 };
 
-// refresh token은 안 만료됩니다(게시 상태가 프로덕션인 경우). access token은 한 시간이라
+// refresh token은 프로덕션에서 장기 재사용하지만 철회·장기 미사용 등으로 무효화될 수 있습니다. access token은 한 시간이라
 // 실행할 때마다 새로 받습니다. 저장해두면 만료 처리를 직접 해야 합니다.
 const accessToken = async () => {
   const res = await fetch(TOKEN_URL, {

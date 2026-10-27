@@ -38,11 +38,17 @@ API 키와 재생목록 ID는 `.env`에 둡니다. 형식은 [.env.example](./.e
 준비는 한 번만 합니다.
 
 1. Cloud Console에서 OAuth 클라이언트 ID를 만듭니다. 애플리케이션 유형은 **데스크톱 앱**. 리디렉션 URI는 등록하지 않아도 됩니다. 데스크톱 클라이언트는 루프백 주소를 포트 상관없이 허용합니다
-2. OAuth 동의 화면의 게시 상태를 **프로덕션**으로 바꿉니다. 검증은 필요 없습니다. 미확인 앱 경고 화면이 한 번 나오고, 혼자 쓰면 100명 상한도 무관합니다. Testing으로 두면 refresh token이 7일마다 만료됩니다
+2. Google Auth Platform의 Audience(대상)에서 게시 상태를 **프로덕션**으로 바꿉니다. 개인용 앱은 검증 없이 사용할 수 있지만 미확인 앱 경고와 사용자 수 제한이 적용될 수 있습니다. Testing으로 두면 이 프로젝트의 권한으로 발급한 refresh token은 7일 후 만료됩니다. Testing에서 이미 발급했다면 프로덕션 전환 후 다시 인증합니다
 3. `.env`에 `YOUTUBE_CLIENT_ID`와 `YOUTUBE_CLIENT_SECRET`을 넣습니다
-4. `node --env-file=.env auth.mjs` 를 돌려 `YOUTUBE_REFRESH_TOKEN`을 받아 `.env`에 넣습니다
+4. `node --env-file=.env auth.mjs`를 실행하고 출력된 주소를 브라우저에서 열어 승인합니다. 스크립트가 `YOUTUBE_REFRESH_TOKEN`을 `.env`에 자동 저장합니다
 
 `YOUTUBE_REFRESH_TOKEN`이 있으면 목록을 읽을 때도 그 토큰을 씁니다. 그러면 비공개 재생목록도 읽힙니다. API 키만 있으면 공개와 일부 공개만 됩니다.
+
+`sync.mjs`는 실행할 때 refresh token으로 access token을 자동 발급받습니다. 매번 브라우저 인증을 할 필요는 없습니다. 다만 refresh token도 권한 철회, 6개월 미사용, 발급 한도 초과, 계정 정책 등의 이유로 무효화될 수 있습니다. `invalid_grant`가 나오면 `auth.mjs`로 재인증합니다.
+
+OAuth 범위는 `https://www.googleapis.com/auth/youtube.force-ssl`입니다. 특정 재생목록 하나로 제한되는 권한은 아니며, 처리 대상은 `.env`의 `YOUTUBE_PLAYLIST_ID`로 지정합니다. API는 일반 재생목록 항목 추가·수정·삭제를 지원하지만 현재 스크립트는 목록 조회와 `--clean`의 항목 삭제만 구현합니다. `--clean`의 완료 기준은 **자막 저장**이며 번역·요약 생성이나 시청 가치 판정 완료를 뜻하지 않습니다.
+
+공식 문서: [토큰 갱신과 만료](https://developers.google.com/identity/protocols/oauth2/), [개인용 앱의 검증 예외](https://support.google.com/cloud/answer/13464323), [재생목록 항목 삭제](https://developers.google.com/youtube/v3/docs/playlistItems/delete).
 
 삭제 전에 결과를 확인합니다. `extract.mjs`가 0으로 끝나고, 출력한 경로에 파일이 있고, 그 안에 `## Transcript`가 있어야 지웁니다. 하나라도 어긋나면 항목을 그대로 두고 실패로 셉니다.
 
@@ -63,7 +69,7 @@ transcripts/<게시일>-<video-id>-<제목슬러그>/
 
 ## summary.md
 
-프론트매터와 본문 형식은 [templates/summary.md](./templates/summary.md)를 따릅니다. 매번 다르게 쓰지 않습니다.
+`summary.md`를 새로 쓰거나 수정할 때는 먼저 [templates/summary.md](./templates/summary.md)를 읽고 시청 가치 판정, 근거 검토, 두괄식 요약 규칙을 적용합니다. 프론트매터에 시청 가치와 짧은 이유를 남깁니다.
 
 ## refs/
 
