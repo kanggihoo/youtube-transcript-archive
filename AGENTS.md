@@ -6,6 +6,7 @@ YouTube 영상 주소를 받아 자막을 추출해 파일로 남기는 프로�
 
 ```bash
 node extract.mjs "https://www.youtube.com/watch?v=..."   # 저장 경로를 출력
+node extract.mjs "https://www.youtube.com/watch?v=..." --lang ko   # 한국어 자막 우선, 없으면 영어로 대체
 node --env-file=.env sync.mjs                            # 재생목록에서 안 받은 것만 받기
 node --env-file=.env sync.mjs --dry-run                  # 받을 목록만 출력
 node --env-file=.env sync.mjs --clean                    # 받은 뒤 재생목록에서 삭제
@@ -14,6 +15,12 @@ node viewer.mjs                                          # transcripts/ 뷰어�
 ```
 
 URL은 붙여넣은 그대로 주면 됩니다. zsh 이스케이프(`watch\?v\=...`), 따옴표, 앞뒤 공백, `?si=` 같은 추적 파라미터는 스크립트가 걷어냅니다.
+
+## extract.mjs의 자막 언어
+
+`--lang ko|en`으로 먼저 받을 언어를 정합니다. 기본은 `en`입니다. 요청한 언어 자막이 없으면 다른 언어로 대체하고, stderr에 `FALLBACK: ko 자막을 못 찾아 en로 대체했습니다.` 한 줄을 남깁니다. 대체하지 않았으면 `자막 언어: ko`가 찍힙니다. stdout은 저장 경로 전용이므로 호출할 때 `2>/dev/null`로 stderr를 버리지 않습니다.
+
+defuddle에는 자막 목록을 미리 조회하는 기능이 없어서 "시도해 보고 안 되면 대체"하는 방식입니다. 한국어 영상은 자동 생성 자막이라 오인식이 섞일 수 있습니다.
 
 ## sync.mjs
 

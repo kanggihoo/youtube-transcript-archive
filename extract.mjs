@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // YouTube 주소 -> transcripts/<게시일>-<video-id>-<제목슬러그>/original.md
 //
-// 사용법: node extract.mjs "<youtube-url>"
+// 사용법: node extract.mjs "<youtube-url>" [--lang ko|en]
+//   --lang: 먼저 받을 자막 언어(기본 en). 없으면 다른 언어로 대체하고 stderr에 FALLBACK 한 줄을 남깁니다.
 
 import { execFileSync } from "node:child_process";
 import { mkdirSync, writeFileSync } from "node:fs";
@@ -9,8 +10,10 @@ import { join } from "node:path";
 
 const SLUG_MAX = 60;
 
-// 우선 언어. defuddle은 --lang이 없으면 알파벳순 0번째 자막(Arabic 등)을 집을 수 있습니다.
-const LANGS = ["en", "ko"];
+// 지원 언어. defuddle은 --lang이 없으면 알파벳순 0번째 자막(Arabic 등)을 집을 수 있습니다.
+// 요청 언어(--lang, 기본 en)를 먼저 시도하고, 없으면 나머지 언어로 대체합니다.
+const SUPPORTED = ["en", "ko"];
+const DEFAULT_LANG = "en";
 
 // 자막 본문이 라틴/한글 위주인지 봅니다. 요청한 언어가 없을 때 defuddle이 엉뚱한 언어로 폴백한 걸 거릅니다.
 const isPreferredScript = (md) => {
@@ -18,6 +21,30 @@ const isPreferredScript = (md) => {
   const letters = t.match(/\p{L}/gu)?.length || 0;
   const wanted = t.match(/[\p{Script=Latin}\p{Script=Hangul}]/gu)?.length || 0;
   return letters > 0 && wanted / letters > 0.8;
+};
+
+// 본문이 실제로 그 언어인지 봅니다. 한국어를 요청했는데 영어가 돌아온 폴백을 놓치지 않기 위해서입니다.
+const matchesLang = (md, lang) => {
+  const t = md.slice(md.indexOf("## Transcript"));
+  const letters = t.match(/\p{L}/gu)?.length || 0;
+  if (!letters) return false;
+  const script = lang === "ko" ? "Hangul" : "Latin";
+  const n = t.match(new RegExp(`\\p{Script=${script}}`, "gu"))?.length || 0;
+  return n / letters > (lang === "ko" ? 0.5 : 0.8);
+};
+
+// `--lang ko` / `--lang=ko`와 URL을 가릅니다.
+const parseArgs = (argv) => {
+  let lang = DEFAULT_LANG;
+  let raw = null;
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === "--lang") lang = argv[++i];
+    else if (a.startsWith("--lang=")) lang = a.slice(7);
+    else if (!raw) raw = a;
+  }
+  if (!SUPPORTED.includes(lang)) throw new Error(`지원하지 않는 언어입니다: ${lang} (${SUPPORTED.join(", ")})`);
+  return { raw, lang };
 };
 
 // 붙여넣기 사고를 걷어냅니다. zsh는 URL의 `?`를 글로브로 보기 때문에
@@ -67,9 +94,10 @@ const publishedDate = (md) => {
   return d?.[1] || null;
 };
 
-const main = (raw) => {
+const main = (argv) => {
+  const { raw, lang: wantedLang } = parseArgs(argv);
   if (!raw) {
-    console.error('사용법: node extract.mjs "<youtube-url>"');
+    console.error('사용법: node extract.mjs "<youtube-url>" [--lang ko|en]');
     process.exit(1);
   }
 
@@ -86,15 +114,32 @@ const main = (raw) => {
     });
 
   // published가 비는 일이 실제로 있습니다. 재시도로 채워지는 경우가 있어 한 번만 더 봅니다.
+  // 요청 언어가 먼저, 나머지가 뒤입니다.
+  const order = [wantedLang, ...SUPPORTED.filter((l) => l !== wantedLang)];
   let md = "";
-  for (const lang of LANGS) {
+  let usedLang = null;
+  for (const lang of order) {
     md = fetch(lang);
     if (md.includes("## Transcript") && !publishedDate(md)) md = fetch(lang);
-    if (md.includes("## Transcript") && isPreferredScript(md)) break;
+    if (md.includes("## Transcript") && isPreferredScript(md) && matchesLang(md, lang)) {
+      usedLang = lang;
+      break;
+    }
   }
 
-  if (!md.includes("## Transcript")) {
-    throw new Error(`자막을 찾을 수 없습니다 (자막 없는 영상일 수 있습니다): ${url}`);
+  if (!usedLang) {
+    // 언어가 안 맞아도 자막 자체가 있으면 마지막으로 받은 걸 씁니다. 대신 로그로 남깁니다.
+    if (!md.includes("## Transcript")) {
+      throw new Error(`자막을 찾을 수 없습니다 (자막 없는 영상일 수 있습니다): ${url}`);
+    }
+    usedLang = fmField(md, "language") ?? "unknown";
+  }
+
+  // 호출한 쪽(사람이나 Claude)이 대체 여부를 알 수 있게 항상 한 줄 남깁니다. stdout은 경로 전용이라 stderr로 씁니다.
+  if (usedLang === wantedLang) {
+    console.error(`자막 언어: ${usedLang}`);
+  } else {
+    console.error(`FALLBACK: ${wantedLang} 자막을 못 찾아 ${usedLang}로 대체했습니다.`);
   }
 
   // 날짜가 앞: `ls`만 해도 게시일 순으로 정렬됩니다.
@@ -118,11 +163,11 @@ import { pathToFileURL } from "node:url";
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   try {
-    main(process.argv[2]);
+    main(process.argv.slice(2));
   } catch (e) {
     console.error(`실패: ${e.message}`);
     process.exit(1);
   }
 }
 
-export { isPreferredScript, cleanUrl, videoId, slugify, frontmatterTitle, publishedDate };
+export { isPreferredScript, matchesLang, parseArgs, cleanUrl, videoId, slugify, frontmatterTitle, publishedDate };

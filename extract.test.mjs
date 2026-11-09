@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // node extract.test.mjs
 import assert from "node:assert/strict";
-import { cleanUrl, videoId, slugify, frontmatterTitle, publishedDate } from "./extract.mjs";
+import { cleanUrl, videoId, slugify, frontmatterTitle, publishedDate, matchesLang, parseArgs } from "./extract.mjs";
 
 // cleanUrl: 붙여넣기 사고. zsh 이스케이프, 따옴표, 공백이 섞여 들어옵니다.
 const ID = "m8pBazNPvZE";
@@ -54,5 +54,21 @@ assert.equal(publishedDate(md), "2026-08-22");
 assert.equal(publishedDate(`---\ntitle: "x"\n---`), null); // published 없는 경우
 // 프론트매터 밖의 published는 무시해야 합니다
 assert.equal(publishedDate(`---\ntitle: "x"\n---\npublished: 1999-01-01`), null);
+
+// matchesLang: 한국어를 요청했는데 영어가 돌아온 폴백을 가려내야 합니다.
+const ko = `---\nlanguage: "ko"\n---\n\n## Transcript\n\n**0:00** · 머릿속으론 완벽하게 이해했는데 말문이 막혔습니다. API 호출`;
+const en = `---\nlanguage: "en"\n---\n\n## Transcript\n\n**0:00** · Have you ever understood something perfectly in your head?`;
+assert.ok(matchesLang(ko, "ko"));
+assert.ok(!matchesLang(en, "ko"));
+assert.ok(matchesLang(en, "en"));
+assert.ok(!matchesLang(ko, "en"));
+assert.ok(!matchesLang("## Transcript", "ko")); // 글자가 없으면 불일치
+
+// parseArgs: 플래그 위치와 형태, 기본값
+const U = "https://www.youtube.com/watch?v=m8pBazNPvZE";
+assert.deepEqual(parseArgs([U]), { raw: U, lang: "en" });
+assert.deepEqual(parseArgs([U, "--lang", "ko"]), { raw: U, lang: "ko" });
+assert.deepEqual(parseArgs(["--lang=ko", U]), { raw: U, lang: "ko" });
+assert.throws(() => parseArgs([U, "--lang", "fr"]), /지원하지 않는 언어/);
 
 console.log("ok");
