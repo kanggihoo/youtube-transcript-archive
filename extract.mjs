@@ -10,10 +10,8 @@ import { join } from "node:path";
 
 const SLUG_MAX = 60;
 
-// 지원 언어. defuddle은 --lang이 없으면 알파벳순 0번째 자막(Arabic 등)을 집을 수 있습니다.
-// 요청 언어(--lang, 기본 en)를 먼저 시도하고, 없으면 나머지 언어로 대체합니다.
-const SUPPORTED = ["en", "ko"];
-const DEFAULT_LANG = "en";
+// 우선 언어. defuddle은 --lang이 없으면 알파벳순 0번째 자막(Arabic 등)을 집을 수 있습니다.
+const LANGS = process.env.LANGS?.split(",") ?? ["en", "ko"]; // LANGS=ko로 한국어 우선
 
 // 자막 본문이 라틴/한글 위주인지 봅니다. 요청한 언어가 없을 때 defuddle이 엉뚱한 언어로 폴백한 걸 거릅니다.
 const isPreferredScript = (md) => {
