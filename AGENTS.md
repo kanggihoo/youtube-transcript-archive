@@ -6,7 +6,6 @@ YouTube 영상 주소를 받아 자막을 추출해 파일로 남기는 프로�
 
 ```bash
 node extract.mjs "https://www.youtube.com/watch?v=..."   # 저장 경로를 출력
-node extract.mjs "https://www.youtube.com/watch?v=..." --lang ko   # 한국어 자막 우선, 없으면 영어로 대체
 node --env-file=.env sync.mjs                            # 재생목록에서 안 받은 것만 받기
 node --env-file=.env sync.mjs --dry-run                  # 받을 목록만 출력
 node --env-file=.env sync.mjs --clean                    # 받은 뒤 재생목록에서 삭제
@@ -18,9 +17,11 @@ URL은 붙여넣은 그대로 주면 됩니다. zsh 이스케이프(`watch\?v\=.
 
 ## extract.mjs의 자막 언어
 
-`--lang ko|en`으로 먼저 받을 언어를 정합니다. 기본은 `en`입니다. 요청한 언어 자막이 없으면 다른 언어로 대체하고, stderr에 `FALLBACK: ko 자막을 못 찾아 en로 대체했습니다.` 한 줄을 남깁니다. 대체하지 않았으면 `자막 언어: ko`가 찍힙니다. stdout은 저장 경로 전용이므로 호출할 때 `2>/dev/null`로 stderr를 버리지 않습니다.
+기본은 `en`이며 플래그 없이 호출합니다. 사용자가 한국어 자막을 직접 요청할 때만 `--lang ko`를 붙입니다. 요청한 언어 자막이 없으면 다른 언어로 대체하고, stderr에 `FALLBACK: ko 자막을 못 찾아 en로 대체했습니다.` 한 줄을 남깁니다. 대체하지 않았으면 `자막 언어: en`처럼 받은 언어가 찍힙니다. stdout은 저장 경로 전용이므로 호출할 때 `2>/dev/null`로 stderr를 버리지 않습니다.
 
-defuddle에는 자막 목록을 미리 조회하는 기능이 없어서 "시도해 보고 안 되면 대체"하는 방식입니다. 한국어 영상은 자동 생성 자막이라 오인식이 섞일 수 있습니다.
+"번역"은 추출이 끝난 뒤 `original.md`를 한국어로 옮겨 `ko.md`를 쓰는 단계입니다. 추출 언어를 바꾸는 작업이 아닙니다.
+
+`--lang ko`로 받는 한국어 자막은 자동 번역·생성 자막이라 오인식이 섞일 수 있습니다.
 
 ## sync.mjs
 
@@ -30,8 +31,7 @@ API 키와 재생목록 ID는 `.env`에 둡니다. 형식은 [.env.example](./.e
 
 공식 API는 목록만 받아옵니다. **자막은 API로 받을 수 없습니다.** `captions.download`는 영상 편집 권한이 있는 사람만 호출할 수 있어서 남의 영상에는 403이 떨어집니다. 자막은 계속 defuddle이 맡습니다.
 
-- 하루 할당량 10,000 units, 태평양시 자정 리셋. `playlistItems.list`는 호출당 1 unit이라 영상 200개 재생목록이 4 units입니다. 걸릴 일이 없습니다
-- `search.list`는 하루 100회짜리 별도 버킷을 씁니다. 쓰지 마세요. 재생목록 ID로 직접 접근하면 됩니다
+- `search.list`는 하루 100회짜리 별도 버킷을 씁니다. 쓰지 말고 재생목록 ID로 직접 접근합니다
 - 할당량 초과는 429가 아니라 403 `quotaExceeded`로 옵니다
 - **나중에 볼 동영상(WL)과 시청 기록(HL)은 API로 못 읽습니다.** 2016년 9월부터 빈 목록이 옵니다. 일부 공개 재생목록을 따로 만들어 쓰세요
 - 폴더명의 게시일은 defuddle에서 옵니다. API에서 가져오려면 `contentDetails.videoPublishedAt`을 쓰세요. `snippet.publishedAt`은 재생목록에 담은 시각이라 다릅니다
@@ -53,9 +53,7 @@ API 키와 재생목록 ID는 `.env`에 둡니다. 형식은 [.env.example](./.e
 
 `sync.mjs`는 실행할 때 refresh token으로 access token을 자동 발급받습니다. 매번 브라우저 인증을 할 필요는 없습니다. 다만 refresh token도 권한 철회, 6개월 미사용, 발급 한도 초과, 계정 정책 등의 이유로 무효화될 수 있습니다. `invalid_grant`가 나오면 `auth.mjs`로 재인증합니다.
 
-OAuth 범위는 `https://www.googleapis.com/auth/youtube.force-ssl`입니다. 특정 재생목록 하나로 제한되는 권한은 아니며, 처리 대상은 `.env`의 `YOUTUBE_PLAYLIST_ID`로 지정합니다. API는 일반 재생목록 항목 추가·수정·삭제를 지원하지만 현재 스크립트는 목록 조회와 `--clean`의 항목 삭제만 구현합니다. `--clean`의 완료 기준은 **자막 저장**이며 번역·요약 생성이나 시청 가치 판정 완료를 뜻하지 않습니다.
-
-공식 문서: [토큰 갱신과 만료](https://developers.google.com/identity/protocols/oauth2/), [개인용 앱의 검증 예외](https://support.google.com/cloud/answer/13464323), [재생목록 항목 삭제](https://developers.google.com/youtube/v3/docs/playlistItems/delete).
+처리 대상 재생목록은 `.env`의 `YOUTUBE_PLAYLIST_ID`로 지정합니다. `--clean`의 완료 기준은 **자막 저장**이며 번역·요약 생성이나 시청 가치 판정 완료를 뜻하지 않습니다.
 
 삭제 전에 결과를 확인합니다. `extract.mjs`가 0으로 끝나고, 출력한 경로에 파일이 있고, 그 안에 `## Transcript`가 있어야 지웁니다. 하나라도 어긋나면 항목을 그대로 두고 실패로 셉니다.
 
